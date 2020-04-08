@@ -1,0 +1,1 @@
+npm --prefix ./../playableAdsToolBuild run build_fb -- %cd%
