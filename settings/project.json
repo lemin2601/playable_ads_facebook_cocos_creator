@@ -11,13 +11,9 @@
       true
     ]
   ],
-  "design-resolution-height": 640,
-  "design-resolution-width": 960,
+  "design-resolution-height": 1136,
+  "design-resolution-width": 640,
   "excluded-modules": [
-    "Audio",
-    "AudioSource",
-    "Action",
-    "Animation",
     "Collider",
     "Dynamic Atlas",
     "DragonBones",
@@ -25,10 +21,8 @@
     "Geom Utils",
     "Intersection",
     "Label Effect",
-    "Mask",
     "Mesh",
     "MotionStreak",
-    "NodePool",
     "Native Socket",
     "Physics",
     "PageView",
@@ -39,7 +33,6 @@
     "Slider",
     "ScrollBar",
     "ScrollView",
-    "Spine Skeleton",
     "StudioComponent",
     "Toggle",
     "TiledMap",
@@ -59,13 +52,13 @@
   "group-list": [
     "default"
   ],
-  "simulator-orientation": false,
+  "simulator-orientation": true,
   "simulator-resolution": {
-    "height": 640,
-    "width": 960
+    "height": 1136,
+    "width": 640
   },
-  "use-customize-simulator": true,
-  "use-project-simulator-setting": false,
+  "use-customize-simulator": false,
+  "use-project-simulator-setting": true,
   "last-module-event-record-time": 1586142382774,
   "assets-sort-type": "name",
   "facebook": {
@@ -77,6 +70,5 @@
     "live": {
       "enable": false
     }
-  },
-  "start-scene": "current"
+  }
 }

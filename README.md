@@ -1,3 +1,4 @@
+Show *.meta -> go Editor -> File types. Remove .git from bottom field delete *.meta; and Apply
 # 如何将creator项目打包成facebook playable game广告
 
 ## 1.导出web-mobile项目

@@ -1,0 +1,47 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "card.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "fangkuai_big": {
+      "__uuid__": "4eb8d778-35ee-4199-9854-b4e9d79ca182"
+    },
+    "fangkuai_small": {
+      "__uuid__": "d2209cde-f935-4f49-a13e-6d187a99cc05"
+    },
+    "heimei_big": {
+      "__uuid__": "38afb095-701a-4cf1-bd75-5f0fa9874170"
+    },
+    "heimei_small": {
+      "__uuid__": "ed1b1526-f258-46fc-9684-b824df83bdfd"
+    },
+    "heitao_big": {
+      "__uuid__": "8830c7df-4c91-4f74-bb21-8dafd91bb60e"
+    },
+    "heitao_small": {
+      "__uuid__": "6cde36bb-1d1e-4476-a72c-4fc1bf943de3"
+    },
+    "hongtao_big": {
+      "__uuid__": "bdb091cb-3395-44fc-9dc6-881b863e7e8f"
+    },
+    "hongtao_small": {
+      "__uuid__": "62ac7b33-a2f0-4ba7-846f-a583f35d8038"
+    },
+    "king": {
+      "__uuid__": "4a2edc0e-d4a1-4dbf-a538-bb13e84066ea"
+    },
+    "kueen": {
+      "__uuid__": "6d435c88-db8b-4b2d-a739-f3395afba789"
+    },
+    "poker_bg": {
+      "__uuid__": "0e6c64d9-a6d0-4ae8-9209-c830805e447a"
+    },
+    "poker_dipai": {
+      "__uuid__": "9b7fa771-df67-4449-9823-dfc8926bacf5"
+    },
+    "ranker": {
+      "__uuid__": "d31cf3ab-4335-4dce-a2b6-e0ef77c6f19c"
+    }
+  }
+}

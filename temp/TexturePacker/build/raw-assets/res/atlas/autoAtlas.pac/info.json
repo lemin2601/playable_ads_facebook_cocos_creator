@@ -1,0 +1,809 @@
+{
+  "projectPath": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn",
+  "mtimes": {
+    "cb5b7e67-bcfd-407c-b666-781feb248847": {
+      "assetMtime": 1586413106354,
+      "metaMtime": 1586414014668
+    },
+    "042d3994-283c-41ea-b6f2-4cceea9a651b": {
+      "assetMtime": 1586497195169,
+      "metaMtime": 1586497195272
+    },
+    "3549c34c-49ae-499a-a40b-414a5c27af3f": {
+      "assetMtime": 1586497195170,
+      "metaMtime": 1586497195256
+    },
+    "0e6c64d9-a6d0-4ae8-9209-c830805e447a": {
+      "assetMtime": 1586399341784,
+      "metaMtime": 1586399341871
+    },
+    "fac2125a-8865-438f-bbb9-511108dafd15": {
+      "assetMtime": 1586399338657,
+      "metaMtime": 1586399338681
+    },
+    "0f55f0fa-2b2e-41e2-b5af-c4c08320c361": {
+      "assetMtime": 1586497195169,
+      "metaMtime": 1586497195272
+    },
+    "27c3acc3-7e4d-4aae-8197-c229747ebe01": {
+      "assetMtime": 1586497195169,
+      "metaMtime": 1586497195272
+    },
+    "38afb095-701a-4cf1-bd75-5f0fa9874170": {
+      "assetMtime": 1586399341784,
+      "metaMtime": 1586399341871
+    },
+    "3f121e7c-0f7b-4b97-9dbf-9526ee744e76": {
+      "assetMtime": 1586497195169,
+      "metaMtime": 1586497195272
+    },
+    "4a2edc0e-d4a1-4dbf-a538-bb13e84066ea": {
+      "assetMtime": 1586399341784,
+      "metaMtime": 1586399341871
+    },
+    "4bb03691-3c3c-402f-b8ab-609cda2a21f4": {
+      "assetMtime": 1586497195169,
+      "metaMtime": 1586497195272
+    },
+    "4eb8d778-35ee-4199-9854-b4e9d79ca182": {
+      "assetMtime": 1586399341784,
+      "metaMtime": 1586399341871
+    },
+    "62ac7b33-a2f0-4ba7-846f-a583f35d8038": {
+      "assetMtime": 1586399341784,
+      "metaMtime": 1586399341871
+    },
+    "6cde36bb-1d1e-4476-a72c-4fc1bf943de3": {
+      "assetMtime": 1586399341784,
+      "metaMtime": 1586399341871
+    },
+    "6d435c88-db8b-4b2d-a739-f3395afba789": {
+      "assetMtime": 1586399341784,
+      "metaMtime": 1586399341871
+    },
+    "6efa5649-a785-4d3f-8f98-3f6245e38f71": {
+      "assetMtime": 1586497195169,
+      "metaMtime": 1586497195272
+    },
+    "8830c7df-4c91-4f74-bb21-8dafd91bb60e": {
+      "assetMtime": 1586399341784,
+      "metaMtime": 1586399341871
+    },
+    "907f7131-9ee2-4a6f-9537-68f9c323001a": {
+      "assetMtime": 1586497195169,
+      "metaMtime": 1586497195272
+    },
+    "9b7fa771-df67-4449-9823-dfc8926bacf5": {
+      "assetMtime": 1586399341784,
+      "metaMtime": 1586399341871
+    },
+    "aff3d58c-9edb-42f4-a9e3-07ad2b51526f": {
+      "assetMtime": 1586497195169,
+      "metaMtime": 1586497195272
+    },
+    "b648a393-4e90-4a66-851a-9fa0e3415ca4": {
+      "assetMtime": 1586497195169,
+      "metaMtime": 1586497195272
+    },
+    "bdb091cb-3395-44fc-9dc6-881b863e7e8f": {
+      "assetMtime": 1586399341784,
+      "metaMtime": 1586399341871
+    },
+    "bf328309-ec04-461b-a567-e6c4bdbf2d29": {
+      "assetMtime": 1586497195169,
+      "metaMtime": 1586497195272
+    },
+    "d2209cde-f935-4f49-a13e-6d187a99cc05": {
+      "assetMtime": 1586399341784,
+      "metaMtime": 1586399341871
+    },
+    "d3178617-1c65-4e4c-8ec2-a45ecab928cd": {
+      "assetMtime": 1586497195169,
+      "metaMtime": 1586497195272
+    },
+    "d31cf3ab-4335-4dce-a2b6-e0ef77c6f19c": {
+      "assetMtime": 1586399341784,
+      "metaMtime": 1586399341871
+    },
+    "d7016fa6-e0bd-4168-945c-59d90fcbf450": {
+      "assetMtime": 1586497195169,
+      "metaMtime": 1586497195272
+    },
+    "ddf1d732-178b-40c1-b2ab-8ee284570394": {
+      "assetMtime": 1586497195169,
+      "metaMtime": 1586497195272
+    },
+    "ea94f4f8-2c7b-475c-9abd-4cc759c00832": {
+      "assetMtime": 1586497195169,
+      "metaMtime": 1586497195272
+    },
+    "ed1b1526-f258-46fc-9684-b824df83bdfd": {
+      "assetMtime": 1586399341784,
+      "metaMtime": 1586399341871
+    }
+  },
+  "result": {
+    "name": "autoAtlas",
+    "width": 1024,
+    "height": 1024,
+    "ver": "1.2.0",
+    "uuid": "cb5b7e67-bcfd-407c-b666-781feb248847",
+    "maxWidth": 1024,
+    "maxHeight": 1024,
+    "padding": 2,
+    "allowRotation": true,
+    "forceSquared": false,
+    "powerOfTwo": false,
+    "algorithm": "MaxRects",
+    "format": "png",
+    "quality": 80,
+    "contourBleed": true,
+    "paddingBleed": true,
+    "filterUnused": false,
+    "packable": false,
+    "premultiplyAlpha": false,
+    "filterMode": "bilinear",
+    "platformSettings": {
+      "default": {
+        "formats": [
+          {
+            "name": "png",
+            "quality": 50
+          }
+        ]
+      }
+    },
+    "subMetas": {},
+    "bleed": 1,
+    "atlases": [
+      {
+        "files": [
+          {
+            "name": "i_hand1",
+            "uuid": "042d3994-283c-41ea-b6f2-4cceea9a651b",
+            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
+            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586514142992_image_0.png",
+            "trim": {
+              "x": 3,
+              "y": 3,
+              "width": 300,
+              "height": 451,
+              "rotatedWidth": 451,
+              "rotatedHeight": 300
+            },
+            "rawWidth": 300,
+            "rawHeight": 451,
+            "width": 306,
+            "height": 457,
+            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 0,
+            "y": 0,
+            "rotated": true,
+            "rotatedWidth": 457,
+            "rotatedHeight": 306
+          },
+          {
+            "name": "i_jackpot",
+            "uuid": "ea94f4f8-2c7b-475c-9abd-4cc759c00832",
+            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
+            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586514142995_image_25.png",
+            "trim": {
+              "x": 460,
+              "y": 3,
+              "width": 132,
+              "height": 40,
+              "rotatedWidth": 132,
+              "rotatedHeight": 40
+            },
+            "rawWidth": 132,
+            "rawHeight": 40,
+            "width": 138,
+            "height": 46,
+            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 457,
+            "y": 0,
+            "rotatedWidth": 138,
+            "rotatedHeight": 46
+          },
+          {
+            "name": "hongtao_small",
+            "uuid": "62ac7b33-a2f0-4ba7-846f-a583f35d8038",
+            "textureUuid": "fac2125a-8865-438f-bbb9-511108dafd15",
+            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586514142993_image_9.png",
+            "trim": {
+              "x": 598,
+              "y": 3,
+              "width": 16,
+              "height": 16,
+              "rotatedWidth": 16,
+              "rotatedHeight": 16
+            },
+            "rawWidth": 16,
+            "rawHeight": 16,
+            "width": 22,
+            "height": 22,
+            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/fa/fac2125a-8865-438f-bbb9-511108dafd15.png",
+            "x": 595,
+            "y": 0,
+            "rotatedWidth": 22,
+            "rotatedHeight": 22
+          },
+          {
+            "name": "heitao_small",
+            "uuid": "6cde36bb-1d1e-4476-a72c-4fc1bf943de3",
+            "textureUuid": "fac2125a-8865-438f-bbb9-511108dafd15",
+            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586514142994_image_10.png",
+            "trim": {
+              "x": 598,
+              "y": 25,
+              "width": 16,
+              "height": 16,
+              "rotatedWidth": 16,
+              "rotatedHeight": 16
+            },
+            "rawWidth": 16,
+            "rawHeight": 16,
+            "width": 22,
+            "height": 22,
+            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/fa/fac2125a-8865-438f-bbb9-511108dafd15.png",
+            "x": 595,
+            "y": 22,
+            "rotatedWidth": 22,
+            "rotatedHeight": 22
+          },
+          {
+            "name": "fangkuai_small",
+            "uuid": "d2209cde-f935-4f49-a13e-6d187a99cc05",
+            "textureUuid": "fac2125a-8865-438f-bbb9-511108dafd15",
+            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586514142994_image_20.png",
+            "trim": {
+              "x": 598,
+              "y": 47,
+              "width": 16,
+              "height": 16,
+              "rotatedWidth": 16,
+              "rotatedHeight": 16
+            },
+            "rawWidth": 16,
+            "rawHeight": 16,
+            "width": 22,
+            "height": 22,
+            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/fa/fac2125a-8865-438f-bbb9-511108dafd15.png",
+            "x": 595,
+            "y": 44,
+            "rotatedWidth": 22,
+            "rotatedHeight": 22
+          },
+          {
+            "name": "poker_bg",
+            "uuid": "0e6c64d9-a6d0-4ae8-9209-c830805e447a",
+            "textureUuid": "fac2125a-8865-438f-bbb9-511108dafd15",
+            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586514142993_image_1.png",
+            "trim": {
+              "x": 460,
+              "y": 49,
+              "width": 100,
+              "height": 130,
+              "rotatedWidth": 130,
+              "rotatedHeight": 100
+            },
+            "rawWidth": 100,
+            "rawHeight": 130,
+            "width": 106,
+            "height": 136,
+            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/fa/fac2125a-8865-438f-bbb9-511108dafd15.png",
+            "x": 457,
+            "y": 46,
+            "rotated": true,
+            "rotatedWidth": 136,
+            "rotatedHeight": 106
+          },
+          {
+            "name": "heimei_small",
+            "uuid": "ed1b1526-f258-46fc-9684-b824df83bdfd",
+            "textureUuid": "fac2125a-8865-438f-bbb9-511108dafd15",
+            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586514142995_image_26.png",
+            "trim": {
+              "x": 596,
+              "y": 69,
+              "width": 16,
+              "height": 16,
+              "rotatedWidth": 16,
+              "rotatedHeight": 16
+            },
+            "rawWidth": 16,
+            "rawHeight": 16,
+            "width": 22,
+            "height": 22,
+            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/fa/fac2125a-8865-438f-bbb9-511108dafd15.png",
+            "x": 593,
+            "y": 66,
+            "rotatedWidth": 22,
+            "rotatedHeight": 22
+          },
+          {
+            "name": "poker_dipai",
+            "uuid": "9b7fa771-df67-4449-9823-dfc8926bacf5",
+            "textureUuid": "fac2125a-8865-438f-bbb9-511108dafd15",
+            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586514142994_image_15.png",
+            "trim": {
+              "x": 460,
+              "y": 155,
+              "width": 100,
+              "height": 130,
+              "rotatedWidth": 130,
+              "rotatedHeight": 100
+            },
+            "rawWidth": 100,
+            "rawHeight": 130,
+            "width": 106,
+            "height": 136,
+            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/fa/fac2125a-8865-438f-bbb9-511108dafd15.png",
+            "x": 457,
+            "y": 152,
+            "rotated": true,
+            "rotatedWidth": 136,
+            "rotatedHeight": 106
+          },
+          {
+            "name": "i_btn_pass",
+            "uuid": "0f55f0fa-2b2e-41e2-b5af-c4c08320c361",
+            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
+            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586514142993_image_2.png",
+            "trim": {
+              "x": 460,
+              "y": 261,
+              "width": 112,
+              "height": 45,
+              "rotatedWidth": 112,
+              "rotatedHeight": 45
+            },
+            "rawWidth": 112,
+            "rawHeight": 45,
+            "width": 118,
+            "height": 51,
+            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 457,
+            "y": 258,
+            "rotatedWidth": 118,
+            "rotatedHeight": 51
+          },
+          {
+            "name": "i_hand0",
+            "uuid": "d3178617-1c65-4e4c-8ec2-a45ecab928cd",
+            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
+            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586514142995_image_21.png",
+            "trim": {
+              "x": 3,
+              "y": 309,
+              "width": 300,
+              "height": 451,
+              "rotatedWidth": 451,
+              "rotatedHeight": 300
+            },
+            "rawWidth": 300,
+            "rawHeight": 451,
+            "width": 306,
+            "height": 457,
+            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 0,
+            "y": 306,
+            "rotated": true,
+            "rotatedWidth": 457,
+            "rotatedHeight": 306
+          },
+          {
+            "name": "i_p_info",
+            "uuid": "4bb03691-3c3c-402f-b8ab-609cda2a21f4",
+            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
+            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586514142993_image_7.png",
+            "trim": {
+              "x": 578,
+              "y": 261,
+              "width": 84,
+              "height": 43,
+              "rotatedWidth": 43,
+              "rotatedHeight": 84
+            },
+            "rawWidth": 84,
+            "rawHeight": 43,
+            "width": 90,
+            "height": 49,
+            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 575,
+            "y": 258,
+            "rotated": true,
+            "rotatedWidth": 49,
+            "rotatedHeight": 90
+          },
+          {
+            "name": "i_btn_dump",
+            "uuid": "6efa5649-a785-4d3f-8f98-3f6245e38f71",
+            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
+            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586514142994_image_12.png",
+            "trim": {
+              "x": 460,
+              "y": 312,
+              "width": 112,
+              "height": 45,
+              "rotatedWidth": 112,
+              "rotatedHeight": 45
+            },
+            "rawWidth": 112,
+            "rawHeight": 45,
+            "width": 118,
+            "height": 51,
+            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 457,
+            "y": 309,
+            "rotatedWidth": 118,
+            "rotatedHeight": 51
+          },
+          {
+            "name": "i_action",
+            "uuid": "d7016fa6-e0bd-4168-945c-59d90fcbf450",
+            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
+            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586514142995_image_23.png",
+            "trim": {
+              "x": 3,
+              "y": 615,
+              "width": 390,
+              "height": 55,
+              "rotatedWidth": 55,
+              "rotatedHeight": 390
+            },
+            "rawWidth": 390,
+            "rawHeight": 55,
+            "width": 396,
+            "height": 61,
+            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 0,
+            "y": 612,
+            "rotated": true,
+            "rotatedWidth": 61,
+            "rotatedHeight": 396
+          },
+          {
+            "name": "i_special0",
+            "uuid": "ddf1d732-178b-40c1-b2ab-8ee284570394",
+            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
+            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586514142995_image_24.png",
+            "trim": {
+              "x": 460,
+              "y": 363,
+              "width": 268,
+              "height": 104,
+              "rotatedWidth": 104,
+              "rotatedHeight": 268
+            },
+            "rawWidth": 268,
+            "rawHeight": 104,
+            "width": 274,
+            "height": 110,
+            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 457,
+            "y": 360,
+            "rotated": true,
+            "rotatedWidth": 110,
+            "rotatedHeight": 274
+          },
+          {
+            "name": "hongtao_big",
+            "uuid": "bdb091cb-3395-44fc-9dc6-881b863e7e8f",
+            "textureUuid": "fac2125a-8865-438f-bbb9-511108dafd15",
+            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586514142994_image_18.png",
+            "trim": {
+              "x": 570,
+              "y": 363,
+              "width": 55,
+              "height": 51,
+              "rotatedWidth": 51,
+              "rotatedHeight": 55
+            },
+            "rawWidth": 55,
+            "rawHeight": 53,
+            "width": 61,
+            "height": 57,
+            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/fa/fac2125a-8865-438f-bbb9-511108dafd15.png",
+            "x": 567,
+            "y": 360,
+            "rotated": true,
+            "rotatedWidth": 57,
+            "rotatedHeight": 61
+          },
+          {
+            "name": "i_pass",
+            "uuid": "b648a393-4e90-4a66-851a-9fa0e3415ca4",
+            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
+            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586514142994_image_17.png",
+            "trim": {
+              "x": 570,
+              "y": 424,
+              "width": 51,
+              "height": 53,
+              "rotatedWidth": 51,
+              "rotatedHeight": 53
+            },
+            "rawWidth": 51,
+            "rawHeight": 53,
+            "width": 57,
+            "height": 59,
+            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 567,
+            "y": 421,
+            "rotatedWidth": 57,
+            "rotatedHeight": 59
+          },
+          {
+            "name": "i_special1",
+            "uuid": "bf328309-ec04-461b-a567-e6c4bdbf2d29",
+            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
+            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586514142994_image_19.png",
+            "trim": {
+              "x": 64,
+              "y": 637,
+              "width": 268,
+              "height": 96,
+              "rotatedWidth": 96,
+              "rotatedHeight": 268
+            },
+            "rawWidth": 268,
+            "rawHeight": 96,
+            "width": 274,
+            "height": 102,
+            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 61,
+            "y": 634,
+            "rotated": true,
+            "rotatedWidth": 102,
+            "rotatedHeight": 274
+          },
+          {
+            "name": "king",
+            "uuid": "4a2edc0e-d4a1-4dbf-a538-bb13e84066ea",
+            "textureUuid": "fac2125a-8865-438f-bbb9-511108dafd15",
+            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586514142993_image_6.png",
+            "trim": {
+              "x": 64,
+              "y": 911,
+              "width": 64,
+              "height": 97,
+              "rotatedWidth": 64,
+              "rotatedHeight": 97
+            },
+            "rawWidth": 64,
+            "rawHeight": 97,
+            "width": 70,
+            "height": 103,
+            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/fa/fac2125a-8865-438f-bbb9-511108dafd15.png",
+            "x": 61,
+            "y": 908,
+            "rotatedWidth": 70,
+            "rotatedHeight": 103
+          },
+          {
+            "name": "kueen",
+            "uuid": "6d435c88-db8b-4b2d-a739-f3395afba789",
+            "textureUuid": "fac2125a-8865-438f-bbb9-511108dafd15",
+            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586514142994_image_11.png",
+            "trim": {
+              "x": 134,
+              "y": 911,
+              "width": 64,
+              "height": 97,
+              "rotatedWidth": 64,
+              "rotatedHeight": 97
+            },
+            "rawWidth": 64,
+            "rawHeight": 97,
+            "width": 70,
+            "height": 103,
+            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/fa/fac2125a-8865-438f-bbb9-511108dafd15.png",
+            "x": 131,
+            "y": 908,
+            "rotatedWidth": 70,
+            "rotatedHeight": 103
+          },
+          {
+            "name": "i_avatar2",
+            "uuid": "27c3acc3-7e4d-4aae-8197-c229747ebe01",
+            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
+            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586514142993_image_3.png",
+            "trim": {
+              "x": 204,
+              "y": 615,
+              "width": 200,
+              "height": 200,
+              "rotatedWidth": 200,
+              "rotatedHeight": 200
+            },
+            "rawWidth": 200,
+            "rawHeight": 200,
+            "width": 206,
+            "height": 206,
+            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 201,
+            "y": 612,
+            "rotatedWidth": 206,
+            "rotatedHeight": 206
+          },
+          {
+            "name": "i_avatar1",
+            "uuid": "907f7131-9ee2-4a6f-9537-68f9c323001a",
+            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
+            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586514142994_image_14.png",
+            "trim": {
+              "x": 204,
+              "y": 821,
+              "width": 200,
+              "height": 200,
+              "rotatedWidth": 200,
+              "rotatedHeight": 200
+            },
+            "rawWidth": 200,
+            "rawHeight": 200,
+            "width": 206,
+            "height": 206,
+            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 201,
+            "y": 818,
+            "rotatedWidth": 206,
+            "rotatedHeight": 206
+          },
+          {
+            "name": "i_avatar0",
+            "uuid": "aff3d58c-9edb-42f4-a9e3-07ad2b51526f",
+            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
+            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586514142994_image_16.png",
+            "trim": {
+              "x": 410,
+              "y": 637,
+              "width": 200,
+              "height": 200,
+              "rotatedWidth": 200,
+              "rotatedHeight": 200
+            },
+            "rawWidth": 200,
+            "rawHeight": 200,
+            "width": 206,
+            "height": 206,
+            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 407,
+            "y": 634,
+            "rotatedWidth": 206,
+            "rotatedHeight": 206
+          },
+          {
+            "name": "ranker",
+            "uuid": "d31cf3ab-4335-4dce-a2b6-e0ef77c6f19c",
+            "textureUuid": "fac2125a-8865-438f-bbb9-511108dafd15",
+            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586514142995_image_22.png",
+            "trim": {
+              "x": 410,
+              "y": 843,
+              "width": 62,
+              "height": 95,
+              "rotatedWidth": 62,
+              "rotatedHeight": 95
+            },
+            "rawWidth": 64,
+            "rawHeight": 97,
+            "width": 68,
+            "height": 101,
+            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/fa/fac2125a-8865-438f-bbb9-511108dafd15.png",
+            "x": 407,
+            "y": 840,
+            "rotatedWidth": 68,
+            "rotatedHeight": 101
+          },
+          {
+            "name": "heimei_big",
+            "uuid": "38afb095-701a-4cf1-bd75-5f0fa9874170",
+            "textureUuid": "fac2125a-8865-438f-bbb9-511108dafd15",
+            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586514142993_image_4.png",
+            "trim": {
+              "x": 410,
+              "y": 944,
+              "width": 55,
+              "height": 53,
+              "rotatedWidth": 53,
+              "rotatedHeight": 55
+            },
+            "rawWidth": 55,
+            "rawHeight": 53,
+            "width": 61,
+            "height": 59,
+            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/fa/fac2125a-8865-438f-bbb9-511108dafd15.png",
+            "x": 407,
+            "y": 941,
+            "rotated": true,
+            "rotatedWidth": 59,
+            "rotatedHeight": 61
+          },
+          {
+            "name": "fangkuai_big",
+            "uuid": "4eb8d778-35ee-4199-9854-b4e9d79ca182",
+            "textureUuid": "fac2125a-8865-438f-bbb9-511108dafd15",
+            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586514142993_image_8.png",
+            "trim": {
+              "x": 469,
+              "y": 944,
+              "width": 55,
+              "height": 53,
+              "rotatedWidth": 53,
+              "rotatedHeight": 55
+            },
+            "rawWidth": 55,
+            "rawHeight": 53,
+            "width": 61,
+            "height": 59,
+            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/fa/fac2125a-8865-438f-bbb9-511108dafd15.png",
+            "x": 466,
+            "y": 941,
+            "rotated": true,
+            "rotatedWidth": 59,
+            "rotatedHeight": 61
+          },
+          {
+            "name": "i_avavar",
+            "uuid": "3f121e7c-0f7b-4b97-9dbf-9526ee744e76",
+            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
+            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586514142993_image_5.png",
+            "trim": {
+              "x": 478,
+              "y": 843,
+              "width": 94,
+              "height": 94,
+              "rotatedWidth": 94,
+              "rotatedHeight": 94
+            },
+            "rawWidth": 94,
+            "rawHeight": 94,
+            "width": 100,
+            "height": 100,
+            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 475,
+            "y": 840,
+            "rotatedWidth": 100,
+            "rotatedHeight": 100
+          },
+          {
+            "name": "heitao_big",
+            "uuid": "8830c7df-4c91-4f74-bb21-8dafd91bb60e",
+            "textureUuid": "fac2125a-8865-438f-bbb9-511108dafd15",
+            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586514142994_image_13.png",
+            "trim": {
+              "x": 528,
+              "y": 943,
+              "width": 55,
+              "height": 53,
+              "rotatedWidth": 53,
+              "rotatedHeight": 55
+            },
+            "rawWidth": 55,
+            "rawHeight": 53,
+            "width": 61,
+            "height": 59,
+            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/fa/fac2125a-8865-438f-bbb9-511108dafd15.png",
+            "x": 525,
+            "y": 940,
+            "rotated": true,
+            "rotatedWidth": 59,
+            "rotatedHeight": 61
+          }
+        ],
+        "width": 624,
+        "height": 1024,
+        "name": "autoAtlas-1",
+        "imagePath": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\TexturePacker\\build\\raw-assets\\res\\atlas\\autoAtlas.pac\\autoAtlas-1.png",
+        "compressd": {
+          "suffix": [
+            ".png"
+          ],
+          "imagePathNoExt": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\TexturePacker\\build\\raw-assets\\res\\atlas\\autoAtlas.pac\\compressed\\autoAtlas-1"
+        }
+      }
+    ],
+    "unpackedTextures": []
+  }
+}

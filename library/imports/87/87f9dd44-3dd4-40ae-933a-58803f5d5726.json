@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bm_t_pot",
+    "texture": "24363409-b638-4dd5-8744-031029fd63a4",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      97,
+      103
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      98,
+      104
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

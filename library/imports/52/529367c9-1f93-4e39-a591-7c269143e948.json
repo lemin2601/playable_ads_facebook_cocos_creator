@@ -1,0 +1,50 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "game.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "i_action": {
+      "__uuid__": "d7016fa6-e0bd-4168-945c-59d90fcbf450"
+    },
+    "i_avatar0": {
+      "__uuid__": "aff3d58c-9edb-42f4-a9e3-07ad2b51526f"
+    },
+    "i_avatar1": {
+      "__uuid__": "907f7131-9ee2-4a6f-9537-68f9c323001a"
+    },
+    "i_avatar2": {
+      "__uuid__": "27c3acc3-7e4d-4aae-8197-c229747ebe01"
+    },
+    "i_avavar": {
+      "__uuid__": "3f121e7c-0f7b-4b97-9dbf-9526ee744e76"
+    },
+    "i_btn_dump": {
+      "__uuid__": "6efa5649-a785-4d3f-8f98-3f6245e38f71"
+    },
+    "i_btn_pass": {
+      "__uuid__": "0f55f0fa-2b2e-41e2-b5af-c4c08320c361"
+    },
+    "i_hand0": {
+      "__uuid__": "d3178617-1c65-4e4c-8ec2-a45ecab928cd"
+    },
+    "i_hand1": {
+      "__uuid__": "042d3994-283c-41ea-b6f2-4cceea9a651b"
+    },
+    "i_jackpot": {
+      "__uuid__": "ea94f4f8-2c7b-475c-9abd-4cc759c00832"
+    },
+    "i_p_info": {
+      "__uuid__": "4bb03691-3c3c-402f-b8ab-609cda2a21f4"
+    },
+    "i_pass": {
+      "__uuid__": "b648a393-4e90-4a66-851a-9fa0e3415ca4"
+    },
+    "i_special0": {
+      "__uuid__": "ddf1d732-178b-40c1-b2ab-8ee284570394"
+    },
+    "i_special1": {
+      "__uuid__": "bf328309-ec04-461b-a567-e6c4bdbf2d29"
+    }
+  }
+}

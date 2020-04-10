@@ -1,0 +1,152 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "table.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "10K": {
+      "__uuid__": "b54f4e2c-38fe-4daa-90e6-0e26ea6003c3"
+    },
+    "1K": {
+      "__uuid__": "7bee0e82-56e6-4fec-9a2a-e0859a39b46d"
+    },
+    "2K": {
+      "__uuid__": "5f977762-2fe0-4280-b1a3-a1a156d33ded"
+    },
+    "5K": {
+      "__uuid__": "fb721bfc-8cf1-4019-8196-a76512d135bd"
+    },
+    "Stroke_photo_tanchuang": {
+      "__uuid__": "8123132d-3c1a-4aee-b939-95fd4584b8ae"
+    },
+    "baopai": {
+      "__uuid__": "fa04004c-eaa4-40e1-8bd0-7e61722d5232"
+    },
+    "bg_gift": {
+      "__uuid__": "26b66031-4aad-41fd-a776-3591436c46e6"
+    },
+    "bg_gold(1)": {
+      "__uuid__": "f42ee845-172c-45cb-9801-bf9e8c516932"
+    },
+    "bg_gold_touzhu": {
+      "__uuid__": "ed619ea1-82f6-44ab-b9cd-c52e0e63b6d2"
+    },
+    "bg_gold_zhuozi": {
+      "__uuid__": "372db092-7617-4f08-97f7-041b6e3eefbb"
+    },
+    "bg_huaxin": {
+      "__uuid__": "b5f80587-d2c6-45ae-9516-9b5a23edcdbf"
+    },
+    "bg_inputbox": {
+      "__uuid__": "167034fc-624b-4ee2-a815-9ad63ededd84"
+    },
+    "bg_stroke": {
+      "__uuid__": "b42a9066-a935-499f-8961-ec7375a82a51"
+    },
+    "bg_stroke2": {
+      "__uuid__": "a4dafd4d-c564-4337-bc45-a9db166949f4"
+    },
+    "bg_tanchuang": {
+      "__uuid__": "a2af41dd-f886-4376-9fb7-81d9e51d45f7"
+    },
+    "bg_xitongxiaoxi": {
+      "__uuid__": "ece4c304-c496-4a97-8ed2-a0c602875385"
+    },
+    "button_blue": {
+      "__uuid__": "5aee98a9-6329-41b6-bbfa-028be268f6d9"
+    },
+    "button_erji": {
+      "__uuid__": "2243806e-97cb-4bb8-bc31-72617e824f32"
+    },
+    "button_fasong": {
+      "__uuid__": "1ba0afc7-66c3-4100-9e80-98455cfd3364"
+    },
+    "button_message": {
+      "__uuid__": "c71bebed-6b73-4660-ae94-5b04f29e2af7"
+    },
+    "button_orange": {
+      "__uuid__": "30d2f0c4-a677-4cee-ac3d-63ee2a96b0a4"
+    },
+    "daojishi_down": {
+      "__uuid__": "2b210eb5-1e08-4f7d-9a74-8e7e2591c5e0"
+    },
+    "daojishi_photo": {
+      "__uuid__": "c101a3f3-c966-4146-9427-153a3de17811"
+    },
+    "daojishi_up": {
+      "__uuid__": "36460207-2361-4006-9391-5e5cd86543b5"
+    },
+    "dealer": {
+      "__uuid__": "59e317c3-6824-4dc0-9aa6-89769264ca0a"
+    },
+    "double": {
+      "__uuid__": "de371090-0df5-47d3-9b77-0d0d22389194"
+    },
+    "gift_bucket": {
+      "__uuid__": "bc38d371-4445-4ccc-894a-64eb1e8826fe"
+    },
+    "gift_kiss": {
+      "__uuid__": "d569ad84-34e4-4e54-b598-fb550ac863a5"
+    },
+    "gift_rose": {
+      "__uuid__": "a46463c8-fa64-41cd-ab5e-f764e3f47b8a"
+    },
+    "gift_tomato": {
+      "__uuid__": "ffb953b0-94aa-49c9-8e71-6025977db9bb"
+    },
+    "hit": {
+      "__uuid__": "cf419c96-6e73-42f4-84cb-a4ed6d5b21c1"
+    },
+    "icon_KO": {
+      "__uuid__": "6ae62efa-75ae-409d-8327-3a533c159f5b"
+    },
+    "icon_boy": {
+      "__uuid__": "7e9dd987-63ac-4956-9f88-70c58328f500"
+    },
+    "icon_girl": {
+      "__uuid__": "08bbdfa7-ab7e-437a-b8b8-21ffcb5ed0ad"
+    },
+    "icon_gold_small": {
+      "__uuid__": "0089e5ce-314b-486e-a3d8-6b04822331a9"
+    },
+    "icon_qingkongtouzhu": {
+      "__uuid__": "c0a34d68-6163-4c47-950d-249cfda09928"
+    },
+    "icon_touzhu-": {
+      "__uuid__": "0c469c03-20dc-41eb-aaf8-169a95c3919f"
+    },
+    "icon_usercp": {
+      "__uuid__": "d2643422-5ce4-4377-921d-cf7647592fd3"
+    },
+    "input-box": {
+      "__uuid__": "d5ff6fe3-85bc-4ee4-8e2f-e15f85663dbe"
+    },
+    "paishu": {
+      "__uuid__": "06d51daf-626c-4386-a1ca-c90ba301f9b9"
+    },
+    "send": {
+      "__uuid__": "9442740c-368d-496e-a0ac-1955322adc5a"
+    },
+    "stand": {
+      "__uuid__": "8cfa25db-d4c8-43cb-9a7a-45c2a65e822b"
+    },
+    "txtCountdown": {
+      "__uuid__": "58600c32-d643-4b0a-ae2c-e2dc7fab7401"
+    },
+    "user-circle_1": {
+      "__uuid__": "503b4fbd-d13f-4c53-97d8-103f214b1091"
+    },
+    "user-circle_2": {
+      "__uuid__": "bbabacf9-876b-4119-9b95-0e040538cd5e"
+    },
+    "user-circle_3": {
+      "__uuid__": "401869ae-5801-4196-820b-7a590fa334b3"
+    },
+    "user-circle_4": {
+      "__uuid__": "c6f88330-a69b-4405-9cea-b05f6833bc4e"
+    },
+    "user-circle_5": {
+      "__uuid__": "1fb0ec1e-5382-4f94-8001-521241560ae0"
+    }
+  }
+}

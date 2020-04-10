@@ -10,13 +10,31 @@
                     };
                     function __define (exports, require, module) {
                         if (!nodeEnv) {__quick_compile_project__.registerModule(__filename, module);}
-require('./assets/Script/BtnDownload');
-require('./assets/Script/BtnStep1');
-require('./assets/Script/BtnStep2');
-require('./assets/Script/BtnStep3');
-require('./assets/Script/FirstComp');
-require('./assets/Script/Helloworld');
 require('./assets/migration/use_v2.0.x_cc.Toggle_event');
+require('./assets/scenes/Game');
+require('./assets/scripts/CAudio');
+require('./assets/scripts/CBtnDownload');
+require('./assets/scripts/CBtnStep1');
+require('./assets/scripts/CBtnStep2');
+require('./assets/scripts/CBtnStep3');
+require('./assets/scripts/CCard');
+require('./assets/scripts/CCircleAvatar');
+require('./assets/scripts/CEffectWin');
+require('./assets/scripts/CLayerGame');
+require('./assets/scripts/CPlayer');
+require('./assets/scripts/CProgressWaterAni');
+require('./assets/scripts/CTable');
+require('./assets/scripts/CardUtils');
+require('./assets/scripts/GameController');
+require('./assets/scripts/GameFake');
+require('./assets/scripts/PlayableAds');
+require('./assets/scripts/PlayableState');
+require('./assets/scripts/PoolHandler');
+require('./assets/scripts/Types');
+require('./assets/scripts/Utility');
+require('./assets/scripts/state-machine-history');
+require('./assets/scripts/state-machine-visualize');
+require('./assets/scripts/state-machine');
 
                     }
                     if (nodeEnv) {
