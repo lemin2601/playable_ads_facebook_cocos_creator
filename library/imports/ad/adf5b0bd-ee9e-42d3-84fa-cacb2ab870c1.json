@@ -1,0 +1,32 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "effect_golden_rain.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "gold0": {
+      "__uuid__": "526b8f8a-1939-4435-9b52-779d56f725af"
+    },
+    "gold1": {
+      "__uuid__": "2c47cc79-2dbc-4c8a-a935-66ff88593d22"
+    },
+    "gold2": {
+      "__uuid__": "7ecaa02b-14c5-4750-aacd-2c1f42c99f46"
+    },
+    "gold3": {
+      "__uuid__": "2dbc7bb8-f2a3-4cab-bcad-2655ee6bf9eb"
+    },
+    "gold4": {
+      "__uuid__": "c3da46e7-add0-4737-b4ca-f870b4b207ae"
+    },
+    "gold5": {
+      "__uuid__": "24b1ab72-783e-4959-9292-261ef83e35f7"
+    },
+    "gold6": {
+      "__uuid__": "99c416c2-e7d7-415d-b164-6781387fb92d"
+    },
+    "gold7": {
+      "__uuid__": "a6970d34-834e-4a93-9bb1-6cc442a34c95"
+    }
+  }
+}

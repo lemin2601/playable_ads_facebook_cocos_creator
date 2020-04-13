@@ -18,7 +18,7 @@
                 "children": [
                   "hierarchy"
                 ],
-                "height": 458,
+                "height": 452,
                 "type": "panel",
                 "width": 204
               },
@@ -27,7 +27,7 @@
                 "children": [
                   "assets"
                 ],
-                "height": 461,
+                "height": 467,
                 "type": "panel",
                 "width": 204
               }
@@ -105,7 +105,7 @@
       ]
     },
     "worker": {},
-    "window-1586515987917": {}
+    "window-1586777697284": {}
   },
   "panels": {
     "project-settings": {
@@ -157,9 +157,9 @@
       "height": 539
     }
   },
-  "panelLabelWidth.inspector": "35.0459%",
+  "panelLabelWidth.inspector": "35.0923%",
   "panelLabelWidth": {
-    "inspector": "35.0459%",
+    "inspector": "35.0923%",
     "builder": null,
     "project-settings": null,
     "preferences": null

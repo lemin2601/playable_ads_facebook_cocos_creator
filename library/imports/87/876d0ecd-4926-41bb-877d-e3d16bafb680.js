@@ -26,14 +26,15 @@ cc.Class({
   // LIFE-CYCLE CALLBACKS:
   onLoad: function onLoad() {
     if (this.table) {
-      this.lbPot.string = Utility.formatMoney(this.table.pot);
-      this.lbId.string = Utility.formatMoney(this.table.id);
-      this.lbStake.string = Utility.formatMoney(this.table.stake);
+      this.lbPot.string = Utility.formatMoneyFull(this.table.pot);
+      this.lbId.string = ": " + Utility.formatMoney(this.table.id);
+      this.lbStake.string = ": " + Utility.formatMoney(this.table.stake);
     } else {
       console.error("need setTable before load");
     }
   },
-  start: function start() {},
+  start: function start() {// Utility.runUpdateGold(this.lbPot,1000000,50000000);
+  },
   setTable: function setTable(table) {
     this.table = table;
   },

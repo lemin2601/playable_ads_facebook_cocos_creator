@@ -24,6 +24,14 @@
           "quality": 50
         }
       ]
+    },
+    "web": {
+      "formats": [
+        {
+          "name": "png",
+          "quality": 80
+        }
+      ]
     }
   },
   "subMetas": {}

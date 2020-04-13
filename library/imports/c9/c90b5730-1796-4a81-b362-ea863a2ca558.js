@@ -25,6 +25,10 @@ var CPlayer = cc.Class({
     imgPass: {
       "default": null,
       type: cc.Node
+    },
+    progressBar: {
+      "default": null,
+      type: cc.ProgressBar
     }
   },
   ctor: function ctor() {
@@ -34,13 +38,16 @@ var CPlayer = cc.Class({
 
     this.gameController = null;
     this.cards = [];
+    this._isMyTurn = false;
   },
   onLoad: function onLoad() {
+    this.setMyTurn(this._isMyTurn);
+
     if (this.player) {
       this.displayName.string = this.player.name;
-      this.gold.string = Utility.formatMoney(this.player.gold);
-      var circleAvatar = this.avatar.getComponent("CCircleAvatar");
-      circleAvatar.changeAvatar(this.spriteAvatar[this.player.avatar]); //loadCards
+      this.gold.string = Utility.formatMoneyFull(this.player.gold); // var circleAvatar = this.avatar.getComponent("CCircleAvatar");
+      // circleAvatar.changeAvatar(this.spriteAvatar[this.player.avatar]);
+      //loadCards
 
       this._loadCards();
     } else {
@@ -50,11 +57,20 @@ var CPlayer = cc.Class({
     if (this.imgPass) {
       this.imgPass.active = false;
     }
-
-    this.node.on("card-touch", this.onTouchCard, this);
   },
   start: function start() {},
-  // update (dt) {},
+  update: function update(dt) {
+    if (this._isMyTurn) {
+      var progressBar = this.progressBar;
+      var progress = progressBar.progress;
+
+      if (progress > 0) {
+        progress -= dt * 0.1;
+      }
+
+      progressBar.progress = progress;
+    }
+  },
   setGameController: function setGameController(gameController) {
     this.gameController = gameController;
   },
@@ -84,7 +100,17 @@ var CPlayer = cc.Class({
       console.error("don't have GameControler in Player, so can't create newCard");
     }
   },
+  setLayerCard: function setLayerCard(layerCard) {
+    this.layerCard = layerCard;
+  },
   onDiscard: function onDiscard(cards) {
+    this.setMyTurn(false);
+
+    if (this.layerCard == null) {
+      console.error("you need add layerCard to player beforeDiscard");
+      return [];
+    }
+
     var cardPrefabs = [];
 
     if (this.player && this.player.index === 0) {
@@ -196,10 +222,12 @@ var CPlayer = cc.Class({
    */
   getCirclePos: function getCirclePos(pos) {
     var x = pos.x;
-    pos.y = -1 / 250 * (x * x) - 280;
+    pos.y = -1 / 250 * (x * x) - 450 + 120;
     return pos;
   },
   onPass: function onPass() {
+    this.setMyTurn(false);
+
     if (this.imgPass) {
       this.imgPass.active = true;
       this.node.runAction(cc.sequence(cc.delayTime(2), cc.callFunc(function () {
@@ -235,6 +263,15 @@ var CPlayer = cc.Class({
         card.node.setPosition(this.getPositionCard(card));
         break;
     }
+  },
+  onEnterTurn: function onEnterTurn() {
+    if (this.player.index === 0) return;
+    this.progressBar.progress = 1;
+    this.setMyTurn(true);
+  },
+  setMyTurn: function setMyTurn(b) {
+    this._isMyTurn = b;
+    this.progressBar.node.active = b;
   }
 });
 module.exports = CPlayer;

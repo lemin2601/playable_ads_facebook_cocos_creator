@@ -7,6 +7,7 @@ var {Card,Table,Player} = require("Types");
 var {ActionType,GameFake,SoundType} = require("GameFake");
 var PlayableAds = require("PlayableAds");
 var CAudio = require("CAudio");
+var Utility = require("Utility");
 
 cc.Class({
     extends   : cc.Component,
@@ -34,7 +35,14 @@ cc.Class({
             default:null,
             type:cc.Node
         },
-
+        nodeSuggestGesture:{
+            default:null,
+            type:cc.Node
+        },
+        nodeCHPlay:{
+            default:null,
+            type:cc.Node
+        },
         effectWin:{
             default:null,
             type:cc.Node
@@ -67,7 +75,18 @@ cc.Class({
     onEnable:function(){
         console.log("onEnable players:" + this.players.length);
     },
+    attachLayerCardToPlayer:function(){
+        var len = this.players.length;
+        for (var i = 0; i < len; i++) {
+            var cPlayer = this.players[i].getComponent("CPlayer");
+            cPlayer.setLayerCard(this.layerCard);
+        }
+    },
     onLoad: function () {
+        this.nodeCHPlay.active = false;
+        this.effectWin.getComponent("CEffectWin").gameController = this;
+        this.nodeSuggestGesture.active = false;
+        this.attachLayerCardToPlayer();
         this.audio = this.node.getComponent(CAudio);
         this.effectWin.active = false;
         //1. khoi tao info ban dau
@@ -121,6 +140,8 @@ cc.Class({
 
         var actionConfig = this._gameFake.getAction();
         var delayTime = actionConfig.time;
+        this.curIndex = actionConfig.index;
+        this.onEnterTurn(actionConfig.index);
         if(delayTime>0){
             this.scheduleOnce(function () {
                 this.executeAction();
@@ -130,8 +151,13 @@ cc.Class({
     start:function(){
 
     },
-
+    onEnterTurn:function(index){
+        console.log("onEnterTurn: " + index);
+        var cPlayer = this.players[index].getComponent(CPlayer);
+        cPlayer.onEnterTurn();
+    },
     executeAction:function(){
+        this.nodeSuggestGesture.active = false;
         var actionConfig = this._gameFake.getAction();
         console.log("executeAction:" + JSON.stringify(actionConfig));
         var index = actionConfig.index;
@@ -155,6 +181,7 @@ cc.Class({
             this.curIndex = actionConfig.next;
             var actionNext = this._gameFake.next();
             if(actionNext){
+                this.onEnterTurn(actionNext.index);
                 console.log("actionNext:" + JSON.stringify(actionNext));
                 var delayTime = actionNext.time;
                 if(delayTime>0){
@@ -163,7 +190,7 @@ cc.Class({
                         var index = actionConfig.index;
                         if(index === 0 ){
                             if(actionConfig.suggest){//neu co suggest
-
+                                this.nodeSuggestGesture.active = true;
                             }
                             this.cardExpects = actionConfig.cards;
                             return;
@@ -198,7 +225,7 @@ cc.Class({
                 cc.moveTo(1,p),
                 cc.rotateTo(1,0)
             ));
-            cc.log("newZIndex:" + this.zIndexCard)
+            // cc.log("newZIndex:" + this.zIndexCard)
 ;
             // this.layerGame.addChild(cardPrefab);
         }
@@ -292,5 +319,8 @@ cc.Class({
             }
         }
         return false;
+    },
+    showNodeCHPlay:function () {
+        this.nodeCHPlay.active = true;
     }
 });

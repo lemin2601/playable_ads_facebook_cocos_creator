@@ -26,7 +26,7 @@ var actions = [{
   //bot 1
   type: ActionType.DISCARD,
   cards: [Card.from("7", "♠"), Card.from("8", "♥"), Card.from("9", "♣"), Card.from("10", "♠"), Card.from("J", "♥")],
-  time: 1,
+  time: 3,
   //delay action (s)
   sound: SoundType.STRAIGHT,
   next: 2
@@ -82,7 +82,7 @@ var gameInfo = {
     displayName: "You",
     gold: 27000000,
     avatarIndex: 0,
-    cards: [Card.from("3", "♠"), Card.from("3", "♥"), Card.from("4", "♣"), Card.from("4", "♠"), Card.from("4", "♥"), Card.from("K", "♠"), Card.from("2", "♣"), Card.from("2", "♠"), Card.from("2", "♥"), Card.from("2", "♦")]
+    cards: [Card.from("K", "♠"), Card.from("2", "♣"), Card.from("3", "♠"), Card.from("3", "♥"), Card.from("4", "♣"), Card.from("4", "♠"), Card.from("4", "♥"), Card.from("2", "♠"), Card.from("2", "♥"), Card.from("2", "♦")]
   }, {
     index: 1,
     displayName: "Maria",

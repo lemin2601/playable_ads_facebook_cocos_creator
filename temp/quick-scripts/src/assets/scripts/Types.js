@@ -53,6 +53,16 @@ function Card(point, suit) {
       get: function get() {
         return this.suit === 2 || this.suit === 3;
       }
+    },
+    isAce: {
+      get: function get() {
+        return this.point === 11;
+      }
+    },
+    isFace: {
+      get: function get() {
+        return this.point >= 8 && this.point <= 10;
+      }
     }
   });
 }

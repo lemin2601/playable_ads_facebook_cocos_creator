@@ -25,8 +25,13 @@ var CCard = cc.Class({
     redTextColor: cc.Color.RED,
     blackTextColor: cc.Color.WHITE,
     texFrontBG: cc.SpriteFrame,
-    texBackBG: cc.SpriteFrame,
+    // texBackBG     : cc.SpriteFrame,
     texFaces: {
+      //J,Q,K
+      "default": [],
+      type: cc.SpriteFrame
+    },
+    texAce: {
       "default": [],
       type: cc.SpriteFrame
     },
@@ -74,8 +79,7 @@ var CCard = cc.Class({
     this.owner = owner;
   },
   onLoad: function onLoad() {
-    console.log("loadCard:" + this.card + "|" + this.index);
-
+    // console.log("loadCard:" + this.card +"|" + this.index);
     if (this.card) {
       this.init(this.card);
     }
@@ -105,22 +109,13 @@ var CCard = cc.Class({
     this.node.dispatchEvent(new cc.Event.EventCustom('cardtouch', true));
   },
   setCard: function setCard(card) {
-    console.log("setCard:" + card + "|point:" + card.point + "|suit:" + card.suit);
+    // console.log("setCard:" + card +"|point:" + card.point +"|suit:" + card.suit);
     this.card = card;
   },
   // use this for initialization
   init: function init(card) {
-    var isFaceCard = 8 <= card.point && card.point <= 10;
-    console.log("isFace:" + card.toString() + "|" + isFaceCard);
-
-    if (isFaceCard) {
-      this.mainPic.spriteFrame = this.texFaces[card.point - 9];
-    } else {
-      this.mainPic.spriteFrame = this.texSuitBig[card.suit];
-    } // for jsb
-
-
-    this.point.string = card.pointName;
+    //chat
+    this.suit.spriteFrame = this.texSuitSmall[card.suit]; //so
 
     if (card.isRedSuit) {
       this.point.node.color = this.redTextColor;
@@ -128,13 +123,22 @@ var CCard = cc.Class({
       this.point.node.color = this.blackTextColor;
     }
 
-    this.suit.spriteFrame = this.texSuitSmall[card.suit];
-  },
-  reveal: function reveal(isFaceUp) {
-    this.point.node.active = isFaceUp;
-    this.suit.node.active = isFaceUp;
-    this.mainPic.node.active = isFaceUp;
-    this.cardBG.spriteFrame = isFaceUp ? this.texFrontBG : this.texBackBG;
+    this.point.string = card.pointName; //hinh
+
+    if (card.isAce) {
+      this.mainPic.spriteFrame = this.texAce[card.suit];
+    } else if (card.isFace) {
+      this.mainPic.spriteFrame = this.texFaces[card.point - 8];
+
+      if (card.isRedSuit) {
+        this.mainPic.node.color = this.redTextColor;
+      } else {
+        this.mainPic.node.color = cc.Color.WHITE;
+      }
+    } else {
+      //binh thuong 2->10
+      this.mainPic.spriteFrame = this.texSuitBig[card.suit];
+    }
   },
   setPositionCenter: function setPositionCenter(pos) {
     this.node.setPosition(pos.x - 50, pos.y - 65);

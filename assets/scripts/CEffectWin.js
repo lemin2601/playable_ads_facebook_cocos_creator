@@ -26,12 +26,28 @@ cc.Class({
         // },
     },
 
+    ctor:function(){
+        this.gameController = null;
+    },
+
     // LIFE-CYCLE CALLBACKS:
 
     onLoad () {
 
     },
 
+    onEnable:function(){
+        this.node.runAction(cc.sequence(
+            cc.delayTime(3),
+            cc.callFunc(function () {
+                this.showNodeCHPlay();
+            },this)
+        ))
+    },
+
+    showNodeCHPlay:function(){
+        this.gameController.showNodeCHPlay();
+    },
     start () {
 
     },

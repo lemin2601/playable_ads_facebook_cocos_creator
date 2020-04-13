@@ -22,7 +22,7 @@ var actions = [
             Card.from("10","♠"),
             Card.from("J","♥")
         ],
-        time:1,//delay action (s)
+        time:3,//delay action (s)
         sound:SoundType.STRAIGHT,
         next:2
     },
@@ -99,13 +99,13 @@ var gameInfo = {
             gold:27000000,
             avatarIndex:0,
             cards:[
+                Card.from("K","♠"),
+                Card.from("2","♣"),
                 Card.from("3","♠"),
                 Card.from("3","♥"),
                 Card.from("4","♣"),
                 Card.from("4","♠"),
                 Card.from("4","♥"),
-                Card.from("K","♠"),
-                Card.from("2","♣"),
                 Card.from("2","♠"),
                 Card.from("2","♥"),
                 Card.from("2","♦")

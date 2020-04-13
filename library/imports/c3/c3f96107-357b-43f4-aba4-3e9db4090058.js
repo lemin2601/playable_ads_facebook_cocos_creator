@@ -28,8 +28,19 @@ cc.Class({
     //     }
     // },
   },
+  ctor: function ctor() {
+    this.gameController = null;
+  },
   // LIFE-CYCLE CALLBACKS:
   onLoad: function onLoad() {},
+  onEnable: function onEnable() {
+    this.node.runAction(cc.sequence(cc.delayTime(3), cc.callFunc(function () {
+      this.showNodeCHPlay();
+    }, this)));
+  },
+  showNodeCHPlay: function showNodeCHPlay() {
+    this.gameController.showNodeCHPlay();
+  },
   start: function start() {} // update (dt) {},
 
 });

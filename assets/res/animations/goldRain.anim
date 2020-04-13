@@ -1,0 +1,67 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "goldRain",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.8,
+  "sample": 10,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "526b8f8a-1939-4435-9b52-779d56f725af"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "2c47cc79-2dbc-4c8a-a935-66ff88593d22"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "7ecaa02b-14c5-4750-aacd-2c1f42c99f46"
+            }
+          },
+          {
+            "frame": 0.3,
+            "value": {
+              "__uuid__": "2dbc7bb8-f2a3-4cab-bcad-2655ee6bf9eb"
+            }
+          },
+          {
+            "frame": 0.4,
+            "value": {
+              "__uuid__": "c3da46e7-add0-4737-b4ca-f870b4b207ae"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "24b1ab72-783e-4959-9292-261ef83e35f7"
+            }
+          },
+          {
+            "frame": 0.6,
+            "value": {
+              "__uuid__": "99c416c2-e7d7-415d-b164-6781387fb92d"
+            }
+          },
+          {
+            "frame": 0.7,
+            "value": {
+              "__uuid__": "a6970d34-834e-4a93-9bb1-6cc442a34c95"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

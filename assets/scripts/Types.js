@@ -50,9 +50,18 @@ function Card(point, suit) {
                 return this.suit === 2 || this.suit === 3;
             }
         },
+        isAce:{
+            get: function () {
+                return this.point === 11;
+            }
+        },
+        isFace:{
+            get: function () {
+                return this.point >= 8 && this.point <=10;
+            }
+        }
     });
 }
-
 
 Card.prototype.toString = function () {
     return this.pointName + this.suitName;

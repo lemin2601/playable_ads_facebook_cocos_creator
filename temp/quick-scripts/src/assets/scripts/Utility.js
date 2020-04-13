@@ -80,7 +80,8 @@ Utility.formatAlignNumber = function (number, separator, isFull) {
     var curIndex = numString.length - 3;
 
     while (curIndex > 0) {
-      numString = numString.insertAt(curIndex, separator);
+      numString = numString.slice(0, curIndex) + separator + numString.slice(curIndex); // numString = numString.insertAt(curIndex, separator);
+
       curIndex -= 3;
     }
   } else {
@@ -118,6 +119,26 @@ Utility.formatAlignNumber = function (number, separator, isFull) {
 
 
   return numString;
+};
+
+Utility.runUpdateGold = function (label, curGold, tarGold, funcFormat, cbInterval, cbDone, speratorFuncFormat, unitFuncFormat) {
+  if (funcFormat === undefined) funcFormat = this.formatMoneyFull;
+  if (curGold === undefined) curGold = 0;
+  if (tarGold === undefined) tarGold = 0;
+  label.string = funcFormat(10000);
+  var numOfUpdate = 30;
+  var delay = 0.05;
+  var offset = (tarGold - curGold) / numOfUpdate;
+  label.node.runAction(cc.sequence(cc.repeat(cc.sequence(cc.delayTime(delay), cc.callFunc(function (sender) {
+    curGold = Math.floor(curGold + offset);
+    console.log("update new gold:" + curGold);
+    label.string = funcFormat(curGold, unitFuncFormat, speratorFuncFormat);
+    cbInterval && cbInterval(label, curGold);
+  })), numOfUpdate), cc.callFunc(function (sender) {
+    label.string = funcFormat(tarGold, unitFuncFormat, speratorFuncFormat);
+    console.log("update tar gold:" + tarGold);
+    cbDone && cbDone(label);
+  })));
 };
 
 module.exports = Utility;
