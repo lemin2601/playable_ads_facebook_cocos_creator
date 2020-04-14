@@ -27,6 +27,14 @@ var CPlayer = cc.Class({
         headProgressBar:{
             default:null,
             type:cc.ParticleSystem
+        },
+        backCard:{
+            default:null,
+            type:cc.Sprite
+        },
+        lbNumCard:{
+            default:null,
+            type:cc.Label
         }
     },
     ctor:function(){
@@ -37,6 +45,7 @@ var CPlayer = cc.Class({
         /** @type {[cardPrefab]}*/
         this.cards = [];
         this._isMyTurn = false;
+        this._numCard = 0;
     },
     onLoad:function(){
         this.setMyTurn(this._isMyTurn);
@@ -80,6 +89,9 @@ var CPlayer = cc.Class({
     },
     setPlayer:function (player) {
         this.player = player;
+        if(this.player.index !== 0){
+            this._numCard = 11;
+        }
     },
     updateUI:function () {
 
@@ -103,6 +115,7 @@ var CPlayer = cc.Class({
                 this.layerCard.addChild(cardPrefab);
                 this.cards.push(cardPrefab);
             }
+            this.lbNumCard.string = this.getNumCard();
         }else{
             console.error("don't have GameControler in Player, so can't create newCard");
         }
@@ -138,16 +151,20 @@ var CPlayer = cc.Class({
             }
             this._updatePosCards();
         }else{
+            var pos = this.node.getPosition();
+            pos.x += this.backCard.node.getPosition().x;
             for (var k = 0; k < cards.length; k++) {
                 var cardPrefab = this.gameController.getNewCard();
                 var cCard = cardPrefab.getComponent("CCard");
                 cCard.setCard(cards[k]);
                 cardPrefab.angle = 0;
-                cCard.setPositionCenter(this.node.getPosition());
+                cCard.setPositionCenter(pos);
                 cardPrefabs.push(cardPrefab);
                 this.layerCard.addChild(cardPrefab);
             }
+            this._numCard -= cards.length;
         }
+        this.lbNumCard.string = this.getNumCard();
         return cardPrefabs;
     },
     _updatePosCards:function(){
@@ -172,6 +189,9 @@ var CPlayer = cc.Class({
 
     getNumCard:function(){
         if(this.player){
+            if(this.player.index !== 0){
+                return this._numCard;
+            }
             return this.player.cards.length;
         }
         return 1;
@@ -219,7 +239,7 @@ var CPlayer = cc.Class({
      */
     getCirclePos:function (pos) {
         var x = pos.x;
-        pos.y = (-1/250*(x*x) - 450 + 120);
+        pos.y = (-1/250*(x*x) - 450);
         return pos;
     },
     onPass:function () {
@@ -265,20 +285,26 @@ var CPlayer = cc.Class({
         this.setMyTurn(true);
     },
     setMyTurn:function (b) {
+        var index = 1;
+        console.log("come:" + index++);
         this._isMyTurn = b;
+        console.log("come:" + index++);
         this.progressBar.node.active = b;
+        console.log("come:" + index++);
         var len = this.cards.length;
         for (var i = 0; i < len; i++) {
             var cardPrefab = this.cards[i];
             var cCard = cardPrefab.getComponent("CCard");
             cCard.setSuggest(true);
         }
+        console.log("come:" + index++);
         if(!b){
             this.headProgressBar.stopSystem();
         }else{
             this.headProgressBar.resetSystem();
         }
-        this.headProgressBar.active = b;
+        console.log("come:" + index++);
+        // this.headProgressBar.active = b;
     },
     onSuggestCard:function (cards) {
         var isContain = function (card) {

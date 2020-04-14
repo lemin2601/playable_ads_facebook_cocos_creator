@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bobai",
+    "texture": "62ac3209-5e79-4025-810f-2f8fb25064c5",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      355,
+      1050
+    ],
+    "offset": [
+      -2,
+      1.5
+    ],
+    "originalSize": [
+      361,
+      1055
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

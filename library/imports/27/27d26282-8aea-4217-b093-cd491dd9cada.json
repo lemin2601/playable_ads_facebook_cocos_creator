@@ -1,0 +1,1527 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "bobai",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "DMNmtIgufQsu0mRNm6Lvi+AhF2w",
+      "spine": "3.6.53",
+      "width": 1546.59,
+      "height": 224.66,
+      "images": "./FX_Text_bobai/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "bg",
+        "parent": "root",
+        "length": 215.78,
+        "rotation": 89.67,
+        "y": 3.33
+      },
+      {
+        "name": "bright]",
+        "parent": "root",
+        "length": 127.33,
+        "rotation": 90,
+        "x": 7,
+        "y": -1.45
+      },
+      {
+        "name": "light",
+        "parent": "root",
+        "length": 416.14,
+        "rotation": 1.09,
+        "x": 320.81,
+        "y": -0.27
+      },
+      {
+        "name": "light2",
+        "parent": "root",
+        "length": 416.14,
+        "rotation": 1.09,
+        "x": -370.12,
+        "y": 3.49,
+        "scaleX": -1
+      }
+    ],
+    "slots": [
+      {
+        "name": "bg",
+        "bone": "bg",
+        "attachment": "bg"
+      },
+      {
+        "name": "Straight_text",
+        "bone": "root",
+        "attachment": "Straight_text"
+      },
+      {
+        "name": "Straight_text 2",
+        "bone": "root",
+        "attachment": "Straight_text 2",
+        "blend": "additive"
+      },
+      {
+        "name": "light_1",
+        "bone": "light",
+        "attachment": "light_1",
+        "blend": "additive"
+      },
+      {
+        "name": "light_2",
+        "bone": "light2",
+        "attachment": "light_1",
+        "blend": "additive"
+      },
+      {
+        "name": "Symbol 2",
+        "bone": "bright]",
+        "attachment": "Symbol 2",
+        "blend": "additive"
+      },
+      {
+        "name": "Flush_text",
+        "bone": "root",
+        "attachment": "Flush_text"
+      },
+      {
+        "name": "Flush_text2",
+        "bone": "root",
+        "attachment": "Flush_text2",
+        "blend": "additive"
+      },
+      {
+        "name": "Fourofakind_text",
+        "bone": "root",
+        "attachment": "Fourofakind_text"
+      },
+      {
+        "name": "Fourofakind_text2",
+        "bone": "root",
+        "attachment": "Fourofakind_text2",
+        "blend": "additive"
+      },
+      {
+        "name": "fullhouse_text",
+        "bone": "root",
+        "attachment": "fullhouse_text"
+      },
+      {
+        "name": "fullhouse_text2",
+        "bone": "root",
+        "attachment": "fullhouse_text2",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "Flush_text": {
+          "Flush_text": {
+            "width": 123,
+            "height": 63
+          }
+        },
+        "Flush_text2": {
+          "Flush_text2": {
+            "width": 123,
+            "height": 63
+          }
+        },
+        "Fourofakind_text": {
+          "Fourofakind_text": {
+            "width": 317,
+            "height": 63
+          }
+        },
+        "Fourofakind_text2": {
+          "Fourofakind_text2": {
+            "width": 317,
+            "height": 63
+          }
+        },
+        "Straight_text": {
+          "Straight_text": {
+            "width": 185,
+            "height": 63
+          }
+        },
+        "Straight_text 2": {
+          "Straight_text 2": {
+            "width": 185,
+            "height": 63
+          }
+        },
+        "Symbol 2": {
+          "Symbol 2": {
+            "x": -4.86,
+            "y": 5.09,
+            "rotation": -88.91,
+            "width": 354,
+            "height": 218
+          }
+        },
+        "bg": {
+          "bg": {
+            "x": -7.4,
+            "y": -0.05,
+            "rotation": -89.67,
+            "width": 737,
+            "height": 119
+          }
+        },
+        "fullhouse_text": {
+          "fullhouse_text": {
+            "width": 233,
+            "height": 63
+          }
+        },
+        "fullhouse_text2": {
+          "fullhouse_text2": {
+            "width": 233,
+            "height": 63
+          }
+        },
+        "light_1": {
+          "light_1": {
+            "x": 201.9,
+            "y": -2.34,
+            "rotation": -1.09,
+            "width": 450,
+            "height": 111
+          }
+        },
+        "light_2": {
+          "light_1": {
+            "x": 201.9,
+            "y": -2.34,
+            "rotation": -1.09,
+            "width": 450,
+            "height": 111
+          }
+        }
+      }
+    },
+    "animations": {
+      "flush": {
+        "slots": {
+          "Flush_text": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.2,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.2333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "Flush_text2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.2,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.4333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.9333,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "Fourofakind_text": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.9333,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "Fourofakind_text2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.9333,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "Straight_text": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.9333,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "Straight_text 2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.9333,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "Symbol 2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1333,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.4667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "bg": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.1333,
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "fullhouse_text": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.9333,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "fullhouse_text2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.9333,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "light_1": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.2667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "light_2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.2667,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "light": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.1667,
+                "x": -349.46,
+                "y": -6.62
+              }
+            ]
+          },
+          "bg": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 0.152,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1333,
+                "x": 1,
+                "y": 0.152
+              },
+              {
+                "time": 0.5,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "bright]": {
+            "scale": [
+              {
+                "time": 0,
+                "x": -0.054,
+                "y": -0.054,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1333,
+                "x": -0.054,
+                "y": -0.054
+              },
+              {
+                "time": 0.1667,
+                "x": 1.033,
+                "y": 1.033
+              },
+              {
+                "time": 0.4667,
+                "x": 1.773,
+                "y": 1.773
+              }
+            ]
+          },
+          "light2": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.1667,
+                "x": 394.75,
+                "y": -3.61
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 1.2
+              }
+            ]
+          }
+        }
+      },
+      "forofakind": {
+        "slots": {
+          "Flush_text": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.9333,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "Flush_text2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.9333,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "Fourofakind_text": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.2,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.2333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "Fourofakind_text2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.2,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.4333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.9333,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "Straight_text": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.9333,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "Straight_text 2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.9333,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "Symbol 2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1333,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.4667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "bg": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.1333,
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "fullhouse_text": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.9333,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "fullhouse_text2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.9333,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "light_1": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.2667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "light_2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.2667,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "light": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.1667,
+                "x": -349.46,
+                "y": -6.62
+              }
+            ]
+          },
+          "bright]": {
+            "scale": [
+              {
+                "time": 0,
+                "x": -0.054,
+                "y": -0.054,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1333,
+                "x": -0.054,
+                "y": -0.054
+              },
+              {
+                "time": 0.1667,
+                "x": 1.033,
+                "y": 1.033
+              },
+              {
+                "time": 0.4667,
+                "x": 1.773,
+                "y": 1.773
+              }
+            ]
+          },
+          "light2": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.1667,
+                "x": 394.75,
+                "y": -3.61
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 1.2
+              }
+            ]
+          },
+          "bg": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 0.152,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1333,
+                "x": 1,
+                "y": 0.152
+              },
+              {
+                "time": 0.5,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      },
+      "fullhouse": {
+        "slots": {
+          "Flush_text": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.9333,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "Flush_text2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.9333,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "Fourofakind_text": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.9333,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "Fourofakind_text2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.9333,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "Straight_text": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.2,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.2333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.9333,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "Straight_text 2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "Symbol 2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1333,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.4667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "bg": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.1333,
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "fullhouse_text": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.2,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.2333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "fullhouse_text2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.2,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.4333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.9333,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "light_1": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.2667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "light_2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.2667,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "light": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.1667,
+                "x": -349.46,
+                "y": -6.62
+              }
+            ]
+          },
+          "bright]": {
+            "scale": [
+              {
+                "time": 0,
+                "x": -0.054,
+                "y": -0.054,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1333,
+                "x": -0.054,
+                "y": -0.054
+              },
+              {
+                "time": 0.1667,
+                "x": 1.033,
+                "y": 1.033
+              },
+              {
+                "time": 0.4667,
+                "x": 1.773,
+                "y": 1.773
+              }
+            ]
+          },
+          "light2": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.1667,
+                "x": 394.75,
+                "y": -3.61
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 1.2
+              }
+            ]
+          },
+          "bg": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 0.152,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1333,
+                "x": 1,
+                "y": 0.152
+              },
+              {
+                "time": 0.5,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      },
+      "straight": {
+        "slots": {
+          "Flush_text": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.9333,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "Flush_text2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.9333,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "Fourofakind_text": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.9333,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "Fourofakind_text2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.9333,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "Straight_text": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.2,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.2333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "Straight_text 2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.2,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.4333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.9333,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "Symbol 2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1333,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.4667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "bg": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.1333,
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "fullhouse_text": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.9333,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "fullhouse_text2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.9333,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "light_1": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.2667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "light_2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.2667,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "light": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.1667,
+                "x": -349.46,
+                "y": -6.62
+              }
+            ]
+          },
+          "bright]": {
+            "scale": [
+              {
+                "time": 0,
+                "x": -0.054,
+                "y": -0.054,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1333,
+                "x": -0.054,
+                "y": -0.054
+              },
+              {
+                "time": 0.1667,
+                "x": 1.033,
+                "y": 1.033
+              },
+              {
+                "time": 0.4667,
+                "x": 1.773,
+                "y": 1.773
+              }
+            ]
+          },
+          "light2": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.1667,
+                "x": 394.75,
+                "y": -3.61
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "shear": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 1.2
+              }
+            ]
+          },
+          "bg": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 0.152,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1333,
+                "x": 1,
+                "y": 0.152
+              },
+              {
+                "time": 0.5,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nbobai.png\nsize: 361,1055\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nFlush_text\n  rotate: true\n  xy: 129, 125\n  size: 123, 63\n  orig: 123, 63\n  offset: 0, 0\n  index: -1\nFlush_text2\n  rotate: true\n  xy: 129, 1\n  size: 123, 63\n  orig: 123, 63\n  offset: 0, 0\n  index: -1\nFourofakind_text\n  rotate: true\n  xy: 233, 382\n  size: 317, 63\n  orig: 317, 63\n  offset: 0, 0\n  index: -1\nFourofakind_text2\n  rotate: true\n  xy: 297, 382\n  size: 317, 63\n  orig: 317, 63\n  offset: 0, 0\n  index: -1\nStraight_text\n  rotate: true\n  xy: 233, 196\n  size: 185, 63\n  orig: 185, 63\n  offset: 0, 0\n  index: -1\nStraight_text 2\n  rotate: true\n  xy: 297, 196\n  size: 185, 63\n  orig: 185, 63\n  offset: 0, 0\n  index: -1\nSymbol 2\n  rotate: true\n  xy: 121, 700\n  size: 354, 218\n  orig: 354, 218\n  offset: 0, 0\n  index: -1\nbg\n  rotate: true\n  xy: 1, 317\n  size: 737, 119\n  orig: 737, 119\n  offset: 0, 0\n  index: -1\nfullhouse_text\n  rotate: true\n  xy: 65, 15\n  size: 233, 63\n  orig: 233, 63\n  offset: 0, 0\n  index: -1\nfullhouse_text2\n  rotate: true\n  xy: 1, 83\n  size: 233, 63\n  orig: 233, 63\n  offset: 0, 0\n  index: -1\nlight_1\n  rotate: true\n  xy: 121, 249\n  size: 450, 111\n  orig: 450, 111\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "62ac3209-5e79-4025-810f-2f8fb25064c5"
+    }
+  ],
+  "textureNames": [
+    "bobai.png"
+  ],
+  "scale": 1
+}

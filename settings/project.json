@@ -27,8 +27,6 @@
     "Physics",
     "PageView",
     "PageViewIndicator",
-    "ProgressBar",
-    "ParticleSystem",
     "RichText",
     "Slider",
     "ScrollBar",
@@ -70,6 +68,5 @@
     "live": {
       "enable": false
     }
-  },
-  "start-scene": "current"
+  }
 }

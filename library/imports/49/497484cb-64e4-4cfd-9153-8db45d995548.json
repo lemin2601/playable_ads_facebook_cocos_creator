@@ -1,0 +1,377 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "1",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "b9ah8oXxdhCe7h+Zi1hu1hSjZQk",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0,
+      "images": "./Emo 1/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "mom",
+        "parent": "root",
+        "length": 84.84,
+        "rotation": 89.33,
+        "x": -0.75,
+        "y": -5.75
+      },
+      {
+        "name": "nuoc mat",
+        "parent": "root",
+        "length": 45.8,
+        "rotation": -172.49,
+        "x": -34.18,
+        "y": 25.19
+      },
+      {
+        "name": "nuoc mat2",
+        "parent": "root",
+        "length": 45.8,
+        "rotation": 166.69,
+        "x": 38,
+        "y": 25.21,
+        "scaleX": -1
+      },
+      {
+        "name": "tay",
+        "parent": "root",
+        "x": 43.66,
+        "y": -20.03
+      },
+      {
+        "name": "tay2",
+        "parent": "root",
+        "x": -44.9,
+        "y": -20.03
+      }
+    ],
+    "slots": [
+      {
+        "name": "Layer 26",
+        "bone": "root",
+        "attachment": "Layer 26"
+      },
+      {
+        "name": "Layer 17",
+        "bone": "mom",
+        "attachment": "Layer 17"
+      },
+      {
+        "name": "Layer 18",
+        "bone": "root",
+        "attachment": "Layer 18"
+      },
+      {
+        "name": "Layer 181",
+        "bone": "tay",
+        "attachment": "Layer 181"
+      },
+      {
+        "name": "Layer 182",
+        "bone": "tay2",
+        "attachment": "Layer 181"
+      },
+      {
+        "name": "Layer 16",
+        "bone": "nuoc mat",
+        "attachment": "Layer 16"
+      },
+      {
+        "name": "Layer 19",
+        "bone": "nuoc mat2",
+        "attachment": "Layer 16"
+      }
+    ],
+    "skins": {
+      "default": {
+        "Layer 16": {
+          "Layer 16": {
+            "x": 9.08,
+            "y": 1.5,
+            "rotation": 172.49,
+            "width": 31,
+            "height": 16
+          }
+        },
+        "Layer 17": {
+          "Layer 17": {
+            "x": 0.97,
+            "y": -0.74,
+            "rotation": -89.33,
+            "width": 79,
+            "height": 47
+          }
+        },
+        "Layer 18": {
+          "Layer 18": {
+            "y": 21.33,
+            "width": 111,
+            "height": 38
+          }
+        },
+        "Layer 181": {
+          "Layer 181": {
+            "x": 0.57,
+            "y": 0.16,
+            "width": 25,
+            "height": 24
+          }
+        },
+        "Layer 182": {
+          "Layer 181": {
+            "x": 0.57,
+            "y": 0.16,
+            "width": 25,
+            "height": 24
+          }
+        },
+        "Layer 19": {
+          "Layer 16": {
+            "x": 9.08,
+            "y": 1.5,
+            "rotation": 172.49,
+            "width": 31,
+            "height": 16
+          }
+        },
+        "Layer 26": {
+          "Layer 26": {
+            "width": 93,
+            "height": 96
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "Layer 16": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "Layer 19": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "mom": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4333,
+                "x": 0.755,
+                "y": 0.755,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.8333,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "nuoc mat": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0.05
+              },
+              {
+                "time": 0.6667,
+                "angle": 21.56
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.3333,
+                "x": -20.23,
+                "y": -16.42
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              },
+              {
+                "time": 0.0333,
+                "x": 1.717,
+                "y": 1.717
+              },
+              {
+                "time": 0.3333,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "nuoc mat2": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0.05
+              },
+              {
+                "time": 0.6667,
+                "angle": -9.29
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.3333,
+                "x": 15.55,
+                "y": -14.43
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              },
+              {
+                "time": 0.0333,
+                "x": 1.717,
+                "y": 1.717
+              },
+              {
+                "time": 0.3333,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "tay": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.2,
+                "x": 0,
+                "y": -16.7
+              },
+              {
+                "time": 0.4,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.6,
+                "x": 0,
+                "y": -16.7
+              },
+              {
+                "time": 0.8333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "tay2": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.2,
+                "x": 0,
+                "y": -16.7
+              },
+              {
+                "time": 0.4,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.6,
+                "x": 0,
+                "y": -16.7
+              },
+              {
+                "time": 0.8333,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\n1.png\nsize: 143,137\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nLayer 16\n  rotate: false\n  xy: 95, 40\n  size: 31, 16\n  orig: 31, 16\n  offset: 0, 0\n  index: -1\nLayer 17\n  rotate: true\n  xy: 95, 57\n  size: 79, 47\n  orig: 79, 47\n  offset: 0, 0\n  index: -1\nLayer 18\n  rotate: false\n  xy: 1, 1\n  size: 111, 38\n  orig: 111, 38\n  offset: 0, 0\n  index: -1\nLayer 181\n  rotate: false\n  xy: 113, 15\n  size: 25, 24\n  orig: 25, 24\n  offset: 0, 0\n  index: -1\nLayer 26\n  rotate: false\n  xy: 1, 40\n  size: 93, 96\n  orig: 93, 96\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "b64ad6b2-acec-4496-9b62-5748e18f111a"
+    }
+  ],
+  "textureNames": [
+    "1.png"
+  ],
+  "scale": 1
+}

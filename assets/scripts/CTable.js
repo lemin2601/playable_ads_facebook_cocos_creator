@@ -51,7 +51,7 @@ cc.Class({
         if(offset > maxOffsetX) offset = maxOffsetX;
         //re-call startX;
         startX = startX +  (endX - startX - (offset *(num - 1)))/2;
-        return new cc.Vec2(startX + (offset * index), y);
+        return new cc.Vec2(startX + (offset * index) - 73, y - 98);
     },
     setNumCard:function (number) {
         this.numCard = number;

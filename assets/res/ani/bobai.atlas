@@ -1,0 +1,83 @@
+
+bobai.png
+size: 361,1055
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Flush_text
+  rotate: true
+  xy: 129, 125
+  size: 123, 63
+  orig: 123, 63
+  offset: 0, 0
+  index: -1
+Flush_text2
+  rotate: true
+  xy: 129, 1
+  size: 123, 63
+  orig: 123, 63
+  offset: 0, 0
+  index: -1
+Fourofakind_text
+  rotate: true
+  xy: 233, 382
+  size: 317, 63
+  orig: 317, 63
+  offset: 0, 0
+  index: -1
+Fourofakind_text2
+  rotate: true
+  xy: 297, 382
+  size: 317, 63
+  orig: 317, 63
+  offset: 0, 0
+  index: -1
+Straight_text
+  rotate: true
+  xy: 233, 196
+  size: 185, 63
+  orig: 185, 63
+  offset: 0, 0
+  index: -1
+Straight_text 2
+  rotate: true
+  xy: 297, 196
+  size: 185, 63
+  orig: 185, 63
+  offset: 0, 0
+  index: -1
+Symbol 2
+  rotate: true
+  xy: 121, 700
+  size: 354, 218
+  orig: 354, 218
+  offset: 0, 0
+  index: -1
+bg
+  rotate: true
+  xy: 1, 317
+  size: 737, 119
+  orig: 737, 119
+  offset: 0, 0
+  index: -1
+fullhouse_text
+  rotate: true
+  xy: 65, 15
+  size: 233, 63
+  orig: 233, 63
+  offset: 0, 0
+  index: -1
+fullhouse_text2
+  rotate: true
+  xy: 1, 83
+  size: 233, 63
+  orig: 233, 63
+  offset: 0, 0
+  index: -1
+light_1
+  rotate: true
+  xy: 121, 249
+  size: 450, 111
+  orig: 450, 111
+  offset: 0, 0
+  index: -1

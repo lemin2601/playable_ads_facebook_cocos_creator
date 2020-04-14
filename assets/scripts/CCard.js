@@ -80,11 +80,11 @@ var CCard = cc.Class({
         this.node.on(cc.Node.EventType.TOUCH_MOVE, this.onTouch, this);
         this.node.on(cc.Node.EventType.TOUCH_END, this.onTouch, this);
         this.node.on(cc.Node.EventType.TOUCH_CANCEL, this.onTouch, this);
-        // this.node.on("cardtouch",this.onEmit,this);
+        // this.node.on("card-touch",this.onEmit,this);
 
     },
     onEmit:function(){
-        console.log("onEmit card:" + this.card.toString());
+        console.log("card-touch:" + this.card.toString());
     },
     onTouch:function(event){
         if(this.owner){
@@ -137,7 +137,7 @@ var CCard = cc.Class({
     },
 
     setPositionCenter:function (pos) {
-        this.node.setPosition(pos.x - 50,pos.y - 65);
+        this.node.setPosition(pos.x - 73,pos.y - 98);
     },
     setSuggest:function (b) {
         this.layerSuggest.active = !b;

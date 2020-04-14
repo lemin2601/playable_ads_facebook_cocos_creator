@@ -1,0 +1,41 @@
+
+4.png
+size: 193,104
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 26
+  rotate: false
+  xy: 1, 7
+  size: 93, 96
+  orig: 93, 96
+  offset: 0, 0
+  index: -1
+Layer 42
+  rotate: false
+  xy: 1, 1
+  size: 52, 5
+  orig: 52, 5
+  offset: 0, 0
+  index: -1
+Layer 43
+  rotate: false
+  xy: 95, 49
+  size: 97, 54
+  orig: 97, 54
+  offset: 0, 0
+  index: -1
+Layer 45
+  rotate: false
+  xy: 95, 14
+  size: 38, 34
+  orig: 38, 34
+  offset: 0, 0
+  index: -1
+Layer 74
+  rotate: false
+  xy: 134, 39
+  size: 39, 9
+  orig: 39, 9
+  offset: 0, 0
+  index: -1

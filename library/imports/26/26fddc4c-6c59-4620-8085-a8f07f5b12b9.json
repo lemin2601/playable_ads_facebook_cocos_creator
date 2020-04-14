@@ -1,0 +1,646 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "3",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "E2ybZ7Ntzkr9H75VAmX6SAzEkWM",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0,
+      "images": "./Emo 1/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "long may",
+        "parent": "root",
+        "length": 92.49,
+        "rotation": 90,
+        "x": 0.16,
+        "y": 32.7
+      },
+      {
+        "name": "mieng",
+        "parent": "root",
+        "length": 41.59,
+        "rotation": -90,
+        "x": -0.56,
+        "y": -26.81
+      },
+      {
+        "name": "nuocmat",
+        "parent": "root",
+        "length": 58.65,
+        "rotation": 179.29,
+        "x": -1.26,
+        "y": -28.88
+      },
+      {
+        "name": "nuocmat2",
+        "parent": "root",
+        "length": 48.44,
+        "rotation": -112.93,
+        "x": -25.72,
+        "y": 24.23
+      },
+      {
+        "name": "nuocmat3",
+        "parent": "root",
+        "length": 47.4,
+        "rotation": -70.25,
+        "x": 21.18,
+        "y": 25.38
+      },
+      {
+        "name": "nuowcmui",
+        "parent": "root",
+        "length": 44.92,
+        "rotation": -87.84,
+        "x": 4.77,
+        "y": 9.67,
+        "scaleX": 0.676,
+        "scaleY": 0.676
+      }
+    ],
+    "slots": [
+      {
+        "name": "eff/Emo 1/Layer 20",
+        "bone": "nuocmat",
+        "attachment": "eff/Emo 1/Layer 20"
+      },
+      {
+        "name": "eff/Emo 1/Shape_all",
+        "bone": "root",
+        "attachment": "eff/Emo 1/Shape_all"
+      },
+      {
+        "name": "eff/Emo 1/Layer 23",
+        "bone": "mieng",
+        "attachment": "eff/Emo 1/Layer 23"
+      },
+      {
+        "name": "eff/Emo 1/Layer 22",
+        "bone": "long may",
+        "attachment": "eff/Emo 1/Layer 22"
+      },
+      {
+        "name": "eff/Emo 1/Layer 21",
+        "bone": "root",
+        "attachment": "eff/Emo 1/Layer 21"
+      },
+      {
+        "name": "eff/Emo 1/Layer 9",
+        "bone": "nuowcmui",
+        "attachment": "eff/Emo 1/Layer 9"
+      },
+      {
+        "name": "eff/Emo 1/Symbol 1",
+        "bone": "nuocmat3",
+        "attachment": "eff/Emo 1/Symbol 1"
+      },
+      {
+        "name": "eff/Emo 1/Symbol 2",
+        "bone": "nuocmat2",
+        "attachment": "eff/Emo 1/Symbol 2"
+      },
+      {
+        "name": "eff/Emo 1/1",
+        "bone": "root",
+        "attachment": "eff/Emo 1/7",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "eff/Emo 1/1": {
+          "eff/Emo 1/1": {
+            "path": "1",
+            "x": -0.72,
+            "y": 2.66,
+            "width": 82,
+            "height": 30
+          },
+          "eff/Emo 1/2": {
+            "path": "2",
+            "x": 0.06,
+            "y": 0.52,
+            "width": 82,
+            "height": 31
+          },
+          "eff/Emo 1/3": {
+            "path": "3",
+            "x": 0.06,
+            "y": 0.52,
+            "width": 82,
+            "height": 32
+          },
+          "eff/Emo 1/4": {
+            "path": "4",
+            "x": 0.06,
+            "y": -3.49,
+            "width": 82,
+            "height": 32
+          },
+          "eff/Emo 1/5": {
+            "path": "5",
+            "x": 0.06,
+            "y": -7.5,
+            "width": 82,
+            "height": 33
+          },
+          "eff/Emo 1/6": {
+            "path": "6",
+            "x": 0.46,
+            "y": -7.5,
+            "width": 82,
+            "height": 33
+          },
+          "eff/Emo 1/7": {
+            "path": "7",
+            "x": 0.46,
+            "y": -14.72,
+            "width": 82,
+            "height": 34
+          }
+        },
+        "eff/Emo 1/Layer 20": {
+          "eff/Emo 1/Layer 20": {
+            "path": "Layer 20",
+            "x": -1.04,
+            "y": 4.8,
+            "rotation": -179.29,
+            "width": 90,
+            "height": 39
+          }
+        },
+        "eff/Emo 1/Layer 21": {
+          "eff/Emo 1/Layer 21": {
+            "path": "Layer 21",
+            "y": 14.78,
+            "width": 100,
+            "height": 33
+          }
+        },
+        "eff/Emo 1/Layer 22": {
+          "eff/Emo 1/Layer 22": {
+            "path": "Layer 22",
+            "x": 0.55,
+            "y": -2.68,
+            "rotation": -90,
+            "width": 47,
+            "height": 14
+          }
+        },
+        "eff/Emo 1/Layer 23": {
+          "eff/Emo 1/Layer 23": {
+            "path": "Layer 23",
+            "x": 2.81,
+            "y": 0.56,
+            "rotation": 90,
+            "width": 30,
+            "height": 12
+          }
+        },
+        "eff/Emo 1/Layer 9": {
+          "eff/Emo 1/Layer 9": {
+            "path": "Layer 9",
+            "x": 8.86,
+            "y": -0.35,
+            "scaleX": 0.641,
+            "scaleY": 0.679,
+            "rotation": 87.84,
+            "width": 23,
+            "height": 40
+          }
+        },
+        "eff/Emo 1/Shape_all": {
+          "eff/Emo 1/Shape_all": {
+            "path": "Shape_all",
+            "width": 93,
+            "height": 96
+          }
+        },
+        "eff/Emo 1/Symbol 1": {
+          "eff/Emo 1/Symbol 1": {
+            "path": "Symbol 1",
+            "x": 29.03,
+            "y": -5.18,
+            "rotation": 70.25,
+            "width": 30,
+            "height": 60
+          }
+        },
+        "eff/Emo 1/Symbol 2": {
+          "eff/Emo 1/Symbol 2": {
+            "path": "Symbol 2",
+            "x": 27.43,
+            "y": 8.4,
+            "rotation": 112.93,
+            "width": 25,
+            "height": 61
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "eff/Emo 1/1": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffff40"
+              },
+              {
+                "time": 0.5667,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6333,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.8,
+                "color": "ffffff40"
+              },
+              {
+                "time": 1.0333,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.1,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1.2667,
+                "color": "ffffff40"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0.1667,
+                "name": "eff/Emo 1/1"
+              },
+              {
+                "time": 0.2333,
+                "name": "eff/Emo 1/2"
+              },
+              {
+                "time": 0.3,
+                "name": "eff/Emo 1/3"
+              },
+              {
+                "time": 0.3667,
+                "name": "eff/Emo 1/4"
+              },
+              {
+                "time": 0.4333,
+                "name": "eff/Emo 1/5"
+              },
+              {
+                "time": 0.5,
+                "name": "eff/Emo 1/6"
+              },
+              {
+                "time": 0.5667,
+                "name": "eff/Emo 1/7"
+              },
+              {
+                "time": 0.6333,
+                "name": "eff/Emo 1/1"
+              },
+              {
+                "time": 0.7,
+                "name": "eff/Emo 1/2"
+              },
+              {
+                "time": 0.7667,
+                "name": "eff/Emo 1/3"
+              },
+              {
+                "time": 0.8333,
+                "name": "eff/Emo 1/4"
+              },
+              {
+                "time": 0.9,
+                "name": "eff/Emo 1/5"
+              },
+              {
+                "time": 0.9667,
+                "name": "eff/Emo 1/6"
+              },
+              {
+                "time": 1.0333,
+                "name": "eff/Emo 1/7"
+              },
+              {
+                "time": 1.1,
+                "name": "eff/Emo 1/1"
+              },
+              {
+                "time": 1.1667,
+                "name": "eff/Emo 1/2"
+              },
+              {
+                "time": 1.2333,
+                "name": "eff/Emo 1/3"
+              },
+              {
+                "time": 1.3,
+                "name": "eff/Emo 1/4"
+              },
+              {
+                "time": 1.3667,
+                "name": "eff/Emo 1/5"
+              },
+              {
+                "time": 1.4333,
+                "name": "eff/Emo 1/6"
+              },
+              {
+                "time": 1.5,
+                "name": "eff/Emo 1/7"
+              }
+            ]
+          },
+          "eff/Emo 1/Layer 9": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.5,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.5333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.0333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.2667,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "root": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "mieng": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.3333,
+                "x": -0.67,
+                "y": -4.02,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.1667,
+                "x": -0.67,
+                "y": -4.02
+              },
+              {
+                "time": 1.3333,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              },
+              {
+                "time": 0.3333,
+                "x": 1,
+                "y": 1.288
+              },
+              {
+                "time": 0.6667,
+                "x": 1,
+                "y": 1
+              },
+              {
+                "time": 1,
+                "x": 1,
+                "y": 1.288
+              },
+              {
+                "time": 1.1667,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "long may": {
+            "translate": [
+              {
+                "time": 1,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 1.3333,
+                "x": 0,
+                "y": 2.54
+              },
+              {
+                "time": 1.5333,
+                "x": 0,
+                "y": 0
+              }
+            ],
+            "scale": [
+              {
+                "time": 1,
+                "x": 1,
+                "y": 1
+              },
+              {
+                "time": 1.3333,
+                "x": 1,
+                "y": 0.832
+              },
+              {
+                "time": 1.5333,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "nuowcmui": {
+            "translate": [
+              {
+                "time": 0.5,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 1.5333,
+                "x": 0.69,
+                "y": -25.13
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.5,
+                "x": 0.275,
+                "y": 0.304
+              },
+              {
+                "time": 1.5333,
+                "x": 1.05,
+                "y": 1.162
+              }
+            ]
+          },
+          "nuocmat": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1
+              },
+              {
+                "time": 0.1667,
+                "x": 1.029,
+                "y": 1.029
+              },
+              {
+                "time": 0.3333,
+                "x": 1,
+                "y": 1
+              },
+              {
+                "time": 0.5,
+                "x": 1.029,
+                "y": 1.029
+              },
+              {
+                "time": 0.6667,
+                "x": 1,
+                "y": 1
+              },
+              {
+                "time": 0.8333,
+                "x": 1.029,
+                "y": 1.029
+              },
+              {
+                "time": 1,
+                "x": 1,
+                "y": 1
+              },
+              {
+                "time": 1.1667,
+                "x": 1.029,
+                "y": 1.029
+              },
+              {
+                "time": 1.3333,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "nuocmat2": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              },
+              {
+                "time": 0.2333,
+                "angle": -2.03
+              },
+              {
+                "time": 0.5,
+                "angle": 0
+              },
+              {
+                "time": 0.7667,
+                "angle": -2.03
+              },
+              {
+                "time": 1,
+                "angle": 0
+              }
+            ]
+          },
+          "nuocmat3": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              },
+              {
+                "time": 0.2667,
+                "angle": 2.93
+              },
+              {
+                "time": 0.5,
+                "angle": 0
+              },
+              {
+                "time": 0.7333,
+                "angle": 2.93
+              },
+              {
+                "time": 1,
+                "angle": 0
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\n3.png\nsize: 411,110\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\n1\n  rotate: false\n  xy: 98, 6\n  size: 82, 30\n  orig: 82, 30\n  offset: 0, 0\n  index: -1\n2\n  rotate: false\n  xy: 181, 10\n  size: 82, 31\n  orig: 82, 31\n  offset: 0, 0\n  index: -1\n3\n  rotate: false\n  xy: 189, 42\n  size: 82, 32\n  orig: 82, 32\n  offset: 0, 0\n  index: -1\n4\n  rotate: false\n  xy: 98, 37\n  size: 82, 32\n  orig: 82, 32\n  offset: 0, 0\n  index: -1\n5\n  rotate: true\n  xy: 373, 27\n  size: 82, 33\n  orig: 82, 33\n  offset: 0, 0\n  index: -1\n6\n  rotate: false\n  xy: 272, 42\n  size: 82, 33\n  orig: 82, 33\n  offset: 0, 0\n  index: -1\n7\n  rotate: false\n  xy: 189, 75\n  size: 82, 34\n  orig: 82, 34\n  offset: 0, 0\n  index: -1\nLayer 20\n  rotate: false\n  xy: 98, 70\n  size: 90, 39\n  orig: 90, 39\n  offset: 0, 0\n  index: -1\nLayer 21\n  rotate: false\n  xy: 272, 76\n  size: 100, 33\n  orig: 100, 33\n  offset: 0, 0\n  index: -1\nLayer 22\n  rotate: true\n  xy: 355, 28\n  size: 47, 14\n  orig: 47, 14\n  offset: 0, 0\n  index: -1\nLayer 23\n  rotate: false\n  xy: 1, 3\n  size: 30, 12\n  orig: 30, 12\n  offset: 0, 0\n  index: -1\nLayer 9\n  rotate: false\n  xy: 325, 1\n  size: 23, 40\n  orig: 23, 40\n  offset: 0, 0\n  index: -1\nShape_all\n  rotate: true\n  xy: 1, 16\n  size: 93, 96\n  orig: 93, 96\n  offset: 0, 0\n  index: -1\nSymbol 1\n  rotate: true\n  xy: 264, 11\n  size: 30, 60\n  orig: 30, 60\n  offset: 0, 0\n  index: -1\nSymbol 2\n  rotate: true\n  xy: 349, 1\n  size: 25, 61\n  orig: 25, 61\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "99fea475-80bc-40dd-9ce1-14274d1abad0"
+    }
+  ],
+  "textureNames": [
+    "3.png"
+  ],
+  "scale": 1
+}

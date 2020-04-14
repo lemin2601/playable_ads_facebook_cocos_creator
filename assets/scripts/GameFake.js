@@ -10,6 +10,12 @@ var SoundType = {
     FULL_HOUSE:3,
     WIN:4
 };
+var CardGroup = {
+    NONE:0,
+    STRAIGHT:1,
+    FULL_HOUSE:2,
+    FOUR_OF_KIND:3
+};
 //["♣", "♠", "♥", "♦"];
 var actions = [
     {
@@ -22,7 +28,9 @@ var actions = [
             Card.from("10","♠"),
             Card.from("J","♥")
         ],
-        time:1,//delay action (s)
+        group:CardGroup.STRAIGHT,
+        emo:0,
+        time:3,//delay action (s)
         sound:SoundType.STRAIGHT,
         next:2
     },
@@ -36,7 +44,9 @@ var actions = [
             Card.from("K","♦"),
             Card.from("A","♦")
         ],
-        time:1,//delay action (s)
+        group:CardGroup.FLUSH,
+        emo:[1,2],
+        time:3,//delay action (s)
         sound:SoundType.FLUSH,
         next:0
     },
@@ -50,7 +60,9 @@ var actions = [
             Card.from("4","♠"),
             Card.from("4","♥")
         ],
-        time:1,//delay action (s)
+        group:CardGroup.FULL_HOUSE,
+        emo:3,
+        time:4,//delay action (s)
         sound:SoundType.FULL_HOUSE,
         next:1,
         suggest:true
@@ -65,15 +77,18 @@ var actions = [
             Card.from("9","♠"),
             Card.from("9","♥")
         ],
-        time:1,//delay action (s)
+        group:CardGroup.FULL_HOUSE,
+        emo:4,
+        time:3,//delay action (s)
         sound:SoundType.FULL_HOUSE,
         next:2
     },
     {
         index:2,//bot
         type:ActionType.PASS,
+        group:CardGroup.NONE,
         cards:[],
-        time:1,//delay action (s)
+        time:2,//delay action (s)
         next:0
     },
     {
@@ -86,7 +101,9 @@ var actions = [
             Card.from("2","♥"),
             Card.from("2","♦")
         ],
+        group:CardGroup.FOUR_OF_KIND,
         time:1,//delay action (s)
+        emo:5,
         sound:SoundType.WIN,
         isEnded:true
     }

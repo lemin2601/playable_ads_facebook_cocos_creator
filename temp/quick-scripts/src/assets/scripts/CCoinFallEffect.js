@@ -34,7 +34,8 @@ cc.Class({
       this.listCoin.push(coinEffect);
     }
   },
-  start: function start() {
+  start: function start() {},
+  onEnable: function onEnable() {
     setTimeout(function () {
       var len = this.listCoin.length;
 
@@ -43,7 +44,7 @@ cc.Class({
         coinEffect.node.active = true;
         coinEffect.running = true;
       }
-    }.bind(this), 500);
+    }.bind(this), 100);
   },
   update: function update(dt) {}
 });

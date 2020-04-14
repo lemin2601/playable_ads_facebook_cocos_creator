@@ -72,6 +72,14 @@ cc.Class({
       "default": null,
       type: cc.Prefab
     },
+    imgHands: {
+      "default": [],
+      type: [cc.Sprite]
+    },
+    emoPlayers: {
+      "default": [],
+      type: [cc.Node]
+    },
     _poolCard: {
       "default": null,
       type: cc.NodePool,
@@ -89,19 +97,13 @@ cc.Class({
     this.startPointTouch = null;
     this.zIndexCard = 10;
     this.audio = null;
-  },
-  onEnable: function onEnable() {
-    console.log("onEnable players:" + this.players.length);
-  },
-  attachLayerCardToPlayer: function attachLayerCardToPlayer() {
-    var len = this.players.length;
-
-    for (var i = 0; i < len; i++) {
-      var cPlayer = this.players[i].getComponent("CPlayer");
-      cPlayer.setLayerCard(this.layerCard);
-    }
+    this._posHands = [];
   },
   onLoad: function onLoad() {
+    for (var i = 0; i < this.imgHands.length; i++) {
+      this._posHands.push(this.imgHands[i].node.getPosition());
+    }
+
     this.nodeCHPlay.active = false;
     this.effectWin.getComponent("CEffectWin").gameController = this;
     this.nodeSuggestGesture.active = false;
@@ -140,7 +142,7 @@ cc.Class({
       this.layerCard.addChild(cardPrefabs);
     }
 
-    console.log("onEnable players:" + this.players.length); //update info avatar
+    console.log("onEnable players:" + this.players.length); //update info avatar + load card
 
     var playersConfig = gameInfo.players;
 
@@ -172,9 +174,63 @@ cc.Class({
       this.scheduleOnce(function () {
         this.executeAction();
       }.bind(this), delayTime);
+    } // this._playEmo(5);
+    //
+    // setTimeout(function () {
+    //     this._playEmo(4);
+    // }.bind(this),2000);
+
+  },
+  _playEmo: function _playEmo(index) {
+    console.log("play emo:" + index);
+    var emo = this.emoPlayers[index];
+
+    if (emo) {
+      var spine = emo.getComponent('sp.Skeleton'); // spine.setStartListener(function(trackEntry){
+      //     var animationName = trackEntry.animation ? trackEntry.animation.name : "";
+      //     cc.log("[track %s][animation %s] start.", trackEntry.trackIndex, animationName);
+      // });
+      // spine.setInterruptListener(function (trackEntry){
+      //     var animationName = trackEntry.animation ? trackEntry.animation.name : "";
+      //     cc.log("[track %s][animation %s] interrupt.", trackEntry.trackIndex, animationName);
+      // });
+      // spine.setEndListener(function (trackEntry){
+      //     var animationName = trackEntry.animation ? trackEntry.animation.name : "";
+      //     cc.log("[track %s][animation %s] end.", trackEntry.trackIndex, animationName);
+      // });
+      // spine.setDisposeListener(function (trackEntry){
+      //     var animationName = trackEntry.animation ? trackEntry.animation.name : "";
+      //     cc.log("[track %s][animation %s] will be disposed.", trackEntry.trackIndex, animationName);
+      // });
+
+      spine.setCompleteListener(function (trackEntry) {
+        emo.active = false; // var animationName = trackEntry.animation ? trackEntry.animation.name : "";
+        // // if (animationName === 'shoot') {
+        // //     this.spine.clearTrack(1);
+        // // }
+        // var loopCount = Math.floor(trackEntry.trackTime / trackEntry.animationEnd);
+        // cc.log("[track %s][animation %s] complete: %s", trackEntry.trackIndex, animationName, loopCount);
+      }); // spine.setEventListener(function(trackEntry, event){
+      //     var animationName = trackEntry.animation ? trackEntry.animation.name : "";
+      //     cc.log("[track %s][animation %s] event: %s, %s, %s, %s", trackEntry.trackIndex, animationName, event.data.name, event.intValue, event.floatValue, event.stringValue);
+      // });
+
+      emo.active = true;
+      spine.setAnimation(0, 'animation', false);
     }
   },
   start: function start() {},
+  onEnable: function onEnable() {
+    console.log("onEnable players:" + this.players.length);
+  },
+  attachLayerCardToPlayer: function attachLayerCardToPlayer() {
+    var len = this.players.length;
+
+    for (var i = 0; i < len; i++) {
+      var cPlayer = this.players[i].getComponent("CPlayer");
+      cPlayer.setLayerCard(this.layerCard);
+    }
+  },
   onEnterTurn: function onEnterTurn(index) {
     console.log("onEnterTurn: " + index);
     var cPlayer = this.players[index].getComponent(CPlayer);
@@ -195,7 +251,7 @@ cc.Class({
         break;
 
       case ActionType.DISCARD:
-        this.onDiscardAt(index, actionConfig.cards);
+        this.onDiscardAt(index, actionConfig.cards, actionConfig.group);
         break;
     }
 
@@ -205,8 +261,27 @@ cc.Class({
       this.audio.playAudio(sound);
     }
 
+    var emo = actionConfig.emo;
+
+    if (emo != null) {
+      if (emo instanceof Array) {
+        for (var k = 0; k < emo.length; k++) {
+          setTimeout(function (i) {
+            this._playEmo(i);
+          }.bind(this, emo[k]), k * 2000);
+        }
+      } else {
+        this._playEmo(emo);
+      }
+    }
+
     if (actionConfig.isEnded) {
       this.effectWin.active = true;
+
+      for (var i = 0; i < this.imgHands.length; i++) {
+        var hand = this.imgHands[i];
+        hand.node.runAction(cc.moveBy(0.5, 0, -300));
+      }
     } else {
       this.curIndex = actionConfig.next;
 
@@ -245,10 +320,22 @@ cc.Class({
     var cPlayer = this.players[index].getComponent(CPlayer);
     cPlayer.onPass();
   },
-  onDiscardAt: function onDiscardAt(index, cards) {
+  onDiscardAt: function onDiscardAt(index, cards, groupType) {
     console.log("onDiscardAt:" + index + "|" + JSON.stringify(cards));
     var cTable = this.table.getComponent(CTable);
     var cardPrefabs = this.players[index].getComponent(CPlayer).onDiscard(cards);
+
+    var effectDiscard = function effectDiscard(cardPrefab) {
+      //1. move den dock -> xoay lai 0 do -> nay bat ra ra 1 ti
+      var cCard = cardPrefab.getComponent(CCard);
+      var len = cTable.numCard;
+      var index = cCard.index;
+      var p = cTable.getPositionCard(cCard);
+      var duration = 0.3;
+      var duration1 = 0.15;
+      cardPrefab.runAction(cc.sequence(cc.spawn(cc.moveTo(duration, p), cc.rotateTo(duration, 0), cc.sequence(cc.scaleTo(duration / 2, 1.2, 1.2), cc.scaleTo(duration / 2, 0.95, 0.95))), cc.spawn(cc.scaleTo(duration1, 1, 1), cc.moveTo(duration1, p.x + Math.random() * 10 * (index - (len - 1) / 2), p.y), cc.rotateTo(duration1, (index - (len - 1) / 2) * Math.random() * 4))));
+    };
+
     var len = cardPrefabs.length;
     cTable.setNumCard(len);
 
@@ -257,12 +344,15 @@ cc.Class({
       var cCard = cardPrefab.getComponent(CCard);
       cCard.index = k;
       cCard.owner = cTable;
-      var p = cTable.getPositionCard(cCard);
-      cardPrefab.zIndex = ++this.zIndexCard; // cardPrefab.setPosition(p);
-
-      cardPrefab.runAction(cc.spawn(cc.moveTo(1, p), cc.rotateTo(1, 0))); // cc.log("newZIndex:" + this.zIndexCard)
-
-      ; // this.layerGame.addChild(cardPrefab);
+      cardPrefab.zIndex = ++this.zIndexCard;
+      effectDiscard(cardPrefab); // var p = cTable.getPositionCard(cCard);
+      // cardPrefab.runAction(cc.spawn(
+      //     cc.moveTo(0.15,p),
+      //     cc.rotateTo(1,0)
+      // ));
+      // cc.log("newZIndex:" + this.zIndexCard);
+      //duoc add khi tao ra
+      // this.layerGame.addChild(cardPrefab);
     } // for (var j = 0; j < cards.length; j++) {
     //     var c = cards[j];
     //
@@ -304,13 +394,15 @@ cc.Class({
 
             case cc.Node.EventType.TOUCH_END:
             case cc.Node.EventType.TOUCH_CANCEL:
-              var pos = data.event.getLocation();
+              if (this.startPointTouch) {
+                var pos = data.event.getLocation();
 
-              if (pos.y - this.startPointTouch.y > 45) {
-                this.executeAction();
-                cc.log("Discard on my turn");
-              } else {
-                cc.log("!!Discard on my turn");
+                if (pos.y - this.startPointTouch.y > 45) {
+                  this.executeAction();
+                  cc.log("Discard on my turn");
+                } else {
+                  cc.log("!!Discard on my turn");
+                }
               }
 
               cc.log("touch:" + JSON.stringify(this.startPointTouch) + "| " + JSON.stringify(pos));

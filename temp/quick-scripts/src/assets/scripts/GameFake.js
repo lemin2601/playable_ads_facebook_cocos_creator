@@ -19,6 +19,12 @@ var SoundType = {
   FLUSH: 2,
   FULL_HOUSE: 3,
   WIN: 4
+};
+var CardGroup = {
+  NONE: 0,
+  STRAIGHT: 1,
+  FULL_HOUSE: 2,
+  FOUR_OF_KIND: 3
 }; //["♣", "♠", "♥", "♦"];
 
 var actions = [{
@@ -26,7 +32,9 @@ var actions = [{
   //bot 1
   type: ActionType.DISCARD,
   cards: [Card.from("7", "♠"), Card.from("8", "♥"), Card.from("9", "♣"), Card.from("10", "♠"), Card.from("J", "♥")],
-  time: 1,
+  group: CardGroup.STRAIGHT,
+  emo: 0,
+  time: 3,
   //delay action (s)
   sound: SoundType.STRAIGHT,
   next: 2
@@ -35,7 +43,9 @@ var actions = [{
   //bot 2
   type: ActionType.DISCARD,
   cards: [Card.from("5", "♦"), Card.from("9", "♦"), Card.from("J", "♦"), Card.from("K", "♦"), Card.from("A", "♦")],
-  time: 1,
+  group: CardGroup.FLUSH,
+  emo: [1, 2],
+  time: 3,
   //delay action (s)
   sound: SoundType.FLUSH,
   next: 0
@@ -44,7 +54,9 @@ var actions = [{
   //nguoi choi
   type: ActionType.DISCARD,
   cards: [Card.from("3", "♠"), Card.from("3", "♥"), Card.from("4", "♣"), Card.from("4", "♠"), Card.from("4", "♥")],
-  time: 1,
+  group: CardGroup.FULL_HOUSE,
+  emo: 3,
+  time: 4,
   //delay action (s)
   sound: SoundType.FULL_HOUSE,
   next: 1,
@@ -54,7 +66,9 @@ var actions = [{
   //bot 1
   type: ActionType.DISCARD,
   cards: [Card.from("6", "♠"), Card.from("6", "♥"), Card.from("9", "♣"), Card.from("9", "♠"), Card.from("9", "♥")],
-  time: 1,
+  group: CardGroup.FULL_HOUSE,
+  emo: 4,
+  time: 3,
   //delay action (s)
   sound: SoundType.FULL_HOUSE,
   next: 2
@@ -62,8 +76,9 @@ var actions = [{
   index: 2,
   //bot
   type: ActionType.PASS,
+  group: CardGroup.NONE,
   cards: [],
-  time: 1,
+  time: 2,
   //delay action (s)
   next: 0
 }, {
@@ -71,8 +86,10 @@ var actions = [{
   //nguoi choi
   type: ActionType.DISCARD,
   cards: [Card.from("K", "♠"), Card.from("2", "♣"), Card.from("2", "♠"), Card.from("2", "♥"), Card.from("2", "♦")],
+  group: CardGroup.FOUR_OF_KIND,
   time: 1,
   //delay action (s)
+  emo: 5,
   sound: SoundType.WIN,
   isEnded: true
 }];

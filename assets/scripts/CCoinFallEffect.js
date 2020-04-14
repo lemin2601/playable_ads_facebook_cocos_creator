@@ -32,6 +32,8 @@ cc.Class({
     },
 
     start () {
+    },
+    onEnable:function(){
         setTimeout(function () {
             var len = this.listCoin.length;
             for (var i = 0; i < len; i++) {
@@ -39,7 +41,7 @@ cc.Class({
                 coinEffect.node.active = true;
                 coinEffect.running = true;
             }
-        }.bind(this),500);
+        }.bind(this),100);
     },
 
     update (dt) {},
