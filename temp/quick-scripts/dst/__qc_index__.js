@@ -17,6 +17,7 @@ require('./assets/scripts/CBtnDownload');
 require('./assets/scripts/CBtnStep1');
 require('./assets/scripts/CBtnStep2');
 require('./assets/scripts/CBtnStep3');
+require('./assets/scripts/CCHplay');
 require('./assets/scripts/CCard');
 require('./assets/scripts/CCircleAvatar');
 require('./assets/scripts/CCoinEffect');

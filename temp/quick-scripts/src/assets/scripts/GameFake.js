@@ -26,7 +26,7 @@ var actions = [{
   //bot 1
   type: ActionType.DISCARD,
   cards: [Card.from("7", "♠"), Card.from("8", "♥"), Card.from("9", "♣"), Card.from("10", "♠"), Card.from("J", "♥")],
-  time: 3,
+  time: 1,
   //delay action (s)
   sound: SoundType.STRAIGHT,
   next: 2

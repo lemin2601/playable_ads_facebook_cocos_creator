@@ -406,3 +406,30 @@
     at flow (C:\CocosCreator_2.3.1\resources\engine\bin\.cache\dev\cocos2d\core\load-pipeline\pipeline.js:62:23)
     at flow (C:\CocosCreator_2.3.1\resources\engine\bin\.cache\dev\cocos2d\core\load-pipeline\pipeline.js:55:7)
     at flow (C:\CocosCreator_2.3.1\resources\engine\bin\.cache\dev\cocos2d\core\load-pipeline\pipeline.js:55:7)
+2020-04-13T15:58:33.671Z - info: Only the prefab node "cardPrefab" and its child nodes are saved.
+2020-04-13T16:01:37.952Z - info: Only the prefab node "cardPrefab" and its child nodes are saved.
+2020-04-13T16:01:38.991Z - info: Only the prefab node "cardPrefab" and its child nodes are saved.
+2020-04-13T16:02:36.010Z - info: Only the prefab node "cardPrefab" and its child nodes are saved.
+2020-04-13T16:08:51.289Z - info: Only the prefab node "cardPrefab" and its child nodes are saved.
+2020-04-13T16:10:00.955Z - info: Only the prefab node "cardPrefab" and its child nodes are saved.
+2020-04-13T16:11:31.319Z - info: Only the prefab node "cardPrefab" and its child nodes are saved.
+2020-04-13T16:12:36.332Z - info: Only the prefab node "cardPrefab" and its child nodes are saved.
+2020-04-13T16:12:36.538Z - info: Only the prefab node "cardPrefab" and its child nodes are saved.
+2020-04-13T16:14:15.922Z - info: Only the prefab node "cardPrefab" and its child nodes are saved.
+2020-04-13T16:15:14.811Z - info: Only the prefab node "cardPrefab" and its child nodes are saved.
+2020-04-13T16:15:15.683Z - info: Only the prefab node "cardPrefab" and its child nodes are saved.
+2020-04-13T16:15:15.890Z - info: Only the prefab node "cardPrefab" and its child nodes are saved.
+2020-04-14T01:52:27.299Z - info: Only the prefab node "cardPrefab" and its child nodes are saved.
+2020-04-14T01:53:41.296Z - info: Only the prefab node "cardPrefab" and its child nodes are saved.
+2020-04-14T02:14:47.230Z - info: Only the prefab node "player1" and its child nodes are saved.
+2020-04-14T02:23:09.476Z - info: Only the prefab node "player1" and its child nodes are saved.
+2020-04-14T02:23:59.105Z - info: Only the prefab node "player1" and its child nodes are saved.
+2020-04-14T02:24:06.553Z - info: Only the prefab node "player1" and its child nodes are saved.
+2020-04-14T02:24:18.142Z - warn: The Node referenced by component "cc.Button" is invalid. Detailed information:
+Node path: "button"
+
+2020-04-14T02:24:18.438Z - warn: Custom should not be false if file is not specified.
+2020-04-14T02:24:18.470Z - warn: Custom should not be false if file is not specified.
+2020-04-14T02:25:14.754Z - warn: Custom should not be false if file is not specified.
+2020-04-14T02:25:14.784Z - warn: Custom should not be false if file is not specified.
+2020-04-14T02:26:21.072Z - info: Only the prefab node "player2" and its child nodes are saved.

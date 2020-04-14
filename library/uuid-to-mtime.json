@@ -34,11 +34,6 @@
     "meta": 1586138882965,
     "relativePath": "scripts"
   },
-  "2d2f792f-a40c-49bb-a189-ed176a246e49": {
-    "asset": 1586792996564,
-    "meta": 1586792996575,
-    "relativePath": "scenes\\game.fire"
-  },
   "7b81d4e8-ec84-4716-968d-500ac1d78a54": {
     "asset": 1586766201124,
     "meta": 1586138882967,
@@ -235,8 +230,8 @@
     "relativePath": "scripts\\CCircleAvatar.js"
   },
   "8a7b7ec7-9558-4114-85d7-f4bb28ccf7b5": {
-    "asset": 1586776365458,
-    "meta": 1586776365471,
+    "asset": 1586831182720,
+    "meta": 1586831182813,
     "relativePath": "res\\prefabs\\player.prefab"
   },
   "f71c1ab2-a980-4900-a884-ac1a74596b98": {
@@ -250,8 +245,8 @@
     "relativePath": "scripts\\CProgressWaterAni.js"
   },
   "78df6015-2961-4862-bbd8-6b8b024e68df": {
-    "asset": 1586776681535,
-    "meta": 1586776681544,
+    "asset": 1586829221301,
+    "meta": 1586829221312,
     "relativePath": "res\\prefabs\\cardPrefab.prefab"
   },
   "d0382b8a-b472-4c4a-8106-2daed0e05cf4": {
@@ -869,34 +864,54 @@
     "meta": 1586776234460,
     "relativePath": "model\\primitives.fbx"
   },
-  "3403690d-6ba4-4202-8308-96b69a1e2a3a": {
-    "asset": 1586776482466,
-    "meta": 1586776484871,
-    "relativePath": "scripts\\CCard.js"
-  },
-  "c90b5730-1796-4a81-b362-ea863a2ca558": {
-    "asset": 1586776679232,
-    "meta": 1586776681165,
-    "relativePath": "scripts\\CPlayer.js"
-  },
-  "af153d65-29d3-427a-a028-ad48fe12fca2": {
-    "asset": 1586776711357,
-    "meta": 1586776714003,
-    "relativePath": "scripts\\GameFake.js"
-  },
   "c3f96107-357b-43f4-aba4-3e9db4090058": {
     "asset": 1586779197840,
     "meta": 1586779293845,
     "relativePath": "scripts\\CEffectWin.js"
   },
-  "0998c9f9-3368-4268-96cd-570fcc5efa1f": {
-    "asset": 1586790966025,
-    "meta": 1586790967599,
-    "relativePath": "scripts\\GameController.js"
-  },
   "70d39989-8f05-479b-9cac-724bf1a539a9": {
     "asset": 1586792972440,
     "meta": 1586792974427,
     "relativePath": "scripts\\CSuggestGesture.js"
+  },
+  "3403690d-6ba4-4202-8308-96b69a1e2a3a": {
+    "asset": 1586794507007,
+    "meta": 1586794508696,
+    "relativePath": "scripts\\CCard.js"
+  },
+  "0998c9f9-3368-4268-96cd-570fcc5efa1f": {
+    "asset": 1586795664068,
+    "meta": 1586795673000,
+    "relativePath": "scripts\\GameController.js"
+  },
+  "af153d65-29d3-427a-a028-ad48fe12fca2": {
+    "asset": 1586795848752,
+    "meta": 1586795850903,
+    "relativePath": "scripts\\GameFake.js"
+  },
+  "2d2f792f-a40c-49bb-a189-ed176a246e49": {
+    "asset": 1586831198301,
+    "meta": 1586831198373,
+    "relativePath": "scenes\\game.fire"
+  },
+  "1895c76e-2456-43b3-aaf1-237def3cfa61": {
+    "asset": 1586797361059,
+    "meta": 1586797371801,
+    "relativePath": "scripts\\CCHplay.js"
+  },
+  "63e86deb-8de5-4f57-9bfb-46ffd42e5fe4": {
+    "asset": 1586830289264,
+    "meta": 1586830289316,
+    "relativePath": "res\\ani\\particle_count_down.png"
+  },
+  "dd416c96-026e-4cd6-9bee-5aecd6e19692": {
+    "asset": 1586831419793,
+    "meta": 1586831421996,
+    "relativePath": "res\\ani\\particle_count_down.plist"
+  },
+  "c90b5730-1796-4a81-b362-ea863a2ca558": {
+    "asset": 1586831596534,
+    "meta": 1586831598683,
+    "relativePath": "scripts\\CPlayer.js"
   }
 }

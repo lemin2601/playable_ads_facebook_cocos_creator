@@ -43,6 +43,10 @@ var CCard = cc.Class({
       "default": [],
       type: cc.SpriteFrame
     },
+    layerSuggest: {
+      "default": null,
+      type: cc.Node
+    },
     index: {
       //vi tri trong group khi danh ra
       "default": 0,
@@ -79,7 +83,8 @@ var CCard = cc.Class({
     this.owner = owner;
   },
   onLoad: function onLoad() {
-    // console.log("loadCard:" + this.card +"|" + this.index);
+    this.layerSuggest.active = false; // console.log("loadCard:" + this.card +"|" + this.index);
+
     if (this.card) {
       this.init(this.card);
     }
@@ -142,6 +147,9 @@ var CCard = cc.Class({
   },
   setPositionCenter: function setPositionCenter(pos) {
     this.node.setPosition(pos.x - 50, pos.y - 65);
+  },
+  setSuggest: function setSuggest(b) {
+    this.layerSuggest.active = !b;
   }
 });
 

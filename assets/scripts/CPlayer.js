@@ -23,6 +23,10 @@ var CPlayer = cc.Class({
         progressBar:{
             default:null,
             type:cc.ProgressBar
+        },
+        headProgressBar:{
+            default:null,
+            type:cc.ParticleSystem
         }
     },
     ctor:function(){
@@ -30,6 +34,7 @@ var CPlayer = cc.Class({
         this.player = null;
         /** @type {GameController}*/
         this.gameController = null;
+        /** @type {[cardPrefab]}*/
         this.cards = [];
         this._isMyTurn = false;
     },
@@ -63,6 +68,10 @@ var CPlayer = cc.Class({
                 progress -= (dt * 0.1);
             }
             progressBar.progress = progress;
+
+            var p = new cc.Vec2(0,70);
+            p = p.rotate(progress * 2 * 3.14);
+            this.headProgressBar.node.setPosition(p);
         }
     },
 
@@ -258,6 +267,36 @@ var CPlayer = cc.Class({
     setMyTurn:function (b) {
         this._isMyTurn = b;
         this.progressBar.node.active = b;
+        var len = this.cards.length;
+        for (var i = 0; i < len; i++) {
+            var cardPrefab = this.cards[i];
+            var cCard = cardPrefab.getComponent("CCard");
+            cCard.setSuggest(true);
+        }
+        if(!b){
+            this.headProgressBar.stopSystem();
+        }else{
+            this.headProgressBar.resetSystem();
+        }
+        this.headProgressBar.active = b;
+    },
+    onSuggestCard:function (cards) {
+        var isContain = function (card) {
+            var l = cards.length;
+            for (var i = 0; i < l; i++) {
+                if(cards[i].id === card.id){
+                    return true;
+                }
+            }
+            return false;
+        };
+        var len = this.cards.length;
+        for (var i = 0; i < len; i++) {
+            var cardPrefab = this.cards[i];
+            var cCard = cardPrefab.getComponent("CCard");
+            cCard.setSuggest(isContain(cCard.card));
+        }
     }
+    
 });
 module.exports = CPlayer;

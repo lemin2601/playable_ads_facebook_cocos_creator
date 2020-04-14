@@ -13307,6 +13307,7 @@ declare namespace cc {
 		/** !#en return a Vec2 object with x = 1 and y = 1.
 		!#zh 新 Vec2 对象。 */
 		static ONE: Vec2;		
+		static ONE: Vec2;
 		/** !#en return a Vec2 object with x = 0 and y = 0.
 		!#zh 返回 x = 0 和 y = 0 的 Vec2 对象。 */
 		static ZERO: Vec2;		

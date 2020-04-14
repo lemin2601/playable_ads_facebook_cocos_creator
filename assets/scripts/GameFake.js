@@ -22,7 +22,7 @@ var actions = [
             Card.from("10","♠"),
             Card.from("J","♥")
         ],
-        time:3,//delay action (s)
+        time:1,//delay action (s)
         sound:SoundType.STRAIGHT,
         next:2
     },

@@ -227,6 +227,7 @@ cc.Class({
               if (actionConfig.suggest) {
                 //neu co suggest
                 this.nodeSuggestGesture.active = true;
+                this.players[0].getComponent(CPlayer).onSuggestCard(actionConfig.cards);
               }
 
               this.cardExpects = actionConfig.cards;
