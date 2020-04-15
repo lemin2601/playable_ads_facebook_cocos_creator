@@ -144,8 +144,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 146,
-      "height": 146
+      "width": 144,
+      "height": 144
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -305,7 +305,7 @@
     ],
     "_spriteFrame": null,
     "_type": 1,
-    "_segments": 113,
+    "_segments": 147,
     "_N$alphaThreshold": 0,
     "_N$inverted": false,
     "_id": ""

@@ -1,0 +1,48 @@
+
+pusoydos.png
+size: 1045,220
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Symbol 2
+  rotate: false
+  xy: 1, 1
+  size: 354, 218
+  orig: 354, 218
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 356, 17
+  size: 378, 202
+  orig: 378, 202
+  offset: 0, 0
+  index: -1
+p
+  rotate: false
+  xy: 966, 15
+  size: 34, 35
+  orig: 34, 35
+  offset: 0, 0
+  index: -1
+pusoydos
+  rotate: false
+  xy: 735, 111
+  size: 307, 108
+  orig: 307, 108
+  offset: 0, 0
+  index: -1
+ruybang
+  rotate: false
+  xy: 735, 5
+  size: 230, 105
+  orig: 230, 105
+  offset: 0, 0
+  index: -1
+x6
+  rotate: false
+  xy: 966, 51
+  size: 78, 59
+  orig: 78, 59
+  offset: 0, 0
+  index: -1

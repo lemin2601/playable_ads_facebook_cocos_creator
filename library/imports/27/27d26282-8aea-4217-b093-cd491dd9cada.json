@@ -5,7 +5,7 @@
   "_native": "",
   "_skeletonJson": {
     "skeleton": {
-      "hash": "DMNmtIgufQsu0mRNm6Lvi+AhF2w",
+      "hash": "ceHqDz9G0EuG+ta8kKOw65L1Zds",
       "spine": "3.6.53",
       "width": 1546.59,
       "height": 224.66,
@@ -940,20 +940,8 @@
                 "curve": "stepped"
               },
               {
-                "time": 0.2,
-                "color": "ffffff00"
-              },
-              {
-                "time": 0.2333,
-                "color": "ffffffff"
-              },
-              {
-                "time": 0.9333,
-                "color": "ffffff00"
-              },
-              {
                 "time": 1.5,
-                "color": "ffffffff"
+                "color": "ffffff00"
               }
             ]
           },

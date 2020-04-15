@@ -57,15 +57,15 @@
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
-      "x": 0,
+      "x": 0.1,
       "y": 0
     },
     "_trs": {
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        0,
+        0.847,
+        -3.387,
         0,
         0,
         0,
@@ -128,8 +128,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        73.3,
-        98.7,
+        59,
+        99,
         0,
         0,
         0,
@@ -155,7 +155,7 @@
   },
   {
     "__type__": "cc.Sprite",
-    "_name": "",
+    "_name": "background<Sprite>",
     "_objFlags": 0,
     "node": {
       "__id__": 2
@@ -237,7 +237,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        83.687,
+        68.687,
         74.01,
         0,
         0,
@@ -264,7 +264,7 @@
   },
   {
     "__type__": "cc.Sprite",
-    "_name": "",
+    "_name": "mainPic<Sprite>",
     "_objFlags": 0,
     "node": {
       "__id__": 5
@@ -334,8 +334,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 26.68,
-      "height": 50.4
+      "width": 24.75,
+      "height": 40
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -346,8 +346,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        20.623,
-        175.153,
+        6.152,
+        176.21,
         0,
         0,
         0,
@@ -373,7 +373,7 @@
   },
   {
     "__type__": "cc.Label",
-    "_name": "",
+    "_name": "point<Label>",
     "_objFlags": 0,
     "node": {
       "__id__": 8
@@ -387,11 +387,13 @@
     "_useOriginalSize": false,
     "_string": "A",
     "_N$string": "A",
-    "_fontSize": 40,
+    "_fontSize": 24,
     "_lineHeight": 40,
     "_enableWrapText": true,
-    "_N$file": null,
-    "_isSystemFontUsed": true,
+    "_N$file": {
+      "__uuid__": "d4d6a8c5-c427-41de-9b04-3c110ecb0e1f"
+    },
+    "_isSystemFontUsed": false,
     "_spacingX": 0,
     "_batchAsBitmap": false,
     "_styleFlags": 0,
@@ -453,8 +455,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        20.877,
-        141.353,
+        5.877,
+        130.783,
         0,
         0,
         0,
@@ -480,7 +482,7 @@
   },
   {
     "__type__": "cc.Sprite",
-    "_name": "",
+    "_name": "suit<Sprite>",
     "_objFlags": 0,
     "node": {
       "__id__": 11
@@ -543,7 +545,7 @@
     "_prefab": {
       "__id__": 17
     },
-    "_opacity": 105,
+    "_opacity": 125,
     "_color": {
       "__type__": "cc.Color",
       "r": 0,
@@ -565,7 +567,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        73.5,
+        58.9,
         99,
         0,
         0,
@@ -592,7 +594,7 @@
   },
   {
     "__type__": "cc.Sprite",
-    "_name": "",
+    "_name": "suggest<Sprite>",
     "_objFlags": 0,
     "node": {
       "__id__": 14

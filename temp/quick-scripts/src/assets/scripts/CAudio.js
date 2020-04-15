@@ -43,22 +43,19 @@ cc.Class({
     soundCountDow: {
       "default": null,
       type: cc.AudioClip
-    } // foo: {
-    //     // ATTRIBUTES:
-    //     default: null,        // The default value will be used only when the component attaching
-    //                           // to a node for the first time
-    //     type: cc.SpriteFrame, // optional, default is typeof default
-    //     serializable: true,   // optional, default is true
-    // },
-    // bar: {
-    //     get () {
-    //         return this._bar;
-    //     },
-    //     set (value) {
-    //         this._bar = value;
-    //     }
-    // },
-
+    },
+    soundYourTurn: {
+      "default": null,
+      type: cc.AudioClip
+    },
+    soundFourOfKind: {
+      "default": null,
+      type: cc.AudioClip
+    },
+    soundPass: {
+      "default": null,
+      type: cc.AudioClip
+    }
   },
   ctor: function ctor() {
     this.audioPool = [];
@@ -73,26 +70,43 @@ cc.Class({
   },
   playAudio: function playAudio(soundType) {
     switch (soundType) {
+      case SoundType.FOUR_OF_KIND:
+        cc.audioEngine.play(this.soundFourOfKind, false, 1);
+        cc.audioEngine.play(this.soundDiscard, false, 1);
+        break;
+
       case SoundType.FULL_HOUSE:
+        cc.audioEngine.play(this.soundDiscard, false, 1);
         cc.audioEngine.play(this.audioDiscardCulu, false, 1);
         break;
 
       case SoundType.FLUSH:
+        cc.audioEngine.play(this.soundDiscard, false, 1);
         cc.audioEngine.play(this.audioDiscardFlush, false, 1);
         break;
 
       case SoundType.STRAIGHT:
+        cc.audioEngine.play(this.soundDiscard, false, 1);
         cc.audioEngine.play(this.audioDiscardStraight, false, 1);
         break;
 
       case SoundType.WELCOME:
+        cc.audioEngine.play(this.soundDiscard, false, 1);
         cc.audioEngine.play(this.audioWelcome, false, 1);
         break;
 
       case SoundType.WIN:
+        cc.audioEngine.play(this.soundDiscard, false, 1);
         cc.audioEngine.play(this.audioWin, false, 1);
         break;
+
+      case SoundType.PASS:
+        cc.audioEngine.play(this.soundPass, false, 1);
+        break;
     }
+  },
+  playSoundYourTurn: function playSoundYourTurn() {
+    cc.audioEngine.play(this.soundYourTurn, false, 1);
   } // update (dt) {},
 
 });

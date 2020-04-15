@@ -8,7 +8,9 @@ var SoundType = {
     STRAIGHT:1,
     FLUSH:2,
     FULL_HOUSE:3,
-    WIN:4
+    FOUR_OF_KIND:4,
+    WIN:5,
+    PASS:6
 };
 var CardGroup = {
     NONE:0,
@@ -62,7 +64,7 @@ var actions = [
         ],
         group:CardGroup.FULL_HOUSE,
         emo:3,
-        time:4,//delay action (s)
+        time:2,//delay action (s)
         sound:SoundType.FULL_HOUSE,
         next:1,
         suggest:true
@@ -87,6 +89,7 @@ var actions = [
         index:2,//bot
         type:ActionType.PASS,
         group:CardGroup.NONE,
+        sound:SoundType.PASS,
         cards:[],
         time:2,//delay action (s)
         next:0
@@ -102,9 +105,9 @@ var actions = [
             Card.from("2","♦")
         ],
         group:CardGroup.FOUR_OF_KIND,
+        sound:SoundType.FOUR_OF_KIND,
         time:1,//delay action (s)
         emo:5,
-        sound:SoundType.WIN,
         isEnded:true
     }
 ];
@@ -175,5 +178,6 @@ GameFake.prototype.getDefaultInfo = function(){
 module.exports = {
     GameFake:GameFake,
     ActionType:ActionType,
-    SoundType:SoundType
+    SoundType:SoundType,
+    CardGroup:CardGroup
 };

@@ -219,9 +219,11 @@ var CPlayer = cc.Class({
   getRotationVia: function getRotationVia(index) {
     var num = this.getNumCard();
     var y = 0;
-    var startX = -60;
-    var endX = 48;
-    var maxOffsetX = 12;
+    var startX = -95;
+    var endX = 75; // var startX = -60;
+    // var endX = 48;
+
+    var maxOffsetX = num < 7 ? 20 : 50;
     var offset = (endX - startX) / (num - 1);
     if (offset > maxOffsetX) offset = maxOffsetX; //re-call startX;
 
@@ -256,7 +258,7 @@ var CPlayer = cc.Class({
    */
   getCirclePos: function getCirclePos(pos) {
     var x = pos.x;
-    pos.y = -1 / 250 * (x * x) - 450;
+    pos.y = -1 / 100 * (x * x) / 1000 - 440;
     return pos;
   },
   onPass: function onPass() {
@@ -264,8 +266,10 @@ var CPlayer = cc.Class({
 
     if (this.imgPass) {
       this.imgPass.active = true;
+      this.avatar.getComponent("CCircleAvatar").img.node.color = cc.Color.GRAY;
       this.node.runAction(cc.sequence(cc.delayTime(2), cc.callFunc(function () {
         this.imgPass.active = false;
+        this.avatar.getComponent("CCircleAvatar").img.node.color = cc.Color.WHITE;
       }.bind(this))));
     }
   },

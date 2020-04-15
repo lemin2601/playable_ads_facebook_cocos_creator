@@ -17,6 +17,6 @@
   "useDebugKeystore": true,
   "vsVersion": "auto",
   "actualPlatform": "web-mobile",
-  "embedWebDebugger": true,
+  "embedWebDebugger": false,
   "buildScriptsOnly": false
 }

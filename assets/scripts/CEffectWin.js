@@ -1,29 +1,44 @@
-// Learn cc.Class:
-//  - https://docs.cocos.com/creator/manual/en/scripting/class.html
-// Learn Attribute:
-//  - https://docs.cocos.com/creator/manual/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
-
+var Utility = require("Utility");
 cc.Class({
     extends: cc.Component,
 
     properties: {
-        // foo: {
-        //     // ATTRIBUTES:
-        //     default: null,        // The default value will be used only when the component attaching
-        //                           // to a node for the first time
-        //     type: cc.SpriteFrame, // optional, default is typeof default
-        //     serializable: true,   // optional, default is true
-        // },
-        // bar: {
-        //     get () {
-        //         return this._bar;
-        //     },
-        //     set (value) {
-        //         this._bar = value;
-        //     }
-        // },
+        spine:{
+            default:null,
+            type:cc.Node
+        },
+        lbLose1:{
+            default:null,
+            type:cc.Label
+        },
+        lbLose2:{
+            default:null,
+            type:cc.Label
+        },
+        imgLose1:{
+            default:null,
+            type:cc.Sprite,
+        },
+        imgLose2:{
+            default:null,
+            type:cc.Sprite,
+        },
+        lbWin:{
+            default:null,
+            type:cc.Label
+        },
+        lbPot:{
+            default:null,
+            type:cc.Label
+        },
+        player1:{
+            default:null,
+            type:cc.Node
+        },
+        player2:{
+            default:null,
+            type:cc.Node
+        }
     },
 
     ctor:function(){
@@ -37,9 +52,32 @@ cc.Class({
     },
 
     onEnable:function(){
+        var lose1 = 47000000;
+        var lose2 = 58000000;
+        var pot = 40000000;
+        var win = pot + lose1 + lose2;
+        Utility.runUpdateGold(this.lbLose1,0,-lose1);
+        Utility.runUpdateGold(this.lbLose2,0,-lose2);
+        Utility.runUpdateGold(this.lbPot,pot,0);
+        Utility.runUpdateGold(this.lbWin,0,win);
+        Utility.runUpdateGold(this.player1.getComponent("CPlayer").gold,lose1,0);
+        Utility.runUpdateGold(this.player2.getComponent("CPlayer").gold,lose2,0);
+        var emo = this.spine;
+        var spine = emo.getComponent('sp.Skeleton');
+        spine.clearTracks();
+        spine.setCompleteListener(function(trackEntry){
+            // spine.clearTracks();
+            // emo.active = false;
+        });
+        emo.active = true;
+        spine.setAnimation(0, 'animation', false);
+
         this.node.runAction(cc.sequence(
-            cc.delayTime(3),
+            cc.delayTime(4),
             cc.callFunc(function () {
+                this.imgLose1.node.active = false;
+                this.imgLose2.node.active = false;
+                this.lbWin.node.active = false;
                 this.showNodeCHPlay();
             },this)
         ))

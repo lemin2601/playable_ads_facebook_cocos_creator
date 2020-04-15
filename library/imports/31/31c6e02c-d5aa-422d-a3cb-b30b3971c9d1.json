@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pusoydos",
+    "texture": "89dc0cfa-1b50-4672-a451-d4d14eadc464",
+    "atlas": "",
+    "rect": [
+      16,
+      5,
+      1028,
+      214
+    ],
+    "offset": [
+      7.5,
+      -2
+    ],
+    "originalSize": [
+      1045,
+      220
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

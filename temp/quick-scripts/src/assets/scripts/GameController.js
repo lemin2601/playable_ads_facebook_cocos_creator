@@ -22,7 +22,8 @@ var _require = require("Types"),
 var _require2 = require("GameFake"),
     ActionType = _require2.ActionType,
     GameFake = _require2.GameFake,
-    SoundType = _require2.SoundType;
+    SoundType = _require2.SoundType,
+    CardGroup = _require2.CardGroup;
 
 var PlayableAds = require("PlayableAds");
 
@@ -68,6 +69,10 @@ cc.Class({
       "default": null,
       type: cc.Node
     },
+    effectCardGroup: {
+      "default": null,
+      type: cc.Node
+    },
     cardPrefab: {
       "default": null,
       type: cc.Prefab
@@ -79,6 +84,10 @@ cc.Class({
     emoPlayers: {
       "default": [],
       type: [cc.Node]
+    },
+    imgHighLight: {
+      "default": null,
+      type: cc.Node
     },
     _poolCard: {
       "default": null,
@@ -105,6 +114,8 @@ cc.Class({
     }
 
     this.nodeCHPlay.active = false;
+    this.imgHighLight.active = false;
+    this.effectCardGroup.active = false;
     this.effectWin.getComponent("CEffectWin").gameController = this;
     this.nodeSuggestGesture.active = false;
     this.attachLayerCardToPlayer();
@@ -138,11 +149,12 @@ cc.Class({
       cCard.index = j;
       cCard.setOwner(cTable);
       var p = cTable.getPositionCard(cCard);
+      cCard.node.angle = (Math.random() - 0.5) * 40;
       cardPrefabs.setPosition(p);
       this.layerCard.addChild(cardPrefabs);
-    }
+    } // cc.log("onEnable players:" + this.players.length);
+    //update info avatar + load card
 
-    console.log("onEnable players:" + this.players.length); //update info avatar + load card
 
     var playersConfig = gameInfo.players;
 
@@ -215,11 +227,37 @@ cc.Class({
       //     cc.log("[track %s][animation %s] event: %s, %s, %s, %s", trackEntry.trackIndex, animationName, event.data.name, event.intValue, event.floatValue, event.stringValue);
       // });
 
-      emo.active = true;
-      spine.setAnimation(0, 'animation', false);
+      setTimeout(function () {
+        emo.active = true;
+        spine.setAnimation(0, 'animation', false);
+      }, 1000);
     }
   },
-  start: function start() {},
+  _playEffectGroup: function _playEffectGroup(name) {
+    console.log("_playEffectGroup:" + name);
+    var emo = this.effectCardGroup;
+
+    if (emo) {
+      var spine = emo.getComponent('sp.Skeleton');
+      spine.setCompleteListener(function (trackEntry) {
+        spine.clearTracks();
+        emo.active = false; // var animationName = trackEntry.animation ? trackEntry.animation.name : "";
+        // // if (animationName === 'shoot') {
+        // //     this.spine.clearTrack(1);
+        // // }
+        // var loopCount = Math.floor(trackEntry.trackTime / trackEntry.animationEnd);
+        // cc.log("[track %s][animation %s] complete: %s", trackEntry.trackIndex, animationName, loopCount);
+      });
+      setTimeout(function () {
+        emo.active = true;
+        spine.setAnimation(0, name, false);
+      }, 500);
+    }
+  },
+  start: function start() {// setTimeout(function () {
+    //     this.effectWin.active = true;
+    // }.bind(this),2000);
+  },
   onEnable: function onEnable() {
     console.log("onEnable players:" + this.players.length);
   },
@@ -236,7 +274,11 @@ cc.Class({
     var cPlayer = this.players[index].getComponent(CPlayer);
     cPlayer.onEnterTurn();
   },
+  autoShowSuggest: function autoShowSuggest() {
+    this.nodeSuggestGesture.active = true;
+  },
   executeAction: function executeAction() {
+    this.unschedule(this.autoShowSuggest);
     this.nodeSuggestGesture.active = false;
 
     var actionConfig = this._gameFake.getAction();
@@ -258,7 +300,9 @@ cc.Class({
     var sound = actionConfig.sound;
 
     if (sound) {
-      this.audio.playAudio(sound);
+      setTimeout(function () {
+        this.audio.playAudio(sound);
+      }.bind(this), 500);
     }
 
     var emo = actionConfig.emo;
@@ -272,16 +316,24 @@ cc.Class({
         }
       } else {
         this._playEmo(emo);
+
+        if (emo === 5) {
+          this._playEmo(6);
+        }
       }
     }
 
     if (actionConfig.isEnded) {
-      this.effectWin.active = true;
-
-      for (var i = 0; i < this.imgHands.length; i++) {
-        var hand = this.imgHands[i];
-        hand.node.runAction(cc.moveBy(0.5, 0, -300));
-      }
+      setTimeout(function () {
+        for (var i = 0; i < this.imgHands.length; i++) {
+          var hand = this.imgHands[i];
+          hand.node.runAction(cc.moveBy(0.5, 0, -300));
+        }
+      }.bind(this), 1000);
+      setTimeout(function () {
+        this.audio.playAudio(SoundType.WIN);
+        this.effectWin.active = true;
+      }.bind(this), 2500);
     } else {
       this.curIndex = actionConfig.next;
 
@@ -299,10 +351,14 @@ cc.Class({
             var index = actionConfig.index;
 
             if (index === 0) {
+              this.audio.playSoundYourTurn();
+
               if (actionConfig.suggest) {
                 //neu co suggest
                 this.nodeSuggestGesture.active = true;
                 this.players[0].getComponent(CPlayer).onSuggestCard(actionConfig.cards);
+              } else {
+                this.scheduleOnce(this.autoShowSuggest, 3);
               }
 
               this.cardExpects = actionConfig.cards;
@@ -333,11 +389,18 @@ cc.Class({
       var p = cTable.getPositionCard(cCard);
       var duration = 0.3;
       var duration1 = 0.15;
-      cardPrefab.runAction(cc.sequence(cc.spawn(cc.moveTo(duration, p), cc.rotateTo(duration, 0), cc.sequence(cc.scaleTo(duration / 2, 1.2, 1.2), cc.scaleTo(duration / 2, 0.95, 0.95))), cc.spawn(cc.scaleTo(duration1, 1, 1), cc.moveTo(duration1, p.x + Math.random() * 10 * (index - (len - 1) / 2), p.y), cc.rotateTo(duration1, (index - (len - 1) / 2) * Math.random() * 4))));
+      cardPrefab.setRotation(330, 0, 0);
+      cardPrefab.runAction(cc.sequence(cc.spawn(cc.moveTo(duration, p), cc.rotateTo(duration, 0), cc.sequence(cc.scaleTo(duration / 2, 1.1, 1.1), cc.scaleTo(duration / 2, 0.85, 0.85))), cc.spawn(cc.scaleTo(duration1, 0.90, 0.90), cc.moveTo(duration1, p.x + Math.random() * 10 * (index - (len - 1) / 2), p.y), cc.rotateTo(duration1, (index - (len - 1) / 2) * Math.random() * 4))));
     };
 
     var len = cardPrefabs.length;
     cTable.setNumCard(len);
+    this.imgHighLight.zIndex = this.zIndexCard;
+    this.imgHighLight.active = true;
+    this.imgHighLight.opacity = 0;
+    this.imgHighLight.runAction(cc.sequence(cc.hide(), cc.delayTime(0.6), cc.show(), cc.fadeIn(0.3), cc.delayTime(1), cc.fadeOut(0.3), cc.callFunc(function (sender) {
+      sender.active = false;
+    }, this)));
 
     for (var k = 0; k < len; k++) {
       var cardPrefab = cardPrefabs[k];
@@ -353,6 +416,32 @@ cc.Class({
       // cc.log("newZIndex:" + this.zIndexCard);
       //duoc add khi tao ra
       // this.layerGame.addChild(cardPrefab);
+    }
+
+    switch (groupType) {
+      case CardGroup.FLUSH:
+        this._playEffectGroup('flush');
+
+        break;
+
+      case CardGroup.STRAIGHT:
+        this._playEffectGroup('straight');
+
+        break;
+
+      case CardGroup.FULL_HOUSE:
+        this._playEffectGroup('fullhouse');
+
+        break;
+
+      case CardGroup.FOUR_OF_KIND:
+        this._playEffectGroup('forofakind');
+
+        break;
+
+      case CardGroup.NONE:
+      default:
+        break;
     } // for (var j = 0; j < cards.length; j++) {
     //     var c = cards[j];
     //
