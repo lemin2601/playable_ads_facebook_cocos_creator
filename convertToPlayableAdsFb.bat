@@ -1,1 +1,2 @@
-npm --prefix ./../playableAdsToolBuild run build_fb -- %cd%
+npm --prefix ./../playableAdsToolBuild run build_fb -- -p %cd%
+PAUSE

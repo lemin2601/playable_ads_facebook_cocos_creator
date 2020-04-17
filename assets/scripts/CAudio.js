@@ -33,6 +33,10 @@ cc.Class({
             default:null,
             type:cc.AudioClip
         },
+        soundWin:{
+            default:null,
+            type:cc.AudioClip
+        },
         soundCountDow:{
             default:null,
             type:cc.AudioClip
@@ -86,7 +90,7 @@ cc.Class({
                 cc.audioEngine.play(this.audioWelcome, false, 1);
                 break;
             case SoundType.WIN:
-                cc.audioEngine.play(this.soundDiscard, false, 1);
+                cc.audioEngine.play(this.soundWin, false, 1);
                 cc.audioEngine.play(this.audioWin, false, 1);
                 break;
             case SoundType.PASS:

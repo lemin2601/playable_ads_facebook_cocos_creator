@@ -32,7 +32,7 @@ var actions = [
         ],
         group:CardGroup.STRAIGHT,
         emo:0,
-        time:3,//delay action (s)
+        time:6,//delay action (s)
         sound:SoundType.STRAIGHT,
         next:2
     },

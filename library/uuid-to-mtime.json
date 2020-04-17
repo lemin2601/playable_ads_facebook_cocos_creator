@@ -35,7 +35,7 @@
     "relativePath": "scripts"
   },
   "7b81d4e8-ec84-4716-968d-500ac1d78a54": {
-    "asset": 1586766201124,
+    "asset": 1586859430902,
     "meta": 1586138882967,
     "relativePath": "res\\textures"
   },
@@ -120,7 +120,7 @@
     "relativePath": "res\\prefabs"
   },
   "f3820bd7-113a-4dd3-91eb-f0965cdb0bd5": {
-    "asset": 1586777644690,
+    "asset": 1586937568428,
     "meta": 1586399177479,
     "relativePath": "res\\atlas"
   },
@@ -130,12 +130,12 @@
     "relativePath": "res\\animations"
   },
   "fbbd6cff-8e2a-45e1-82d8-7b0fe2c22bf8": {
-    "asset": 1586769147103,
+    "asset": 1586853810759,
     "meta": 1586399203431,
     "relativePath": "res\\fonts"
   },
   "94660764-5774-44f9-a715-8c0536a2d885": {
-    "asset": 1586515401192,
+    "asset": 1586918005564,
     "meta": 1586399214372,
     "relativePath": "res\\sfx"
   },
@@ -230,8 +230,8 @@
     "relativePath": "scripts\\CCircleAvatar.js"
   },
   "8a7b7ec7-9558-4114-85d7-f4bb28ccf7b5": {
-    "asset": 1586854663327,
-    "meta": 1586854663336,
+    "asset": 1585289592705,
+    "meta": 1585289592730,
     "relativePath": "res\\prefabs\\player.prefab"
   },
   "f71c1ab2-a980-4900-a884-ac1a74596b98": {
@@ -245,8 +245,8 @@
     "relativePath": "scripts\\CProgressWaterAni.js"
   },
   "78df6015-2961-4862-bbd8-6b8b024e68df": {
-    "asset": 1586852423249,
-    "meta": 1586852423255,
+    "asset": 1585293923792,
+    "meta": 1585293923801,
     "relativePath": "res\\prefabs\\cardPrefab.prefab"
   },
   "d0382b8a-b472-4c4a-8106-2daed0e05cf4": {
@@ -255,7 +255,7 @@
     "relativePath": "scripts\\CardUtils.js"
   },
   "d9a35f24-62bf-4b4b-b52c-c5dcc7cde807": {
-    "asset": 1586840727835,
+    "asset": 1586853923964,
     "meta": 1586487650789,
     "relativePath": "res\\ani"
   },
@@ -488,11 +488,6 @@
     "asset": 1586792972440,
     "meta": 1586792974427,
     "relativePath": "scripts\\CSuggestGesture.js"
-  },
-  "dd416c96-026e-4cd6-9bee-5aecd6e19692": {
-    "asset": 1586831419793,
-    "meta": 1586831421996,
-    "relativePath": "res\\ani\\particle_count_down.plist"
   },
   "09afed6b-7a30-41f0-9889-4e17e4d65fd5": {
     "asset": 1586831748636,
@@ -910,14 +905,9 @@
     "relativePath": "res\\fonts\\font_num.fnt"
   },
   "2d2f792f-a40c-49bb-a189-ed176a246e49": {
-    "asset": 1586937611131,
-    "meta": 1586937611146,
+    "asset": 1587122809983,
+    "meta": 1587122809995,
     "relativePath": "scenes\\game.fire"
-  },
-  "c3f96107-357b-43f4-aba4-3e9db4090058": {
-    "asset": 1586853427451,
-    "meta": 1586853429376,
-    "relativePath": "scripts\\CEffectWin.js"
   },
   "c5d1880d-20af-4d93-a0d0-c22504f3da87": {
     "asset": 1586851876000,
@@ -974,11 +964,6 @@
     "meta": 1586853936308,
     "relativePath": "res\\ani\\6.png"
   },
-  "63e86deb-8de5-4f57-9bfb-46ffd42e5fe4": {
-    "asset": 1586853923963,
-    "meta": 1586853936319,
-    "relativePath": "res\\ani\\particle_count_down.png"
-  },
   "62ac3209-5e79-4025-810f-2f8fb25064c5": {
     "asset": 1586853924218,
     "meta": 1586853936333,
@@ -988,11 +973,6 @@
     "asset": 1586853924103,
     "meta": 1586853936335,
     "relativePath": "res\\ani\\pusoydos.png"
-  },
-  "c90b5730-1796-4a81-b362-ea863a2ca558": {
-    "asset": 1586854592569,
-    "meta": 1586854594064,
-    "relativePath": "scripts\\CPlayer.js"
   },
   "1a8a88b3-6465-4761-931f-5cf206d12d39": {
     "asset": 1586856618343,
@@ -1019,34 +999,79 @@
     "meta": 1586918005571,
     "relativePath": "res\\sfx\\s_pass_turn.mp3"
   },
-  "232c0ffb-53fa-462f-9b04-aa8c74697a81": {
-    "asset": 1586918172133,
-    "meta": 1586918194342,
-    "relativePath": "scripts\\CAudio.js"
-  },
-  "af153d65-29d3-427a-a028-ad48fe12fca2": {
-    "asset": 1586918256785,
-    "meta": 1586918278253,
-    "relativePath": "scripts\\GameFake.js"
-  },
-  "0998c9f9-3368-4268-96cd-570fcc5efa1f": {
-    "asset": 1586918385911,
-    "meta": 1586918389306,
-    "relativePath": "scripts\\GameController.js"
-  },
   "1895c76e-2456-43b3-aaf1-237def3cfa61": {
     "asset": 1586918479714,
     "meta": 1586918482185,
     "relativePath": "scripts\\CCHplay.js"
   },
+  "47abfd92-97be-464e-b535-7c9cdc08f0d0": {
+    "asset": 1585283981566,
+    "meta": 1585283981612,
+    "relativePath": "res\\fonts\\bm_win.fnt"
+  },
+  "dd5c1155-e5a0-4327-bd9b-b1803f3a43a1": {
+    "asset": 1585283981567,
+    "meta": 1585283981596,
+    "relativePath": "res\\fonts\\bm_win.png"
+  },
+  "9bd75145-7f3d-4b7f-819d-513923331192": {
+    "asset": 1585289370700,
+    "meta": 1585289370707,
+    "relativePath": "res\\sfx\\v_g_winner1.mp3"
+  },
   "529367c9-1f93-4e39-a591-7c269143e948": {
-    "asset": 1586937568428,
-    "meta": 1586937568625,
+    "asset": 1585289392167,
+    "meta": 1585289392333,
     "relativePath": "res\\atlas\\game.plist"
   },
   "3549c34c-49ae-499a-a40b-414a5c27af3f": {
-    "asset": 1586937568430,
-    "meta": 1586937568587,
+    "asset": 1585289392169,
+    "meta": 1585289392302,
     "relativePath": "res\\atlas\\game.png"
+  },
+  "63e86deb-8de5-4f57-9bfb-46ffd42e5fe4": {
+    "asset": 1587117712459,
+    "meta": 1587117712500,
+    "relativePath": "res\\ani\\particle_count_down.png"
+  },
+  "dd416c96-026e-4cd6-9bee-5aecd6e19692": {
+    "asset": 1587117712459,
+    "meta": 1587117712505,
+    "relativePath": "res\\ani\\particle_count_down.plist"
+  },
+  "c90b5730-1796-4a81-b362-ea863a2ca558": {
+    "asset": 1587117785341,
+    "meta": 1587117788434,
+    "relativePath": "scripts\\CPlayer.js"
+  },
+  "1d554944-1f73-464a-8b7e-435f8007929d": {
+    "asset": 1587118556601,
+    "meta": 1587118556625,
+    "relativePath": "res\\ani\\particle_turn.plist"
+  },
+  "569035f3-4dff-4e97-a996-9690b7b5dea4": {
+    "asset": 1587119356688,
+    "meta": 1587119357755,
+    "relativePath": "scripts\\CStep1.js"
+  },
+  "0998c9f9-3368-4268-96cd-570fcc5efa1f": {
+    "asset": 1587119407359,
+    "meta": 1587119421912,
+    "relativePath": "scripts\\GameController.js"
+  },
+  "af153d65-29d3-427a-a028-ad48fe12fca2": {
+    "asset": 1587119418677,
+    "meta": 1587119421960,
+    "relativePath": "scripts\\GameFake.js"
+  },
+  "232c0ffb-53fa-462f-9b04-aa8c74697a81": {
+    "asset": 1587119697503,
+    "meta": 1587119698193,
+    "relativePath": "scripts\\CAudio.js"
+  },
+  "c3f96107-357b-43f4-aba4-3e9db4090058": {
+    "asset": 1587120237585,
+    "meta": 1587120259826,
+    "relativePath": "scripts\\CEffectWin.js"
   }
 }

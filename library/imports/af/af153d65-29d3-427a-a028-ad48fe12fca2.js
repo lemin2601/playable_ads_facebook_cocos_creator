@@ -36,7 +36,7 @@ var actions = [{
   cards: [Card.from("7", "♠"), Card.from("8", "♥"), Card.from("9", "♣"), Card.from("10", "♠"), Card.from("J", "♥")],
   group: CardGroup.STRAIGHT,
   emo: 0,
-  time: 3,
+  time: 6,
   //delay action (s)
   sound: SoundType.STRAIGHT,
   next: 2

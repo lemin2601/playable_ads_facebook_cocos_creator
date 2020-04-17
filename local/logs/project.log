@@ -1,903 +1,111 @@
-2020-04-14T08:18:44.435Z - normal: Load ~/.CocosCreator/settings.json
-2020-04-14T08:18:44.479Z - normal: Initializing Asset Database
-2020-04-14T08:18:44.486Z - normal: checking language setting...
-2020-04-14T08:18:44.486Z - normal: Language: en
-2020-04-14T08:18:45.417Z - success: preview server running at http://localhost:7456
-2020-04-14T08:18:45.422Z - success: protocol editor-framework registered
-2020-04-14T08:18:45.422Z - success: protocol app registered
-2020-04-14T08:18:45.422Z - success: protocol theme registered
-2020-04-14T08:18:45.422Z - success: protocol packages registered
-2020-04-14T08:18:45.422Z - success: protocol uuid registerred
-2020-04-14T08:18:45.422Z - success: protocol db registerred
-2020-04-14T08:18:45.422Z - success: protocol thumbnail registerred
-2020-04-14T08:18:45.422Z - success: protocol unpack registerred
-2020-04-14T08:18:45.422Z - success: protocol disable-commonjs registerred
-2020-04-14T08:18:45.995Z - normal: connected!
-2020-04-14T08:18:45.997Z - normal: Check project C:\Users\pc\projects\playable\playableAdsGsn
-2020-04-14T08:18:45.998Z - normal: Initializing project C:\Users\pc\projects\playable\playableAdsGsn
-2020-04-14T08:18:46.021Z - success: adapters loaded
-2020-04-14T08:18:46.030Z - success: asset-db-debugger loaded
-2020-04-14T08:18:46.101Z - success: fb-audience-network loaded
-2020-04-14T08:18:46.144Z - success: fb-live-stream loaded
-2020-04-14T08:18:46.160Z - success: google-play-instant loaded
-2020-04-14T08:18:46.163Z - success: huawei-adapter loaded
-2020-04-14T08:18:46.166Z - success: jkw-adapter loaded
-2020-04-14T08:18:46.169Z - success: jsb-adapter loaded
-2020-04-14T08:18:46.171Z - success: oppo-adapter loaded
-2020-04-14T08:18:46.180Z - success: package-manager loaded
-2020-04-14T08:18:46.183Z - success: qtt-adapter loaded
-2020-04-14T08:18:46.195Z - success: runtime-dev-tools loaded
-2020-04-14T08:18:46.207Z - success: sdkbox loaded
-2020-04-14T08:18:46.215Z - success: ui-kit-preview-extra loaded
-2020-04-14T08:18:46.223Z - success: ui-kit-preview loaded
-2020-04-14T08:18:46.226Z - success: vivo-adapter loaded
-2020-04-14T08:18:46.456Z - success: alipay-minigame loaded
-2020-04-14T08:18:46.496Z - success: assets loaded
-2020-04-14T08:18:46.498Z - success: baidugame-opendata loaded
-2020-04-14T08:18:46.499Z - success: baidugame loaded
-2020-04-14T08:18:46.502Z - success: builder loaded
-2020-04-14T08:18:46.623Z - success: cocos-services loaded
-2020-04-14T08:18:46.626Z - success: console loaded
-2020-04-14T08:18:46.627Z - success: curve-editor loaded
-2020-04-14T08:18:46.636Z - success: fb-instant-games loaded
-2020-04-14T08:18:46.637Z - success: game-window loaded
-2020-04-14T08:18:46.638Z - success: google-instant-games loaded
-2020-04-14T08:18:46.639Z - success: hierarchy loaded
-2020-04-14T08:18:46.642Z - success: huawei-runtime loaded
-2020-04-14T08:18:46.643Z - success: inspector loaded
-2020-04-14T08:18:46.692Z - success: cpk-publish loaded
-2020-04-14T08:18:46.692Z - success: keystore loaded
-2020-04-14T08:18:46.695Z - success: node-library loaded
-2020-04-14T08:18:46.696Z - success: open-recent-items loaded
-2020-04-14T08:18:46.698Z - success: oppo-runtime loaded
-2020-04-14T08:18:46.702Z - success: package-asset loaded
-2020-04-14T08:18:46.702Z - success: preferences loaded
-2020-04-14T08:18:46.703Z - success: project-importer loaded
-2020-04-14T08:18:46.704Z - success: project-settings loaded
-2020-04-14T08:18:46.713Z - success: qtt-runtime loaded
-2020-04-14T08:18:46.715Z - success: scene loaded
-2020-04-14T08:18:46.716Z - success: simulator-debugger loaded
-2020-04-14T08:18:46.716Z - success: sprite-editor loaded
-2020-04-14T08:18:46.718Z - success: store loaded
-2020-04-14T08:18:46.719Z - success: timeline loaded
-2020-04-14T08:18:46.722Z - success: vivo-runtime loaded
-2020-04-14T08:18:46.724Z - success: wechatgame-opendata loaded
-2020-04-14T08:18:46.726Z - success: wechatgame loaded
-2020-04-14T08:18:46.728Z - success: xiaomi-runtime loaded
-2020-04-14T08:18:47.734Z - normal: Initializing Cocos2d
-2020-04-14T08:18:49.404Z - normal: Initializing engine extends
-2020-04-14T08:18:51.676Z - normal: Loading packages
-2020-04-14T08:18:51.679Z - normal: Watching packages
-2020-04-14T08:18:52.038Z - normal: Run Application
-2020-04-14T08:18:52.083Z - info: Cocos Service load base data!
-2020-04-14T08:20:22.139Z - info: Only the prefab node "cardPrefab" and its child nodes are saved.
-2020-04-14T08:20:23.245Z - info: Only the prefab node "cardPrefab" and its child nodes are saved.
-2020-04-14T08:45:40.838Z - normal: Start building with options : {
-  "actualPlatform": "web-mobile",
-  "android": {
-    "packageName": "org.cocos2d.helloworld"
-  },
-  "android-instant": {
-    "REMOTE_SERVER_ROOT": "",
-    "host": "",
-    "packageName": "org.cocos2d.helloworld",
-    "pathPattern": "",
-    "recordPath": "",
-    "scheme": "https",
-    "skipRecord": false
-  },
-  "androidStudio": true,
-  "apiLevel": "",
-  "appABIs": [],
-  "appBundle": false,
-  "appKey": "",
-  "appSecret": "",
-  "buildPath": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\build",
-  "buildScriptsOnly": false,
-  "debug": false,
-  "dest": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\build\\web-mobile",
-  "embedWebDebugger": true,
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [
-    "Collider",
-    "Dynamic Atlas",
-    "DragonBones",
-    "EditBox",
-    "Geom Utils",
-    "Intersection",
-    "Label Effect",
-    "Mesh",
-    "MotionStreak",
-    "Native Socket",
-    "Physics",
-    "PageView",
-    "PageViewIndicator",
-    "RichText",
-    "Slider",
-    "ScrollBar",
-    "ScrollView",
-    "StudioComponent",
-    "Toggle",
-    "TiledMap",
-    "VideoPlayer",
-    "WebView",
-    "3D",
-    "3D Primitive",
-    "WechatSubContext",
-    "SwanSubContext",
-    "TypeScript Polyfill",
-    "3D Physics/cannon.js",
-    "3D Physics/Builtin",
-    "3D Particle"
-  ],
-  "fb-instant-games": {},
-  "includeAnySDK": false,
-  "includeEruda": false,
-  "includeSDKBox": false,
-  "inlineSpriteFrames": false,
-  "inlineSpriteFrames_native": true,
-  "ios": {
-    "packageName": "org.cocos2d.helloworld"
-  },
-  "jailbreakPlatform": false,
-  "mac": {
-    "packageName": "org.cocos2d.helloworld"
-  },
-  "md5Cache": false,
-  "mergeStartScene": false,
-  "oauthLoginServer": "",
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.helloworld",
-  "platform": "web-mobile",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "privateKey": "",
-  "qqplay": {
-    "REMOTE_SERVER_ROOT": "",
-    "orientation": "portrait"
-  },
-  "renderMode": "0",
-  "scenes": [
-    "2d2f792f-a40c-49bb-a189-ed176a246e49"
-  ],
-  "sourceMaps": false,
-  "startScene": "2d2f792f-a40c-49bb-a189-ed176a246e49",
-  "template": "link",
-  "title": "example_playable",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "portrait",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "",
-    "appid": "wx6ac3f5090a6b99c5",
-    "isSubdomain": false,
-    "orientation": "portrait",
-    "subContext": ""
-  },
-  "win32": {},
-  "xxteaKey": "7930af15-372f-4a",
-  "zipCompressJs": true,
-  "project": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn",
-  "projectName": "example_playable",
-  "debugBuildWorker": false
-}
-2020-04-14T08:45:40.839Z - normal: Building C:\Users\pc\projects\playable\playableAdsGsn
-2020-04-14T08:45:40.839Z - normal: Destination C:\Users\pc\projects\playable\playableAdsGsn\build\web-mobile
-2020-04-14T08:45:40.940Z - normal: Delete C:\Users\pc\projects\playable\playableAdsGsn\build\web-mobile\subpackages/**/*,C:\Users\pc\projects\playable\playableAdsGsn\build\web-mobile\**\*
-2020-04-14T08:45:43.311Z - normal: Start building assets
-2020-04-14T08:45:43.311Z - normal: Start spawn build-worker
-2020-04-14T08:45:43.776Z - normal: Finish spawn build-worker
-2020-04-14T08:45:43.776Z - normal: Start init build-worker
-2020-04-14T08:45:49.441Z - normal: Finish init build-worker
-2020-04-14T08:45:49.441Z - normal: Start build-assets in worker
-2020-04-14T08:45:51.281Z - normal: Finish build-assets in worker
-2020-04-14T08:45:51.287Z - normal: Finish building assets
-2020-04-14T08:45:51.288Z - normal: Start building plugin scripts
-2020-04-14T08:45:51.330Z - normal: Generating main.js from C:\CocosCreator_2.3.1\resources\static\build-templates\shares\main.js
-2020-04-14T08:45:51.357Z - normal: Generating html from C:\CocosCreator_2.3.1\resources\static\build-templates\web-mobile\template\index.html
-2020-04-14T08:45:51.381Z - normal: Built to "C:\Users\pc\projects\playable\playableAdsGsn\build\web-mobile" successfully
-2020-04-14T08:48:43.396Z - normal: Start building with options : {
-  "actualPlatform": "web-mobile",
-  "android": {
-    "packageName": "org.cocos2d.helloworld"
-  },
-  "android-instant": {
-    "REMOTE_SERVER_ROOT": "",
-    "host": "",
-    "packageName": "org.cocos2d.helloworld",
-    "pathPattern": "",
-    "recordPath": "",
-    "scheme": "https",
-    "skipRecord": false
-  },
-  "androidStudio": true,
-  "apiLevel": "",
-  "appABIs": [],
-  "appBundle": false,
-  "appKey": "",
-  "appSecret": "",
-  "buildPath": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\build",
-  "buildScriptsOnly": false,
-  "debug": false,
-  "dest": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\build\\web-mobile",
-  "embedWebDebugger": false,
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [
-    "Collider",
-    "Dynamic Atlas",
-    "DragonBones",
-    "EditBox",
-    "Geom Utils",
-    "Intersection",
-    "Label Effect",
-    "Mesh",
-    "MotionStreak",
-    "Native Socket",
-    "Physics",
-    "PageView",
-    "PageViewIndicator",
-    "RichText",
-    "Slider",
-    "ScrollBar",
-    "ScrollView",
-    "StudioComponent",
-    "Toggle",
-    "TiledMap",
-    "VideoPlayer",
-    "WebView",
-    "3D",
-    "3D Primitive",
-    "WechatSubContext",
-    "SwanSubContext",
-    "TypeScript Polyfill",
-    "3D Physics/cannon.js",
-    "3D Physics/Builtin",
-    "3D Particle"
-  ],
-  "fb-instant-games": {},
-  "includeAnySDK": false,
-  "includeEruda": false,
-  "includeSDKBox": false,
-  "inlineSpriteFrames": false,
-  "inlineSpriteFrames_native": true,
-  "ios": {
-    "packageName": "org.cocos2d.helloworld"
-  },
-  "jailbreakPlatform": false,
-  "mac": {
-    "packageName": "org.cocos2d.helloworld"
-  },
-  "md5Cache": false,
-  "mergeStartScene": false,
-  "oauthLoginServer": "",
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.helloworld",
-  "platform": "web-mobile",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "privateKey": "",
-  "qqplay": {
-    "REMOTE_SERVER_ROOT": "",
-    "orientation": "portrait"
-  },
-  "renderMode": "0",
-  "scenes": [
-    "2d2f792f-a40c-49bb-a189-ed176a246e49"
-  ],
-  "sourceMaps": false,
-  "startScene": "2d2f792f-a40c-49bb-a189-ed176a246e49",
-  "template": "link",
-  "title": "example_playable",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "portrait",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "",
-    "appid": "wx6ac3f5090a6b99c5",
-    "isSubdomain": false,
-    "orientation": "portrait",
-    "subContext": ""
-  },
-  "win32": {},
-  "xxteaKey": "7930af15-372f-4a",
-  "zipCompressJs": true,
-  "project": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn",
-  "projectName": "example_playable",
-  "debugBuildWorker": false
-}
-2020-04-14T08:48:43.397Z - normal: Building C:\Users\pc\projects\playable\playableAdsGsn
-2020-04-14T08:48:43.397Z - normal: Destination C:\Users\pc\projects\playable\playableAdsGsn\build\web-mobile
-2020-04-14T08:48:43.397Z - normal: Delete C:\Users\pc\projects\playable\playableAdsGsn\build\web-mobile\subpackages/**/*,C:\Users\pc\projects\playable\playableAdsGsn\build\web-mobile\**\*
-2020-04-14T08:48:45.208Z - normal: Start building assets
-2020-04-14T08:48:45.208Z - normal: Start spawn build-worker
-2020-04-14T08:48:45.657Z - normal: Finish spawn build-worker
-2020-04-14T08:48:45.657Z - normal: Start init build-worker
-2020-04-14T08:48:47.028Z - normal: Finish init build-worker
-2020-04-14T08:48:47.029Z - normal: Start build-assets in worker
-2020-04-14T08:48:47.470Z - normal: Finish build-assets in worker
-2020-04-14T08:48:47.476Z - normal: Finish building assets
-2020-04-14T08:48:47.476Z - normal: Start building plugin scripts
-2020-04-14T08:48:47.501Z - normal: Generating main.js from C:\CocosCreator_2.3.1\resources\static\build-templates\shares\main.js
-2020-04-14T08:48:47.505Z - normal: Generating html from C:\CocosCreator_2.3.1\resources\static\build-templates\web-mobile\template\index.html
-2020-04-14T08:48:47.520Z - normal: Built to "C:\Users\pc\projects\playable\playableAdsGsn\build\web-mobile" successfully
-2020-04-14T08:49:26.161Z - info: Only the prefab node "player1" and its child nodes are saved.
-2020-04-14T08:50:14.248Z - normal: Start building with options : {
-  "actualPlatform": "web-mobile",
-  "android": {
-    "packageName": "org.cocos2d.helloworld"
-  },
-  "android-instant": {
-    "REMOTE_SERVER_ROOT": "",
-    "host": "",
-    "packageName": "org.cocos2d.helloworld",
-    "pathPattern": "",
-    "recordPath": "",
-    "scheme": "https",
-    "skipRecord": false
-  },
-  "androidStudio": true,
-  "apiLevel": "",
-  "appABIs": [],
-  "appBundle": false,
-  "appKey": "",
-  "appSecret": "",
-  "buildPath": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\build",
-  "buildScriptsOnly": false,
-  "debug": false,
-  "dest": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\build\\web-mobile",
-  "embedWebDebugger": false,
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [
-    "Collider",
-    "Dynamic Atlas",
-    "DragonBones",
-    "EditBox",
-    "Geom Utils",
-    "Intersection",
-    "Label Effect",
-    "Mesh",
-    "MotionStreak",
-    "Native Socket",
-    "Physics",
-    "PageView",
-    "PageViewIndicator",
-    "RichText",
-    "Slider",
-    "ScrollBar",
-    "ScrollView",
-    "StudioComponent",
-    "Toggle",
-    "TiledMap",
-    "VideoPlayer",
-    "WebView",
-    "3D",
-    "3D Primitive",
-    "WechatSubContext",
-    "SwanSubContext",
-    "TypeScript Polyfill",
-    "3D Physics/cannon.js",
-    "3D Physics/Builtin",
-    "3D Particle"
-  ],
-  "fb-instant-games": {},
-  "includeAnySDK": false,
-  "includeEruda": false,
-  "includeSDKBox": false,
-  "inlineSpriteFrames": false,
-  "inlineSpriteFrames_native": true,
-  "ios": {
-    "packageName": "org.cocos2d.helloworld"
-  },
-  "jailbreakPlatform": false,
-  "mac": {
-    "packageName": "org.cocos2d.helloworld"
-  },
-  "md5Cache": false,
-  "mergeStartScene": false,
-  "oauthLoginServer": "",
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.helloworld",
-  "platform": "web-mobile",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "privateKey": "",
-  "qqplay": {
-    "REMOTE_SERVER_ROOT": "",
-    "orientation": "portrait"
-  },
-  "renderMode": "0",
-  "scenes": [
-    "2d2f792f-a40c-49bb-a189-ed176a246e49"
-  ],
-  "sourceMaps": false,
-  "startScene": "2d2f792f-a40c-49bb-a189-ed176a246e49",
-  "template": "link",
-  "title": "example_playable",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "portrait",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "",
-    "appid": "wx6ac3f5090a6b99c5",
-    "isSubdomain": false,
-    "orientation": "portrait",
-    "subContext": ""
-  },
-  "win32": {},
-  "xxteaKey": "7930af15-372f-4a",
-  "zipCompressJs": true,
-  "project": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn",
-  "projectName": "example_playable",
-  "debugBuildWorker": false
-}
-2020-04-14T08:50:14.249Z - normal: Building C:\Users\pc\projects\playable\playableAdsGsn
-2020-04-14T08:50:14.249Z - normal: Destination C:\Users\pc\projects\playable\playableAdsGsn\build\web-mobile
-2020-04-14T08:50:14.249Z - normal: Delete C:\Users\pc\projects\playable\playableAdsGsn\build\web-mobile\subpackages/**/*,C:\Users\pc\projects\playable\playableAdsGsn\build\web-mobile\**\*
-2020-04-14T08:50:16.111Z - normal: Start building assets
-2020-04-14T08:50:16.111Z - normal: Start spawn build-worker
-2020-04-14T08:50:16.588Z - normal: Finish spawn build-worker
-2020-04-14T08:50:16.588Z - normal: Start init build-worker
-2020-04-14T08:50:18.030Z - normal: Finish init build-worker
-2020-04-14T08:50:18.030Z - normal: Start build-assets in worker
-2020-04-14T08:50:18.476Z - normal: Finish build-assets in worker
-2020-04-14T08:50:18.480Z - normal: Finish building assets
-2020-04-14T08:50:18.480Z - normal: Start building plugin scripts
-2020-04-14T08:50:18.504Z - normal: Generating main.js from C:\CocosCreator_2.3.1\resources\static\build-templates\shares\main.js
-2020-04-14T08:50:18.508Z - normal: Generating html from C:\CocosCreator_2.3.1\resources\static\build-templates\web-mobile\template\index.html
-2020-04-14T08:50:18.521Z - normal: Built to "C:\Users\pc\projects\playable\playableAdsGsn\build\web-mobile" successfully
-2020-04-14T08:54:21.908Z - failed: [db-task][sync-changes] Failed to import asset C:\Users\pc\projects\playable\playableAdsGsn\assets\scripts\CPlayer.js, message: Compile error: SyntaxError: C:\Users\pc\projects\playable\playableAdsGsn\assets\scripts\CPlayer.js: Unexpected token (256:16)
-
-  254 |                     this.imgPass.active = false;
-  255 |                     this.avatar.
-> 256 |                 }.bind(this))
-      |                 ^
-  257 |             ))
-  258 |         }
-  259 |     },
-    at Parser.raise (C:\CocosCreator_2.3.1\resources\app.asar\node_modules\@babel\parser\lib\index.js:7012:17)
-    at Parser.unexpected (C:\CocosCreator_2.3.1\resources\app.asar\node_modules\@babel\parser\lib\index.js:8405:16)
-    at Parser.parseIdentifierName (C:\CocosCreator_2.3.1\resources\app.asar\node_modules\@babel\parser\lib\index.js:10361:18)
-    at Parser.parseIdentifier (C:\CocosCreator_2.3.1\resources\app.asar\node_modules\@babel\parser\lib\index.js:10339:23)
-    at Parser.parseMaybePrivateName (C:\CocosCreator_2.3.1\resources\app.asar\node_modules\@babel\parser\lib\index.js:9683:19)
-    at Parser.parseSubscript (C:\CocosCreator_2.3.1\resources\app.asar\node_modules\@babel\parser\lib\index.js:9306:28)
-    at Parser.parseSubscripts (C:\CocosCreator_2.3.1\resources\app.asar\node_modules\@babel\parser\lib\index.js:9258:19)
-    at Parser.parseExprSubscripts (C:\CocosCreator_2.3.1\resources\app.asar\node_modules\@babel\parser\lib\index.js:9247:17)
-    at Parser.parseMaybeUnary (C:\CocosCreator_2.3.1\resources\app.asar\node_modules\@babel\parser\lib\index.js:9217:21)
-    at Parser.parseExprOps (C:\CocosCreator_2.3.1\resources\app.asar\node_modules\@babel\parser\lib\index.js:9083:23)
-2020-04-14T08:57:13.913Z - info: Only the prefab node "player1" and its child nodes are saved.
-2020-04-14T08:57:28.217Z - info: Only the prefab node "player1" and its child nodes are saved.
-2020-04-14T08:57:43.321Z - info: Only the prefab node "player1" and its child nodes are saved.
-2020-04-14T08:59:10.714Z - normal: Start building with options : {
-  "actualPlatform": "web-mobile",
-  "android": {
-    "packageName": "org.cocos2d.helloworld"
-  },
-  "android-instant": {
-    "REMOTE_SERVER_ROOT": "",
-    "host": "",
-    "packageName": "org.cocos2d.helloworld",
-    "pathPattern": "",
-    "recordPath": "",
-    "scheme": "https",
-    "skipRecord": false
-  },
-  "androidStudio": true,
-  "apiLevel": "",
-  "appABIs": [],
-  "appBundle": false,
-  "appKey": "",
-  "appSecret": "",
-  "buildPath": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\build",
-  "buildScriptsOnly": false,
-  "debug": false,
-  "dest": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\build\\web-mobile",
-  "embedWebDebugger": false,
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [
-    "Collider",
-    "Dynamic Atlas",
-    "DragonBones",
-    "EditBox",
-    "Geom Utils",
-    "Intersection",
-    "Label Effect",
-    "Mesh",
-    "MotionStreak",
-    "Native Socket",
-    "Physics",
-    "PageView",
-    "PageViewIndicator",
-    "RichText",
-    "Slider",
-    "ScrollBar",
-    "ScrollView",
-    "StudioComponent",
-    "Toggle",
-    "TiledMap",
-    "VideoPlayer",
-    "WebView",
-    "3D",
-    "3D Primitive",
-    "WechatSubContext",
-    "SwanSubContext",
-    "TypeScript Polyfill",
-    "3D Physics/cannon.js",
-    "3D Physics/Builtin",
-    "3D Particle"
-  ],
-  "fb-instant-games": {},
-  "includeAnySDK": false,
-  "includeEruda": false,
-  "includeSDKBox": false,
-  "inlineSpriteFrames": false,
-  "inlineSpriteFrames_native": true,
-  "ios": {
-    "packageName": "org.cocos2d.helloworld"
-  },
-  "jailbreakPlatform": false,
-  "mac": {
-    "packageName": "org.cocos2d.helloworld"
-  },
-  "md5Cache": false,
-  "mergeStartScene": false,
-  "oauthLoginServer": "",
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.helloworld",
-  "platform": "web-mobile",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "privateKey": "",
-  "qqplay": {
-    "REMOTE_SERVER_ROOT": "",
-    "orientation": "portrait"
-  },
-  "renderMode": "0",
-  "scenes": [
-    "2d2f792f-a40c-49bb-a189-ed176a246e49"
-  ],
-  "sourceMaps": false,
-  "startScene": "2d2f792f-a40c-49bb-a189-ed176a246e49",
-  "template": "link",
-  "title": "example_playable",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "portrait",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "",
-    "appid": "wx6ac3f5090a6b99c5",
-    "isSubdomain": false,
-    "orientation": "portrait",
-    "subContext": ""
-  },
-  "win32": {},
-  "xxteaKey": "7930af15-372f-4a",
-  "zipCompressJs": true,
-  "project": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn",
-  "projectName": "example_playable",
-  "debugBuildWorker": false
-}
-2020-04-14T08:59:10.714Z - normal: Building C:\Users\pc\projects\playable\playableAdsGsn
-2020-04-14T08:59:10.714Z - normal: Destination C:\Users\pc\projects\playable\playableAdsGsn\build\web-mobile
-2020-04-14T08:59:10.715Z - normal: Delete C:\Users\pc\projects\playable\playableAdsGsn\build\web-mobile\subpackages/**/*,C:\Users\pc\projects\playable\playableAdsGsn\build\web-mobile\**\*
-2020-04-14T08:59:12.470Z - normal: Start building assets
-2020-04-14T08:59:12.470Z - normal: Start spawn build-worker
-2020-04-14T08:59:12.934Z - normal: Finish spawn build-worker
-2020-04-14T08:59:12.934Z - normal: Start init build-worker
-2020-04-14T08:59:14.382Z - normal: Finish init build-worker
-2020-04-14T08:59:14.382Z - normal: Start build-assets in worker
-2020-04-14T08:59:14.846Z - normal: Finish build-assets in worker
-2020-04-14T08:59:14.850Z - normal: Finish building assets
-2020-04-14T08:59:14.850Z - normal: Start building plugin scripts
-2020-04-14T08:59:14.873Z - normal: Generating main.js from C:\CocosCreator_2.3.1\resources\static\build-templates\shares\main.js
-2020-04-14T08:59:14.878Z - normal: Generating html from C:\CocosCreator_2.3.1\resources\static\build-templates\web-mobile\template\index.html
-2020-04-14T08:59:14.890Z - normal: Built to "C:\Users\pc\projects\playable\playableAdsGsn\build\web-mobile" successfully
-2020-04-14T10:21:30.454Z - failed: [db-task][sync-changes] Failed to import asset C:\Users\pc\projects\playable\playableAdsGsn\assets\scripts\GameController.js, message: Compile error: SyntaxError: C:\Users\pc\projects\playable\playableAdsGsn\assets\scripts\GameController.js: Unexpected token, expected "," (67:8)
-
-  65 |         },
-  66 |         img
-> 67 |         _poolCard: {
-     |         ^
-  68 |             default: null,
-  69 |             type   : cc.NodePool,
-  70 |             visible:false
-    at Parser.raise (C:\CocosCreator_2.3.1\resources\app.asar\node_modules\@babel\parser\lib\index.js:7012:17)
-    at Parser.unexpected (C:\CocosCreator_2.3.1\resources\app.asar\node_modules\@babel\parser\lib\index.js:8405:16)
-    at Parser.expect (C:\CocosCreator_2.3.1\resources\app.asar\node_modules\@babel\parser\lib\index.js:8391:28)
-    at Parser.parseObj (C:\CocosCreator_2.3.1\resources\app.asar\node_modules\@babel\parser\lib\index.js:9973:14)
-    at Parser.parseExprAtom (C:\CocosCreator_2.3.1\resources\app.asar\node_modules\@babel\parser\lib\index.js:9604:28)
-    at Parser.parseExprSubscripts (C:\CocosCreator_2.3.1\resources\app.asar\node_modules\@babel\parser\lib\index.js:9237:23)
-    at Parser.parseMaybeUnary (C:\CocosCreator_2.3.1\resources\app.asar\node_modules\@babel\parser\lib\index.js:9217:21)
-    at Parser.parseExprOps (C:\CocosCreator_2.3.1\resources\app.asar\node_modules\@babel\parser\lib\index.js:9083:23)
-    at Parser.parseMaybeConditional (C:\CocosCreator_2.3.1\resources\app.asar\node_modules\@babel\parser\lib\index.js:9056:23)
-    at Parser.parseMaybeAssign (C:\CocosCreator_2.3.1\resources\app.asar\node_modules\@babel\parser\lib\index.js:9015:21)
-2020-04-14T10:34:25.219Z - normal: Start building with options : {
-  "actualPlatform": "web-mobile",
-  "android": {
-    "packageName": "org.cocos2d.helloworld"
-  },
-  "android-instant": {
-    "REMOTE_SERVER_ROOT": "",
-    "host": "",
-    "packageName": "org.cocos2d.helloworld",
-    "pathPattern": "",
-    "recordPath": "",
-    "scheme": "https",
-    "skipRecord": false
-  },
-  "androidStudio": true,
-  "apiLevel": "",
-  "appABIs": [],
-  "appBundle": false,
-  "appKey": "",
-  "appSecret": "",
-  "buildPath": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\build",
-  "buildScriptsOnly": false,
-  "debug": false,
-  "dest": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\build\\web-mobile",
-  "embedWebDebugger": false,
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [
-    "Collider",
-    "Dynamic Atlas",
-    "DragonBones",
-    "EditBox",
-    "Geom Utils",
-    "Intersection",
-    "Label Effect",
-    "Mesh",
-    "MotionStreak",
-    "Native Socket",
-    "Physics",
-    "PageView",
-    "PageViewIndicator",
-    "RichText",
-    "Slider",
-    "ScrollBar",
-    "ScrollView",
-    "StudioComponent",
-    "Toggle",
-    "TiledMap",
-    "VideoPlayer",
-    "WebView",
-    "3D",
-    "3D Primitive",
-    "WechatSubContext",
-    "SwanSubContext",
-    "TypeScript Polyfill",
-    "3D Physics/cannon.js",
-    "3D Physics/Builtin",
-    "3D Particle"
-  ],
-  "fb-instant-games": {},
-  "includeAnySDK": false,
-  "includeEruda": false,
-  "includeSDKBox": false,
-  "inlineSpriteFrames": false,
-  "inlineSpriteFrames_native": true,
-  "ios": {
-    "packageName": "org.cocos2d.helloworld"
-  },
-  "jailbreakPlatform": false,
-  "mac": {
-    "packageName": "org.cocos2d.helloworld"
-  },
-  "md5Cache": false,
-  "mergeStartScene": false,
-  "oauthLoginServer": "",
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.helloworld",
-  "platform": "web-mobile",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "privateKey": "",
-  "qqplay": {
-    "REMOTE_SERVER_ROOT": "",
-    "orientation": "portrait"
-  },
-  "renderMode": "0",
-  "scenes": [
-    "2d2f792f-a40c-49bb-a189-ed176a246e49"
-  ],
-  "sourceMaps": false,
-  "startScene": "2d2f792f-a40c-49bb-a189-ed176a246e49",
-  "template": "link",
-  "title": "example_playable",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "portrait",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "",
-    "appid": "wx6ac3f5090a6b99c5",
-    "isSubdomain": false,
-    "orientation": "portrait",
-    "subContext": ""
-  },
-  "win32": {},
-  "xxteaKey": "7930af15-372f-4a",
-  "zipCompressJs": true,
-  "project": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn",
-  "projectName": "example_playable",
-  "debugBuildWorker": false
-}
-2020-04-14T10:34:25.219Z - normal: Building C:\Users\pc\projects\playable\playableAdsGsn
-2020-04-14T10:34:25.219Z - normal: Destination C:\Users\pc\projects\playable\playableAdsGsn\build\web-mobile
-2020-04-14T10:34:25.220Z - normal: Delete C:\Users\pc\projects\playable\playableAdsGsn\build\web-mobile\subpackages/**/*,C:\Users\pc\projects\playable\playableAdsGsn\build\web-mobile\**\*
-2020-04-14T10:34:26.982Z - normal: Start building assets
-2020-04-14T10:34:26.982Z - normal: Start spawn build-worker
-2020-04-14T10:34:27.449Z - normal: Finish spawn build-worker
-2020-04-14T10:34:27.449Z - normal: Start init build-worker
-2020-04-14T10:34:28.904Z - normal: Finish init build-worker
-2020-04-14T10:34:28.905Z - normal: Start build-assets in worker
-2020-04-14T10:34:29.401Z - normal: Finish build-assets in worker
-2020-04-14T10:34:29.409Z - normal: Finish building assets
-2020-04-14T10:34:29.409Z - normal: Start building plugin scripts
-2020-04-14T10:34:29.433Z - normal: Generating main.js from C:\CocosCreator_2.3.1\resources\static\build-templates\shares\main.js
-2020-04-14T10:34:29.437Z - normal: Generating html from C:\CocosCreator_2.3.1\resources\static\build-templates\web-mobile\template\index.html
-2020-04-14T10:34:29.453Z - normal: Built to "C:\Users\pc\projects\playable\playableAdsGsn\build\web-mobile" successfully
-2020-04-15T01:32:34.304Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:224579
-2020-04-15T02:41:27.423Z - normal: Start building with options : {
-  "actualPlatform": "web-mobile",
-  "android": {
-    "packageName": "org.cocos2d.helloworld"
-  },
-  "android-instant": {
-    "REMOTE_SERVER_ROOT": "",
-    "host": "",
-    "packageName": "org.cocos2d.helloworld",
-    "pathPattern": "",
-    "recordPath": "",
-    "scheme": "https",
-    "skipRecord": false
-  },
-  "androidStudio": true,
-  "apiLevel": "",
-  "appABIs": [],
-  "appBundle": false,
-  "appKey": "",
-  "appSecret": "",
-  "buildPath": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\build",
-  "buildScriptsOnly": false,
-  "debug": false,
-  "dest": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\build\\web-mobile",
-  "embedWebDebugger": false,
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [
-    "Collider",
-    "Dynamic Atlas",
-    "DragonBones",
-    "EditBox",
-    "Geom Utils",
-    "Intersection",
-    "Label Effect",
-    "Mesh",
-    "MotionStreak",
-    "Native Socket",
-    "Physics",
-    "PageView",
-    "PageViewIndicator",
-    "RichText",
-    "Slider",
-    "ScrollBar",
-    "ScrollView",
-    "StudioComponent",
-    "Toggle",
-    "TiledMap",
-    "VideoPlayer",
-    "WebView",
-    "3D",
-    "3D Primitive",
-    "WechatSubContext",
-    "SwanSubContext",
-    "TypeScript Polyfill",
-    "3D Physics/cannon.js",
-    "3D Physics/Builtin",
-    "3D Particle"
-  ],
-  "fb-instant-games": {},
-  "includeAnySDK": false,
-  "includeEruda": false,
-  "includeSDKBox": false,
-  "inlineSpriteFrames": false,
-  "inlineSpriteFrames_native": true,
-  "ios": {
-    "packageName": "org.cocos2d.helloworld"
-  },
-  "jailbreakPlatform": false,
-  "mac": {
-    "packageName": "org.cocos2d.helloworld"
-  },
-  "md5Cache": false,
-  "mergeStartScene": false,
-  "oauthLoginServer": "",
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.helloworld",
-  "platform": "web-mobile",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "privateKey": "",
-  "qqplay": {
-    "REMOTE_SERVER_ROOT": "",
-    "orientation": "portrait"
-  },
-  "renderMode": "0",
-  "scenes": [
-    "2d2f792f-a40c-49bb-a189-ed176a246e49"
-  ],
-  "sourceMaps": false,
-  "startScene": "2d2f792f-a40c-49bb-a189-ed176a246e49",
-  "template": "link",
-  "title": "example_playable",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "portrait",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "",
-    "appid": "wx6ac3f5090a6b99c5",
-    "isSubdomain": false,
-    "orientation": "portrait",
-    "subContext": ""
-  },
-  "win32": {},
-  "xxteaKey": "7930af15-372f-4a",
-  "zipCompressJs": true,
-  "project": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn",
-  "projectName": "example_playable",
-  "debugBuildWorker": false
-}
-2020-04-15T02:41:27.423Z - normal: Building C:\Users\pc\projects\playable\playableAdsGsn
-2020-04-15T02:41:27.423Z - normal: Destination C:\Users\pc\projects\playable\playableAdsGsn\build\web-mobile
-2020-04-15T02:41:27.424Z - normal: Delete C:\Users\pc\projects\playable\playableAdsGsn\build\web-mobile\subpackages/**/*,C:\Users\pc\projects\playable\playableAdsGsn\build\web-mobile\**\*
-2020-04-15T02:41:30.422Z - normal: Start building assets
-2020-04-15T02:41:30.422Z - normal: Start spawn build-worker
-2020-04-15T02:41:30.894Z - normal: Finish spawn build-worker
-2020-04-15T02:41:30.894Z - normal: Start init build-worker
-2020-04-15T02:41:37.090Z - normal: Finish init build-worker
-2020-04-15T02:41:37.090Z - normal: Start build-assets in worker
-2020-04-15T02:41:37.618Z - normal: Finish build-assets in worker
-2020-04-15T02:41:37.623Z - normal: Finish building assets
-2020-04-15T02:41:37.623Z - normal: Start building plugin scripts
-2020-04-15T02:41:37.664Z - normal: Generating main.js from C:\CocosCreator_2.3.1\resources\static\build-templates\shares\main.js
-2020-04-15T02:41:37.689Z - normal: Generating html from C:\CocosCreator_2.3.1\resources\static\build-templates\web-mobile\template\index.html
-2020-04-15T02:41:37.706Z - normal: Built to "C:\Users\pc\projects\playable\playableAdsGsn\build\web-mobile" successfully
+2020-03-27T04:38:54.598Z - normal: Load ~/.CocosCreator/settings.json
+2020-03-27T04:38:54.649Z - normal: Initializing Asset Database
+2020-03-27T04:38:54.652Z - normal: checking language setting...
+2020-03-27T04:38:54.652Z - normal: Language: en
+2020-03-27T04:38:55.690Z - success: preview server running at http://localhost:7456
+2020-03-27T04:38:55.694Z - success: protocol editor-framework registered
+2020-03-27T04:38:55.694Z - success: protocol app registered
+2020-03-27T04:38:55.694Z - success: protocol theme registered
+2020-03-27T04:38:55.694Z - success: protocol packages registered
+2020-03-27T04:38:55.694Z - success: protocol uuid registerred
+2020-03-27T04:38:55.694Z - success: protocol db registerred
+2020-03-27T04:38:55.694Z - success: protocol thumbnail registerred
+2020-03-27T04:38:55.694Z - success: protocol unpack registerred
+2020-03-27T04:38:55.694Z - success: protocol disable-commonjs registerred
+2020-03-27T04:38:56.238Z - normal: connected!
+2020-03-27T04:38:56.239Z - normal: Check project C:\Users\pc\projects\playable\playableAdsGsn
+2020-03-27T04:38:56.240Z - normal: Initializing project C:\Users\pc\projects\playable\playableAdsGsn
+2020-03-27T04:38:56.264Z - success: adapters loaded
+2020-03-27T04:38:56.274Z - success: asset-db-debugger loaded
+2020-03-27T04:38:56.350Z - success: fb-audience-network loaded
+2020-03-27T04:38:56.394Z - success: fb-live-stream loaded
+2020-03-27T04:38:56.410Z - success: google-play-instant loaded
+2020-03-27T04:38:56.413Z - success: huawei-adapter loaded
+2020-03-27T04:38:56.417Z - success: jkw-adapter loaded
+2020-03-27T04:38:56.420Z - success: jsb-adapter loaded
+2020-03-27T04:38:56.423Z - success: oppo-adapter loaded
+2020-03-27T04:38:56.433Z - success: package-manager loaded
+2020-03-27T04:38:56.436Z - success: qtt-adapter loaded
+2020-03-27T04:38:56.448Z - success: runtime-dev-tools loaded
+2020-03-27T04:38:56.462Z - success: sdkbox loaded
+2020-03-27T04:38:56.470Z - success: ui-kit-preview-extra loaded
+2020-03-27T04:38:56.480Z - success: ui-kit-preview loaded
+2020-03-27T04:38:56.484Z - success: vivo-adapter loaded
+2020-03-27T04:38:56.725Z - success: alipay-minigame loaded
+2020-03-27T04:38:56.767Z - success: assets loaded
+2020-03-27T04:38:56.769Z - success: baidugame-opendata loaded
+2020-03-27T04:38:56.770Z - success: baidugame loaded
+2020-03-27T04:38:56.773Z - success: builder loaded
+2020-03-27T04:38:56.903Z - success: cocos-services loaded
+2020-03-27T04:38:56.905Z - success: console loaded
+2020-03-27T04:38:56.907Z - success: curve-editor loaded
+2020-03-27T04:38:56.916Z - success: fb-instant-games loaded
+2020-03-27T04:38:56.917Z - success: game-window loaded
+2020-03-27T04:38:56.918Z - success: google-instant-games loaded
+2020-03-27T04:38:56.920Z - success: hierarchy loaded
+2020-03-27T04:38:56.922Z - success: huawei-runtime loaded
+2020-03-27T04:38:56.924Z - success: inspector loaded
+2020-03-27T04:38:56.977Z - success: cpk-publish loaded
+2020-03-27T04:38:56.977Z - success: keystore loaded
+2020-03-27T04:38:56.980Z - success: node-library loaded
+2020-03-27T04:38:56.981Z - success: open-recent-items loaded
+2020-03-27T04:38:56.983Z - success: oppo-runtime loaded
+2020-03-27T04:38:56.984Z - success: package-asset loaded
+2020-03-27T04:38:56.985Z - success: preferences loaded
+2020-03-27T04:38:56.986Z - success: project-importer loaded
+2020-03-27T04:38:56.987Z - success: project-settings loaded
+2020-03-27T04:38:57.000Z - success: qtt-runtime loaded
+2020-03-27T04:38:57.002Z - success: scene loaded
+2020-03-27T04:38:57.003Z - success: simulator-debugger loaded
+2020-03-27T04:38:57.003Z - success: sprite-editor loaded
+2020-03-27T04:38:57.005Z - success: store loaded
+2020-03-27T04:38:57.007Z - success: timeline loaded
+2020-03-27T04:38:57.010Z - success: vivo-runtime loaded
+2020-03-27T04:38:57.011Z - success: wechatgame-opendata loaded
+2020-03-27T04:38:57.014Z - success: wechatgame loaded
+2020-03-27T04:38:57.016Z - success: xiaomi-runtime loaded
+2020-03-27T04:38:58.053Z - normal: Initializing Cocos2d
+2020-03-27T04:38:59.815Z - normal: Initializing engine extends
+2020-03-27T04:39:01.728Z - info: Cocos Service load base data!
+2020-03-27T04:39:01.748Z - normal: Loading packages
+2020-03-27T04:39:01.751Z - normal: Watching packages
+2020-03-27T04:39:02.094Z - normal: Run Application
+2020-03-27T06:13:12.697Z - info: Only the prefab node "player1" and its child nodes are saved.
+2020-03-27T06:18:23.871Z - info: Only the prefab node "cardPrefab" and its child nodes are saved.
+2020-03-27T06:26:32.922Z - info: Only the prefab node "cardPrefab" and its child nodes are saved.
+2020-03-27T06:27:00.301Z - info: Only the prefab node "cardPrefab" and its child nodes are saved.
+2020-03-27T06:40:05.979Z - info: Only the prefab node "cardPrefab" and its child nodes are saved.
+2020-03-27T07:20:55.540Z - info: Only the prefab node "cardPrefab" and its child nodes are saved.
+2020-03-27T07:22:12.112Z - info: Only the prefab node "cardPrefab" and its child nodes are saved.
+2020-03-27T07:24:21.054Z - info: Only the prefab node "cardPrefab" and its child nodes are saved.
+2020-03-27T07:25:23.788Z - info: Only the prefab node "cardPrefab" and its child nodes are saved.
+2020-04-17T09:51:13.930Z - error: Failed to import assets to db://assets/res/atlas/game.plist/, messages: Error: Invalid dest path, make sure it exists and it is a directory
+    at C:\CocosCreator_2.3.1\resources\app.asar\asset-db\lib\tasks.js:1:13450
+    at i.waterfall.o.importFiles (C:\CocosCreator_2.3.1\resources\app.asar\asset-db\lib\tasks.js:1:13920)
+    at nextTask (C:\CocosCreator_2.3.1\resources\app.asar\node_modules\async\dist\async.js:4578:27)
+    at Object.waterfall (C:\CocosCreator_2.3.1\resources\app.asar\node_modules\async\dist\async.js:4589:9)
+    at Object.awaitable(waterfall) [as waterfall] (C:\CocosCreator_2.3.1\resources\app.asar\node_modules\async\dist\async.js:208:32)
+    at u.l.import (C:\CocosCreator_2.3.1\resources\app.asar\asset-db\lib\tasks.js:1:13385)
+    at C:\CocosCreator_2.3.1\resources\app.asar\asset-db\index.js:1:2109
+    at C:\CocosCreator_2.3.1\resources\app.asar\node_modules\async\dist\async.js:3205:13
+    at Object.process (C:\CocosCreator_2.3.1\resources\app.asar\node_modules\async\dist\async.js:1431:21)
+    at C:\CocosCreator_2.3.1\resources\app.asar\node_modules\async\dist\async.js:1289:23
+    at u.o.error (C:\CocosCreator_2.3.1\resources\app.asar\asset-db\lib\utils.js:1:2118)
+    at Object.callback (C:\CocosCreator_2.3.1\resources\app.asar\asset-db\lib\interface.js:1:5561)
+    at C:\CocosCreator_2.3.1\resources\app.asar\node_modules\async\dist\async.js:1315:26
+    at C:\CocosCreator_2.3.1\resources\app.asar\node_modules\async\dist\async.js:325:20
+    at u.<anonymous> (C:\CocosCreator_2.3.1\resources\app.asar\asset-db\index.js:1:1728)
+    at C:\CocosCreator_2.3.1\resources\app.asar\asset-db\lib\tasks.js:1:15319
+    at wrapper (C:\CocosCreator_2.3.1\resources\app.asar\node_modules\async\dist\async.js:272:20)
+    at next (C:\CocosCreator_2.3.1\resources\app.asar\node_modules\async\dist\async.js:4584:24)
+    at C:\CocosCreator_2.3.1\resources\app.asar\node_modules\async\dist\async.js:325:20
+2020-04-17T10:34:35.521Z - error: Property 'CAudio.soundWin' must define at least one of 'default', 'get' or 'set'.
+    at Object.cc.errorID (C:\CocosCreator_2.3.1\resources\engine\bin\.cache\dev\cocos2d\core\CCDebug.js:257:6)
+    at Object.exports.preprocessAttrs (C:\CocosCreator_2.3.1\resources\engine\bin\.cache\dev\cocos2d\core\platform\preprocess-class.js:331:16)
+    at declareProperties (C:\CocosCreator_2.3.1\resources\engine\bin\.cache\dev\cocos2d\core\platform\CCClass.js:851:16)
+    at Object.CCClass [as Class] (C:\CocosCreator_2.3.1\resources\engine\bin\.cache\dev\cocos2d\core\platform\CCClass.js:1001:5)
+    at __define (C:\Users\pc\projects\playable\playableAdsGsn\temp\quick-scripts\dst\assets\scripts\CAudio.js:27:4)
+    at C:\Users\pc\projects\playable\playableAdsGsn\temp\quick-scripts\dst\assets\scripts\CAudio.js:132:25
+    at Object.<anonymous> (C:\Users\pc\projects\playable\playableAdsGsn\temp\quick-scripts\dst\assets\scripts\CAudio.js:139:19)
+    at Object.<anonymous> (C:\Users\pc\projects\playable\playableAdsGsn\temp\quick-scripts\dst\assets\scripts\CAudio.js:141:3)
+    at Module._compile (internal/modules/cjs/loader.js:839:30)

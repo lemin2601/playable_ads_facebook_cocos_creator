@@ -78,7 +78,7 @@ var CPlayer = cc.Class({
             }
             progressBar.progress = progress;
 
-            var p = new cc.Vec2(0,70);
+            var p = new cc.Vec2(0,75);
             p = p.rotate(progress * 2 * 3.14);
             this.headProgressBar.node.setPosition(p);
         }

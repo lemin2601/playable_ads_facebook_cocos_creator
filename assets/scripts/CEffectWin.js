@@ -38,6 +38,10 @@ cc.Class({
         player2:{
             default:null,
             type:cc.Node
+        },
+        emotions:{
+            default:[],
+            type:[cc.Node]
         }
     },
 

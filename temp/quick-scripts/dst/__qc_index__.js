@@ -26,6 +26,7 @@ require('./assets/scripts/CEffectWin');
 require('./assets/scripts/CLayerGame');
 require('./assets/scripts/CPlayer');
 require('./assets/scripts/CProgressWaterAni');
+require('./assets/scripts/CStep1');
 require('./assets/scripts/CSuggestGesture');
 require('./assets/scripts/CTable');
 require('./assets/scripts/CardUtils');

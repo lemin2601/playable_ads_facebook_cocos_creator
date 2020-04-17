@@ -103,9 +103,7 @@
         "inspector",
         "cocos-services"
       ]
-    },
-    "window-1586854028193": {},
-    "worker": {}
+    }
   },
   "panels": {
     "project-settings": {
