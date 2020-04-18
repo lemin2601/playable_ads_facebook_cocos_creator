@@ -17,11 +17,11 @@ cc.Class({
         },
         imgLose1:{
             default:null,
-            type:cc.Sprite,
+            type:cc.Sprite
         },
         imgLose2:{
             default:null,
-            type:cc.Sprite,
+            type:cc.Sprite
         },
         lbWin:{
             default:null,
@@ -49,23 +49,39 @@ cc.Class({
         this.gameController = null;
     },
 
-    // LIFE-CYCLE CALLBACKS:
-
-    onLoad () {
-
-    },
+    // onLoad () {},
+    // start () {},
+    // update (dt) {},
 
     onEnable:function(){
-        var lose1 = 47000000;
-        var lose2 = 58000000;
-        var pot = 40000000;
-        var win = pot + lose1 + lose2;
-        Utility.runUpdateGold(this.lbLose1,0,-lose1);
-        Utility.runUpdateGold(this.lbLose2,0,-lose2);
-        Utility.runUpdateGold(this.lbPot,pot,0);
-        Utility.runUpdateGold(this.lbWin,0,win);
-        Utility.runUpdateGold(this.player1.getComponent("CPlayer").gold,lose1,0);
-        Utility.runUpdateGold(this.player2.getComponent("CPlayer").gold,lose2,0);
+        this._playEffectX8();
+        this._playEffectLabelGold();
+        this._playAllEmotions();
+        this._delayShowCHPlay();
+    },
+
+    showNodeCHPlay:function(){
+        this.gameController.showNodeCHPlay();
+    },
+    _playAllEmotions:function(){
+        function playEmo(emo) {
+            if(emo){
+                var spine = emo.getComponent('sp.Skeleton'); spine.setCompleteListener(function(trackEntry){
+                    emo.active = false;
+                });
+                setTimeout(function () {
+                    emo.active = true;
+                    spine.setAnimation(0, 'animation', false);
+                },1000);
+            }
+        }
+        var l = this.emotions.length;
+        for (var i = 0; i < l; i++) {
+            var emo = this.emotions[i];
+            playEmo(emo);
+        }
+    },
+    _playEffectX8: function () {
         var emo = this.spine;
         var spine = emo.getComponent('sp.Skeleton');
         spine.clearTracks();
@@ -75,7 +91,24 @@ cc.Class({
         });
         emo.active = true;
         spine.setAnimation(0, 'animation', false);
-
+    },
+    _playEffectLabelGold: function () {
+        var lose1 = 47000000;
+        var lose2 = 58000000;
+        var pot = 40000000;
+        var win = pot + lose1 + lose2;
+        function hideLabelonDone(label){
+            label.node.active = false;
+        }
+        Utility.runUpdateGold(this.lbLose1, 0, -lose1, undefined, undefined, hideLabelonDone, undefined, "", "","$");
+        Utility.runUpdateGold(this.lbLose2, 0, -lose1, undefined, undefined, hideLabelonDone, undefined, "", "","$");
+        Utility.runUpdateGold(this.lbWin, 0, win, undefined, undefined, undefined, undefined, "", "+","$");
+        // Utility.runUpdateGold(this.lbLose2,0,-lose2);
+        // Utility.runUpdateGold(this.lbWin,0,win);
+        Utility.runUpdateGold(this.player1.getComponent("CPlayer").gold,lose1,0);
+        Utility.runUpdateGold(this.player2.getComponent("CPlayer").gold,lose2,0);
+    },
+    _delayShowCHPlay: function () {
         this.node.runAction(cc.sequence(
             cc.delayTime(4),
             cc.callFunc(function () {
@@ -84,15 +117,6 @@ cc.Class({
                 this.lbWin.node.active = false;
                 this.showNodeCHPlay();
             },this)
-        ))
-    },
-
-    showNodeCHPlay:function(){
-        this.gameController.showNodeCHPlay();
-    },
-    start () {
-
-    },
-
-    // update (dt) {},
+        ));
+    }
 });

@@ -274,6 +274,20 @@ cc.Class({
     var cPlayer = this.players[index].getComponent(CPlayer);
     cPlayer.onEnterTurn();
   },
+  onCloseTurn: function onCloseTurn(index) {
+    var player = this.players[index];
+
+    if (player) {
+      var cPlayer = player.getComponent(CPlayer);
+
+      if (player) {
+        cPlayer.onCloseTurn();
+        return;
+      }
+    }
+
+    console.log("missing player or CPlayer at index:" + index);
+  },
   autoShowSuggest: function autoShowSuggest() {
     this.nodeSuggestGesture.active = true;
   },
@@ -285,6 +299,7 @@ cc.Class({
 
     console.log("executeAction:" + JSON.stringify(actionConfig));
     var index = actionConfig.index;
+    this.onCloseTurn(index);
     var type = actionConfig.type;
 
     switch (type) {
@@ -316,10 +331,6 @@ cc.Class({
         }
       } else {
         this._playEmo(emo);
-
-        if (emo === 5) {
-          this._playEmo(6);
-        }
       }
     }
 

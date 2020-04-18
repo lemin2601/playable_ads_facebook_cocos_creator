@@ -121,11 +121,12 @@ Utility.formatAlignNumber = function (number, separator, isFull) {
   return numString;
 };
 
-Utility.runUpdateGold = function (label, curGold, tarGold, funcFormat, cbInterval, cbDone, speratorFuncFormat, unitFuncFormat, prefix) {
+Utility.runUpdateGold = function (label, curGold, tarGold, funcFormat, cbInterval, cbDone, speratorFuncFormat, unitFuncFormat, prefix, postfix) {
   if (funcFormat === undefined) funcFormat = this.formatMoneyFull;
   if (curGold === undefined) curGold = 0;
   if (tarGold === undefined) tarGold = 0;
   if (prefix === undefined) prefix = "";
+  if (postfix === undefined) postfix = "";
   label.string = funcFormat(10000);
   var numOfUpdate = 30;
   var delay = 0.1;
@@ -133,10 +134,10 @@ Utility.runUpdateGold = function (label, curGold, tarGold, funcFormat, cbInterva
   label.node.runAction(cc.sequence(cc.repeat(cc.sequence(cc.delayTime(delay), cc.callFunc(function (sender) {
     curGold = Math.floor(curGold + offset); // console.log("update new gold:" + curGold);
 
-    label.string = prefix + funcFormat(curGold, unitFuncFormat, speratorFuncFormat);
+    label.string = prefix + funcFormat(curGold, unitFuncFormat, speratorFuncFormat) + postfix;
     cbInterval && cbInterval(label, curGold);
   })), numOfUpdate), cc.callFunc(function (sender) {
-    label.string = prefix + funcFormat(tarGold, unitFuncFormat, speratorFuncFormat); // console.log("update tar gold:" + tarGold);
+    label.string = prefix + funcFormat(tarGold, unitFuncFormat, speratorFuncFormat) + postfix; // console.log("update tar gold:" + tarGold);
 
     cbDone && cbDone(label);
   })));

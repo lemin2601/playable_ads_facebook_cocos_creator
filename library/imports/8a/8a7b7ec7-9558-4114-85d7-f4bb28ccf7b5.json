@@ -13,7 +13,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "player1",
+    "_name": "player0",
     "_objFlags": 0,
     "_parent": null,
     "_children": [
@@ -82,8 +82,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -221,
-        320,
+        0,
+        -480,
         0,
         0,
         0,
@@ -1778,18 +1778,18 @@
       "__uuid__": "e0e43769-957f-494b-a329-4e2e50982802"
     },
     "_texture": null,
-    "_stopped": false,
+    "_stopped": true,
     "playOnLoad": true,
     "autoRemoveOnFinish": false,
-    "totalParticles": 78,
+    "totalParticles": 60,
     "duration": -1,
-    "emissionRate": 260,
-    "life": 0.3,
-    "lifeVar": 0.1,
+    "emissionRate": 100,
+    "life": 0.6,
+    "lifeVar": 0.25,
     "_startColor": {
       "__type__": "cc.Color",
-      "r": 51,
-      "g": 204,
+      "r": 255,
+      "g": 255,
       "b": 51,
       "a": 255
     },
@@ -1797,14 +1797,14 @@
       "__type__": "cc.Color",
       "r": 0,
       "g": 0,
-      "b": 51,
-      "a": 25
+      "b": 0,
+      "a": 0
     },
     "_endColor": {
       "__type__": "cc.Color",
       "r": 255,
-      "g": 51,
-      "b": 51,
+      "g": 0,
+      "b": 0,
       "a": 255
     },
     "_endColorVar": {
@@ -1814,13 +1814,13 @@
       "b": 0,
       "a": 0
     },
-    "angle": 87,
-    "angleVar": 0,
-    "startSize": 12,
-    "startSizeVar": 0,
-    "endSize": 5,
-    "endSizeVar": 3,
-    "startSpin": 720,
+    "angle": 90,
+    "angleVar": 10,
+    "startSize": 20,
+    "startSizeVar": 10,
+    "endSize": 0,
+    "endSizeVar": 2,
+    "startSpin": 0,
     "startSpinVar": 0,
     "endSpin": 0,
     "endSpinVar": 0,
@@ -1831,8 +1831,8 @@
     },
     "posVar": {
       "__type__": "cc.Vec2",
-      "x": 0,
-      "y": 0
+      "x": 5,
+      "y": 5
     },
     "_positionType": 1,
     "positionType": 1,
@@ -1842,8 +1842,8 @@
       "x": 0,
       "y": 0
     },
-    "speed": 0,
-    "speedVar": 0,
+    "speed": 40,
+    "speedVar": 20,
     "tangentialAccel": 0,
     "tangentialAccelVar": 0,
     "radialAccel": 0,

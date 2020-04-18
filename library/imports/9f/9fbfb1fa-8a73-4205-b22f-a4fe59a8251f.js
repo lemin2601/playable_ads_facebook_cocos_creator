@@ -32,8 +32,7 @@ cc.Class({
   onLoad: function onLoad() {
     this.node.on("cardtouch", this.onEmit);
   },
-  onEmit: function onEmit() {
-    console.log("onEmit LayerCard");
+  onEmit: function onEmit() {// console.log("onEmit LayerCard");
   },
   start: function start() {} // update (dt) {},
 

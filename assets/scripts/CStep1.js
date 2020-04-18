@@ -9,10 +9,15 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        sprite:{
+        sprite: {
+            default: null,
+            type: cc.Sprite
+        },
+        bg:{
             default:null,
             type:cc.Sprite
         }
+
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -20,6 +25,9 @@ cc.Class({
     onLoad () {
         if(this.sprite)
             this.sprite.node.active = false;
+        if(this.bg){
+            this.bg.node.active = false;
+        }
     },
 
     onEnable:function(){
@@ -31,6 +39,7 @@ cc.Class({
             node.x = -700;
             node.opacity = 0;
             node.runAction(cc.sequence(
+                cc.delayTime(1),
                 cc.spawn(
                     cc.moveTo(0.5,0,pos.y).easing(cc.easeBackOut()),
                     cc.fadeIn(0.3)
@@ -40,6 +49,16 @@ cc.Class({
                     cc.fadeOut(0.5),
                     cc.moveTo(0.5,700,pos.y).easing(cc.easeBackInOut())
                 )
+            ))
+        }
+        if(this.bg){
+            this.bg.node.active = true;
+            this.bg.node.opacity = 0;
+            this.bg.node.runAction(cc.sequence(
+                cc.delayTime(0.5),
+                cc.fadeTo(0.5,180),
+                cc.delayTime(1.5),
+                cc.fadeOut(0.5)
             ))
         }
     },

@@ -50,6 +50,9 @@ var CPlayer = cc.Class({
     onLoad:function(){
         this.setMyTurn(this._isMyTurn);
         if(this.player){
+            if(this.player.index === 0){
+                this.backCard.node.active = false;
+            }
             this.displayName.string = this.player.name;
             this.gold.string = Utility.formatMoneyFull(this.player.gold);
 
@@ -97,6 +100,9 @@ var CPlayer = cc.Class({
 
     },
     _loadCards:function () {
+        var midIndex = this.getNumCard()/2;
+        var midPos = this.getPositionVia(midIndex);
+        var midRot = this.getRotationVia(midIndex);
         if(this.gameController){
             var cards = this.player.cards;
             for (var i = 0; i < cards.length; i++) {
@@ -110,8 +116,14 @@ var CPlayer = cc.Class({
 
                 var p = this.getPositionCard(cCard);
                 var r = this.getRotationCard(cCard);
-                cardPrefab.setPosition(p);
-                cardPrefab.angle = (-r);
+                // cardPrefab.setPosition(p);
+                // cardPrefab.angle = (-r);
+                cardPrefab.setPosition(midPos);
+                cardPrefab.angle = -midRot;
+                cardPrefab.runAction(cc.spawn(
+                    cc.moveTo(0.6,p.x,p.y),
+                    cc.rotateTo(0.6,r)
+                ));
                 this.layerCard.addChild(cardPrefab);
                 this.cards.push(cardPrefab);
             }
@@ -169,6 +181,9 @@ var CPlayer = cc.Class({
     },
     _updatePosCards:function(){
         console.log("_updatePosCards");
+        var midIndex = this.getNumCard()/2;
+        var midPos = this.getPositionVia(midIndex);
+        var midRot = this.getRotationVia(midIndex);
         if(this.gameController){
             var cards = this.cards;
             for (var i = 0; i < cards.length; i++) {
@@ -179,8 +194,14 @@ var CPlayer = cc.Class({
 
                 var p = this.getPositionCard(cCard);
                 var r = this.getRotationCard(cCard);
-                cardPrefab.setPosition(p);
-                cardPrefab.angle = (-r);
+                // cardPrefab.setPosition(p);
+                // cardPrefab.angle = (-r);
+                // cardPrefab.setPosition(midPos);
+                // cardPrefab.angle = -midRot;
+                cardPrefab.runAction(cc.spawn(
+                    cc.moveTo(0.2,p.x,p.y),
+                    cc.rotateTo(0.2,r)
+                ));
             }
         }else{
             console.error("don't have GameControler in Player, so can't create newCard");
@@ -283,31 +304,38 @@ var CPlayer = cc.Class({
                 break;
         }
     },
+    onCloseTurn:function(){
+        cc.log("onCloseTurn:" + this.player.index);
+        if(this.player.index === 0){
+            this.node.stopAllActions();
+            this.node.runAction(cc.scaleTo(0.5,1,1));
+            // this.node.scale = 1;
+        }
+    }
+    ,
     onEnterTurn:function () {
-        if(this.player.index === 0) return;
+        if(this.player.index === 0) {
+            this.node.runAction(cc.scaleTo(0.5,1.2,1.2).easing(cc.easeBackOut()));
+            // this.node.scale = 1.17;
+            // return;
+        }
         this.progressBar.progress = 1;
         this.setMyTurn(true);
     },
     setMyTurn:function (b) {
-        var index = 1;
-        console.log("come:" + index++);
         this._isMyTurn = b;
-        console.log("come:" + index++);
         this.progressBar.node.active = b;
-        console.log("come:" + index++);
         var len = this.cards.length;
         for (var i = 0; i < len; i++) {
             var cardPrefab = this.cards[i];
             var cCard = cardPrefab.getComponent("CCard");
             cCard.setSuggest(true);
         }
-        console.log("come:" + index++);
         if(!b){
             this.headProgressBar.stopSystem();
         }else{
             this.headProgressBar.resetSystem();
         }
-        console.log("come:" + index++);
         // this.headProgressBar.active = b;
     },
     onSuggestCard:function (cards) {

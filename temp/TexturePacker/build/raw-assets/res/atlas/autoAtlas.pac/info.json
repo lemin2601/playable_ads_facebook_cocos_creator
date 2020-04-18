@@ -1,207 +1,211 @@
 {
-  "projectPath": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn",
+  "projectPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator",
   "mtimes": {
     "cb5b7e67-bcfd-407c-b666-781feb248847": {
-      "assetMtime": 1586413106354,
-      "metaMtime": 1586777602545
+      "assetMtime": 1586532441695,
+      "metaMtime": 1587215847021
     },
     "037b43f1-5978-4f4a-839c-2e7d65f4ccd3": {
-      "assetMtime": 1586937568428,
-      "metaMtime": 1586937568625
+      "assetMtime": 1587215760538,
+      "metaMtime": 1587215849435
     },
     "3549c34c-49ae-499a-a40b-414a5c27af3f": {
-      "assetMtime": 1586937568430,
-      "metaMtime": 1586937568587
+      "assetMtime": 1587215760543,
+      "metaMtime": 1587215847061
     },
     "042d3994-283c-41ea-b6f2-4cceea9a651b": {
-      "assetMtime": 1586937568428,
-      "metaMtime": 1586937568625
+      "assetMtime": 1587215760538,
+      "metaMtime": 1587215849435
+    },
+    "05d70b6c-7880-49c7-900f-c4352ea58ed4": {
+      "assetMtime": 1587215760538,
+      "metaMtime": 1587215849435
     },
     "0f8c0ad5-b0ce-48a2-a0c9-6c9530d63fec": {
-      "assetMtime": 1586937568428,
-      "metaMtime": 1586937568625
+      "assetMtime": 1587215760538,
+      "metaMtime": 1587215849435
     },
     "104aeacb-2672-47ea-b04d-d1d260e35344": {
-      "assetMtime": 1586937568428,
-      "metaMtime": 1586937568625
+      "assetMtime": 1587215760538,
+      "metaMtime": 1587215849435
     },
     "1620a133-e879-495f-a84c-111df90659ea": {
-      "assetMtime": 1586937568428,
-      "metaMtime": 1586937568625
+      "assetMtime": 1587215760538,
+      "metaMtime": 1587215849435
     },
     "168a395a-4422-4039-b29e-25d3af62a219": {
-      "assetMtime": 1586937568428,
-      "metaMtime": 1586937568625
+      "assetMtime": 1587215760538,
+      "metaMtime": 1587215849435
     },
     "18bc7fe3-fbf5-4fff-9298-ec2edd2a85fc": {
-      "assetMtime": 1586937568428,
-      "metaMtime": 1586937568625
+      "assetMtime": 1587215760538,
+      "metaMtime": 1587215849435
     },
     "24b1ab72-783e-4959-9292-261ef83e35f7": {
-      "assetMtime": 1586744650841,
-      "metaMtime": 1586744650877
+      "assetMtime": 1587215760537,
+      "metaMtime": 1587215849410
     },
     "9178ff49-51e8-46e3-864c-020240063979": {
-      "assetMtime": 1586853820255,
-      "metaMtime": 1586853880431
+      "assetMtime": 1587215760538,
+      "metaMtime": 1587215847051
     },
     "28675e58-706d-40ee-ac08-a3e9b860b4b4": {
-      "assetMtime": 1586937568428,
-      "metaMtime": 1586937568625
+      "assetMtime": 1587215760538,
+      "metaMtime": 1587215849435
     },
     "2c47cc79-2dbc-4c8a-a935-66ff88593d22": {
-      "assetMtime": 1586744650841,
-      "metaMtime": 1586744650877
+      "assetMtime": 1587215760537,
+      "metaMtime": 1587215849410
     },
     "2dbc7bb8-f2a3-4cab-bcad-2655ee6bf9eb": {
-      "assetMtime": 1586744650841,
-      "metaMtime": 1586744650877
+      "assetMtime": 1587215760537,
+      "metaMtime": 1587215849410
     },
     "35cb9893-47b6-4da1-b3b3-a495f86471d7": {
-      "assetMtime": 1586937568428,
-      "metaMtime": 1586937568625
+      "assetMtime": 1587215760538,
+      "metaMtime": 1587215849435
     },
     "3f65b3f6-8aeb-4253-91a6-186788f622dc": {
-      "assetMtime": 1586937568428,
-      "metaMtime": 1586937568625
+      "assetMtime": 1587215760538,
+      "metaMtime": 1587215849435
     },
     "4545cef4-17bd-4136-8e20-39f9b46df1b4": {
-      "assetMtime": 1586937568428,
-      "metaMtime": 1586937568625
+      "assetMtime": 1587215760538,
+      "metaMtime": 1587215849435
     },
     "4bed20e3-be94-4141-a12c-776ffb579198": {
-      "assetMtime": 1586937568428,
-      "metaMtime": 1586937568625
+      "assetMtime": 1587215760538,
+      "metaMtime": 1587215849435
     },
     "526b8f8a-1939-4435-9b52-779d56f725af": {
-      "assetMtime": 1586744650841,
-      "metaMtime": 1586744650877
+      "assetMtime": 1587215760537,
+      "metaMtime": 1587215849410
     },
     "5e58c8f6-0fe5-4a9b-b580-0daeb01ef84c": {
-      "assetMtime": 1586937568428,
-      "metaMtime": 1586937568625
+      "assetMtime": 1587215760538,
+      "metaMtime": 1587215849435
     },
     "5e76f819-71cd-4d7c-82d4-26afe9cfdfcf": {
-      "assetMtime": 1586937568428,
-      "metaMtime": 1586937568625
+      "assetMtime": 1587215760538,
+      "metaMtime": 1587215849435
     },
     "65c5d277-91e6-44bd-b79a-5ee3648accf4": {
-      "assetMtime": 1586937568428,
-      "metaMtime": 1586937568625
+      "assetMtime": 1587215760538,
+      "metaMtime": 1587215849435
     },
     "6d0c3778-cc87-41c8-a920-bf5b29041933": {
-      "assetMtime": 1586937568428,
-      "metaMtime": 1586937568625
+      "assetMtime": 1587215760538,
+      "metaMtime": 1587215849435
     },
     "6d6b9372-63c8-4eaa-84dc-9ce58365578c": {
-      "assetMtime": 1586937568428,
-      "metaMtime": 1586937568625
+      "assetMtime": 1587215760538,
+      "metaMtime": 1587215849435
     },
     "77709bdf-e4a7-4166-8051-814bfb4e69cf": {
-      "assetMtime": 1586937568428,
-      "metaMtime": 1586937568625
+      "assetMtime": 1587215760538,
+      "metaMtime": 1587215849435
     },
     "7ecaa02b-14c5-4750-aacd-2c1f42c99f46": {
-      "assetMtime": 1586744650841,
-      "metaMtime": 1586744650877
+      "assetMtime": 1587215760537,
+      "metaMtime": 1587215849410
     },
     "816f939f-6afc-4ecb-ac97-6dfc16db726b": {
-      "assetMtime": 1586937568428,
-      "metaMtime": 1586937568625
+      "assetMtime": 1587215760538,
+      "metaMtime": 1587215849435
     },
     "8a957578-2518-4dae-b610-0742a1cb0c5a": {
-      "assetMtime": 1586937568428,
-      "metaMtime": 1586937568625
+      "assetMtime": 1587215760538,
+      "metaMtime": 1587215849435
     },
     "9001fd4c-8611-4e09-9fc1-38f7f5422cf1": {
-      "assetMtime": 1586937568428,
-      "metaMtime": 1586937568625
+      "assetMtime": 1587215760538,
+      "metaMtime": 1587215849435
     },
     "98b3e22c-e481-4118-81b9-2c66a8185480": {
-      "assetMtime": 1586937568428,
-      "metaMtime": 1586937568625
+      "assetMtime": 1587215760538,
+      "metaMtime": 1587215849435
     },
     "995232ce-34fe-4bdf-b38f-cfaed0067dc3": {
-      "assetMtime": 1586937568428,
-      "metaMtime": 1586937568625
+      "assetMtime": 1587215760538,
+      "metaMtime": 1587215849435
     },
     "99c416c2-e7d7-415d-b164-6781387fb92d": {
-      "assetMtime": 1586744650841,
-      "metaMtime": 1586744650877
+      "assetMtime": 1587215760537,
+      "metaMtime": 1587215849410
     },
     "9ac8492a-d0aa-4ce0-90b5-0a5f90e3f5e0": {
-      "assetMtime": 1586937568428,
-      "metaMtime": 1586937568625
+      "assetMtime": 1587215760538,
+      "metaMtime": 1587215849435
     },
     "9bc6f528-3cf2-4286-b506-f0be7f72115d": {
-      "assetMtime": 1586937568428,
-      "metaMtime": 1586937568625
+      "assetMtime": 1587215760538,
+      "metaMtime": 1587215849435
     },
     "9dcd9431-65d1-4ca5-9da1-992bbd7435ae": {
-      "assetMtime": 1586937568428,
-      "metaMtime": 1586937568625
+      "assetMtime": 1587215760538,
+      "metaMtime": 1587215849435
     },
     "a6970d34-834e-4a93-9bb1-6cc442a34c95": {
-      "assetMtime": 1586744650841,
-      "metaMtime": 1586744650877
+      "assetMtime": 1587215760537,
+      "metaMtime": 1587215849410
     },
     "b120e9c2-0d67-4b6e-90d0-bde95c1ffad1": {
-      "assetMtime": 1586937568428,
-      "metaMtime": 1586937568625
+      "assetMtime": 1587215760538,
+      "metaMtime": 1587215849435
     },
     "b2f7efdb-c2c4-439b-a521-8aa901c68324": {
-      "assetMtime": 1586937568428,
-      "metaMtime": 1586937568625
+      "assetMtime": 1587215760538,
+      "metaMtime": 1587215849435
     },
     "b350444c-471b-49eb-aaa2-718ab105b1a4": {
-      "assetMtime": 1586937568428,
-      "metaMtime": 1586937568625
+      "assetMtime": 1587215760538,
+      "metaMtime": 1587215849435
     },
     "b648a393-4e90-4a66-851a-9fa0e3415ca4": {
-      "assetMtime": 1586937568428,
-      "metaMtime": 1586937568625
+      "assetMtime": 1587215760538,
+      "metaMtime": 1587215849435
     },
     "bb86555b-dcf6-4f03-b0f7-59fdd0f1f63e": {
-      "assetMtime": 1586937568428,
-      "metaMtime": 1586937568625
+      "assetMtime": 1587215760538,
+      "metaMtime": 1587215849435
     },
     "c372c5c8-806e-4a7a-9b96-ed9b6c44f93f": {
-      "assetMtime": 1586937568428,
-      "metaMtime": 1586937568625
+      "assetMtime": 1587215760538,
+      "metaMtime": 1587215849435
     },
     "c3da46e7-add0-4737-b4ca-f870b4b207ae": {
-      "assetMtime": 1586744650841,
-      "metaMtime": 1586744650877
+      "assetMtime": 1587215760537,
+      "metaMtime": 1587215849410
     },
     "e23b68f8-4c16-4faa-8365-579be8f9b0b9": {
-      "assetMtime": 1586937568428,
-      "metaMtime": 1586937568625
+      "assetMtime": 1587215760538,
+      "metaMtime": 1587215849435
     },
     "e8c0b7b3-9134-41a4-af4a-9f222a5f3a40": {
-      "assetMtime": 1586937568428,
-      "metaMtime": 1586937568625
+      "assetMtime": 1587215760538,
+      "metaMtime": 1587215849435
     },
     "eb1d4a5d-6bbf-47d4-b379-91df5a2c97a6": {
-      "assetMtime": 1586937568428,
-      "metaMtime": 1586937568625
+      "assetMtime": 1587215760538,
+      "metaMtime": 1587215849435
     },
     "f604cb38-be11-4cc9-beab-ba4a0a93519a": {
-      "assetMtime": 1586937568428,
-      "metaMtime": 1586937568625
+      "assetMtime": 1587215760538,
+      "metaMtime": 1587215849435
     },
     "f6426792-e59b-4ae8-b17d-f0aacd122447": {
-      "assetMtime": 1586937568428,
-      "metaMtime": 1586937568625
+      "assetMtime": 1587215760538,
+      "metaMtime": 1587215849435
     },
     "fd17dccb-82cb-411d-8ff5-0bee112b2a2d": {
-      "assetMtime": 1586937568428,
-      "metaMtime": 1586937568625
+      "assetMtime": 1587215760538,
+      "metaMtime": 1587215849435
     }
   },
   "result": {
     "name": "autoAtlas-2",
-    "width": 101,
-    "height": 101,
+    "width": 156,
+    "height": 468,
     "ver": "1.2.0",
     "uuid": "cb5b7e67-bcfd-407c-b666-781feb248847",
     "maxWidth": 1024,
@@ -246,7 +250,7 @@
             "name": "i_hand2",
             "uuid": "35cb9893-47b6-4da1-b3b3-a495f86471d7",
             "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
-            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586938677359_image_11.png",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292355_image_12.png",
             "trim": {
               "x": 3,
               "y": 3,
@@ -259,7 +263,7 @@
             "rawHeight": 623,
             "width": 500,
             "height": 629,
-            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
             "x": 0,
             "y": 0,
             "rotated": true,
@@ -270,7 +274,7 @@
             "name": "i_hand1",
             "uuid": "042d3994-283c-41ea-b6f2-4cceea9a651b",
             "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
-            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586938677358_image_1.png",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292223_image_1.png",
             "trim": {
               "x": 632,
               "y": 3,
@@ -283,113 +287,160 @@
             "rawHeight": 540,
             "width": 295,
             "height": 546,
-            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
             "x": 629,
             "y": 0,
             "rotatedWidth": 295,
             "rotatedHeight": 546
           },
           {
-            "name": "i_card_b_9",
-            "uuid": "28675e58-706d-40ee-ac08-a3e9b860b4b4",
+            "name": "i_win",
+            "uuid": "05d70b6c-7880-49c7-900f-c4352ea58ed4",
             "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
-            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586938677359_image_8.png",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292223_image_2.png",
             "trim": {
               "x": 927,
               "y": 3,
-              "width": 91,
-              "height": 127,
-              "rotatedWidth": 91,
-              "rotatedHeight": 127
+              "width": 601,
+              "height": 58,
+              "rotatedWidth": 58,
+              "rotatedHeight": 601
             },
-            "rawWidth": 91,
-            "rawHeight": 127,
-            "width": 97,
-            "height": 133,
-            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "rawWidth": 601,
+            "rawHeight": 58,
+            "width": 607,
+            "height": 64,
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
             "x": 924,
             "y": 0,
-            "rotatedWidth": 97,
-            "rotatedHeight": 133
-          },
-          {
-            "name": "i_card_b_0",
-            "uuid": "9ac8492a-d0aa-4ce0-90b5-0a5f90e3f5e0",
-            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
-            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586938677361_image_29.png",
-            "trim": {
-              "x": 927,
-              "y": 136,
-              "width": 89,
-              "height": 97,
-              "rotatedWidth": 89,
-              "rotatedHeight": 97
-            },
-            "rawWidth": 89,
-            "rawHeight": 97,
-            "width": 95,
-            "height": 103,
-            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
-            "x": 924,
-            "y": 133,
-            "rotatedWidth": 95,
-            "rotatedHeight": 103
-          },
-          {
-            "name": "i_card_b_2",
-            "uuid": "5e76f819-71cd-4d7c-82d4-26afe9cfdfcf",
-            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
-            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586938677360_image_17.png",
-            "trim": {
-              "x": 927,
-              "y": 239,
-              "width": 96,
-              "height": 87,
-              "rotatedWidth": 87,
-              "rotatedHeight": 96
-            },
-            "rawWidth": 96,
-            "rawHeight": 87,
-            "width": 102,
-            "height": 93,
-            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
-            "x": 924,
-            "y": 236,
             "rotated": true,
-            "rotatedWidth": 93,
-            "rotatedHeight": 102
+            "rotatedWidth": 64,
+            "rotatedHeight": 607
           },
           {
-            "name": "i_pass1",
-            "uuid": "816f939f-6afc-4ecb-ac97-6dfc16db726b",
+            "name": "i_btn_download",
+            "uuid": "5e58c8f6-0fe5-4a9b-b580-0daeb01ef84c",
             "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
-            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586938677361_image_23.png",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292415_image_17.png",
             "trim": {
-              "x": 927,
-              "y": 341,
-              "width": 79,
-              "height": 32,
-              "rotatedWidth": 79,
-              "rotatedHeight": 32
+              "x": 991,
+              "y": 3,
+              "width": 27,
+              "height": 66,
+              "rotatedWidth": 27,
+              "rotatedHeight": 66
             },
-            "rawWidth": 79,
-            "rawHeight": 32,
-            "width": 85,
-            "height": 38,
-            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
-            "x": 924,
-            "y": 338,
-            "rotatedWidth": 85,
-            "rotatedHeight": 38
+            "rawWidth": 27,
+            "rawHeight": 66,
+            "width": 33,
+            "height": 72,
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 988,
+            "y": 0,
+            "rotatedWidth": 33,
+            "rotatedHeight": 72
+          },
+          {
+            "name": "i_table_2",
+            "uuid": "9bc6f528-3cf2-4286-b506-f0be7f72115d",
+            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292567_image_31.png",
+            "trim": {
+              "x": 991,
+              "y": 75,
+              "width": 49,
+              "height": 24,
+              "rotatedWidth": 24,
+              "rotatedHeight": 49
+            },
+            "rawWidth": 49,
+            "rawHeight": 24,
+            "width": 55,
+            "height": 30,
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 988,
+            "y": 72,
+            "rotated": true,
+            "rotatedWidth": 30,
+            "rotatedHeight": 55
+          },
+          {
+            "name": "gold2",
+            "uuid": "7ecaa02b-14c5-4750-aacd-2c1f42c99f46",
+            "textureUuid": "9178ff49-51e8-46e3-864c-020240063979",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292553_image_23.png",
+            "trim": {
+              "x": 991,
+              "y": 130,
+              "width": 24,
+              "height": 28,
+              "rotatedWidth": 24,
+              "rotatedHeight": 28
+            },
+            "rawWidth": 24,
+            "rawHeight": 28,
+            "width": 30,
+            "height": 34,
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/91/9178ff49-51e8-46e3-864c-020240063979.png",
+            "x": 988,
+            "y": 127,
+            "rotatedWidth": 30,
+            "rotatedHeight": 34
+          },
+          {
+            "name": "gold6",
+            "uuid": "99c416c2-e7d7-415d-b164-6781387fb92d",
+            "textureUuid": "9178ff49-51e8-46e3-864c-020240063979",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292567_image_29.png",
+            "trim": {
+              "x": 991,
+              "y": 164,
+              "width": 24,
+              "height": 28,
+              "rotatedWidth": 24,
+              "rotatedHeight": 28
+            },
+            "rawWidth": 24,
+            "rawHeight": 28,
+            "width": 30,
+            "height": 34,
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/91/9178ff49-51e8-46e3-864c-020240063979.png",
+            "x": 988,
+            "y": 161,
+            "rotatedWidth": 30,
+            "rotatedHeight": 34
+          },
+          {
+            "name": "gold5",
+            "uuid": "24b1ab72-783e-4959-9292-261ef83e35f7",
+            "textureUuid": "9178ff49-51e8-46e3-864c-020240063979",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292306_image_8.png",
+            "trim": {
+              "x": 991,
+              "y": 198,
+              "width": 14,
+              "height": 28,
+              "rotatedWidth": 14,
+              "rotatedHeight": 28
+            },
+            "rawWidth": 14,
+            "rawHeight": 28,
+            "width": 20,
+            "height": 34,
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/91/9178ff49-51e8-46e3-864c-020240063979.png",
+            "x": 988,
+            "y": 195,
+            "rotatedWidth": 20,
+            "rotatedHeight": 34
           },
           {
             "name": "gold4",
             "uuid": "c3da46e7-add0-4737-b4ca-f870b4b207ae",
             "textureUuid": "9178ff49-51e8-46e3-864c-020240063979",
-            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586938677362_image_39.png",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292600_image_40.png",
             "trim": {
-              "x": 1012,
-              "y": 341,
+              "x": 1011,
+              "y": 198,
               "width": 5,
               "height": 28,
               "rotatedWidth": 5,
@@ -399,67 +450,43 @@
             "rawHeight": 28,
             "width": 11,
             "height": 34,
-            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/91/9178ff49-51e8-46e3-864c-020240063979.png",
-            "x": 1009,
-            "y": 338,
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/91/9178ff49-51e8-46e3-864c-020240063979.png",
+            "x": 1008,
+            "y": 195,
             "rotatedWidth": 11,
             "rotatedHeight": 34
           },
           {
-            "name": "i_card_0",
-            "uuid": "77709bdf-e4a7-4166-8051-814bfb4e69cf",
-            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
-            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586938677360_image_21.png",
+            "name": "gold3",
+            "uuid": "2dbc7bb8-f2a3-4cab-bcad-2655ee6bf9eb",
+            "textureUuid": "9178ff49-51e8-46e3-864c-020240063979",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292355_image_11.png",
             "trim": {
-              "x": 927,
-              "y": 379,
-              "width": 57,
-              "height": 76,
-              "rotatedWidth": 76,
-              "rotatedHeight": 57
+              "x": 991,
+              "y": 232,
+              "width": 14,
+              "height": 28,
+              "rotatedWidth": 14,
+              "rotatedHeight": 28
             },
-            "rawWidth": 57,
-            "rawHeight": 76,
-            "width": 63,
-            "height": 82,
-            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
-            "x": 924,
-            "y": 376,
-            "rotated": true,
-            "rotatedWidth": 82,
-            "rotatedHeight": 63
-          },
-          {
-            "name": "i_hand3",
-            "uuid": "fd17dccb-82cb-411d-8ff5-0bee112b2a2d",
-            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
-            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586938677363_image_45.png",
-            "trim": {
-              "x": 927,
-              "y": 442,
-              "width": 69,
-              "height": 43,
-              "rotatedWidth": 69,
-              "rotatedHeight": 43
-            },
-            "rawWidth": 69,
-            "rawHeight": 43,
-            "width": 75,
-            "height": 49,
-            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
-            "x": 924,
-            "y": 439,
-            "rotatedWidth": 75,
-            "rotatedHeight": 49
+            "rawWidth": 14,
+            "rawHeight": 28,
+            "width": 20,
+            "height": 34,
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/91/9178ff49-51e8-46e3-864c-020240063979.png",
+            "x": 988,
+            "y": 229,
+            "rotatedWidth": 20,
+            "rotatedHeight": 34
           },
           {
             "name": "i_coin",
             "uuid": "1620a133-e879-495f-a84c-111df90659ea",
             "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
-            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586938677358_image_4.png",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292284_image_5.png",
             "trim": {
-              "x": 1002,
-              "y": 442,
+              "x": 991,
+              "y": 266,
               "width": 15,
               "height": 14,
               "rotatedWidth": 15,
@@ -469,159 +496,41 @@
             "rawHeight": 14,
             "width": 21,
             "height": 20,
-            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
-            "x": 999,
-            "y": 439,
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 988,
+            "y": 263,
             "rotatedWidth": 21,
             "rotatedHeight": 20
           },
           {
-            "name": "gold5",
-            "uuid": "24b1ab72-783e-4959-9292-261ef83e35f7",
-            "textureUuid": "9178ff49-51e8-46e3-864c-020240063979",
-            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586938677358_image_7.png",
-            "trim": {
-              "x": 1002,
-              "y": 462,
-              "width": 14,
-              "height": 28,
-              "rotatedWidth": 14,
-              "rotatedHeight": 28
-            },
-            "rawWidth": 14,
-            "rawHeight": 28,
-            "width": 20,
-            "height": 34,
-            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/91/9178ff49-51e8-46e3-864c-020240063979.png",
-            "x": 999,
-            "y": 459,
-            "rotatedWidth": 20,
-            "rotatedHeight": 34
-          },
-          {
-            "name": "i_btn_download",
-            "uuid": "5e58c8f6-0fe5-4a9b-b580-0daeb01ef84c",
+            "name": "i_info",
+            "uuid": "e23b68f8-4c16-4faa-8365-579be8f9b0b9",
             "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
-            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586938677359_image_16.png",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292600_image_41.png",
             "trim": {
-              "x": 927,
-              "y": 491,
-              "width": 27,
-              "height": 66,
-              "rotatedWidth": 66,
-              "rotatedHeight": 27
+              "x": 991,
+              "y": 286,
+              "width": 10,
+              "height": 11,
+              "rotatedWidth": 11,
+              "rotatedHeight": 10
             },
-            "rawWidth": 27,
-            "rawHeight": 66,
-            "width": 33,
-            "height": 72,
-            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
-            "x": 924,
-            "y": 488,
+            "rawWidth": 10,
+            "rawHeight": 11,
+            "width": 16,
+            "height": 17,
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 988,
+            "y": 283,
             "rotated": true,
-            "rotatedWidth": 72,
-            "rotatedHeight": 33
-          },
-          {
-            "name": "gold3",
-            "uuid": "2dbc7bb8-f2a3-4cab-bcad-2655ee6bf9eb",
-            "textureUuid": "9178ff49-51e8-46e3-864c-020240063979",
-            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586938677359_image_10.png",
-            "trim": {
-              "x": 999,
-              "y": 496,
-              "width": 14,
-              "height": 28,
-              "rotatedWidth": 14,
-              "rotatedHeight": 28
-            },
-            "rawWidth": 14,
-            "rawHeight": 28,
-            "width": 20,
-            "height": 34,
-            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/91/9178ff49-51e8-46e3-864c-020240063979.png",
-            "x": 996,
-            "y": 493,
-            "rotatedWidth": 20,
-            "rotatedHeight": 34
-          },
-          {
-            "name": "i_pass",
-            "uuid": "b648a393-4e90-4a66-851a-9fa0e3415ca4",
-            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
-            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586938677362_image_36.png",
-            "trim": {
-              "x": 927,
-              "y": 524,
-              "width": 52,
-              "height": 54,
-              "rotatedWidth": 54,
-              "rotatedHeight": 52
-            },
-            "rawWidth": 52,
-            "rawHeight": 54,
-            "width": 58,
-            "height": 60,
-            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
-            "x": 924,
-            "y": 521,
-            "rotated": true,
-            "rotatedWidth": 60,
-            "rotatedHeight": 58
-          },
-          {
-            "name": "i_table_1",
-            "uuid": "c372c5c8-806e-4a7a-9b96-ed9b6c44f93f",
-            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
-            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586938677362_image_38.png",
-            "trim": {
-              "x": 987,
-              "y": 530,
-              "width": 39,
-              "height": 31,
-              "rotatedWidth": 31,
-              "rotatedHeight": 39
-            },
-            "rawWidth": 39,
-            "rawHeight": 31,
-            "width": 45,
-            "height": 37,
-            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
-            "x": 984,
-            "y": 527,
-            "rotated": true,
-            "rotatedWidth": 37,
-            "rotatedHeight": 45
-          },
-          {
-            "name": "i_card_s_3",
-            "uuid": "98b3e22c-e481-4118-81b9-2c66a8185480",
-            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
-            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586938677361_image_26.png",
-            "trim": {
-              "x": 987,
-              "y": 575,
-              "width": 30,
-              "height": 31,
-              "rotatedWidth": 31,
-              "rotatedHeight": 30
-            },
-            "rawWidth": 30,
-            "rawHeight": 31,
-            "width": 36,
-            "height": 37,
-            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
-            "x": 984,
-            "y": 572,
-            "rotated": true,
-            "rotatedWidth": 37,
-            "rotatedHeight": 36
+            "rotatedWidth": 17,
+            "rotatedHeight": 16
           },
           {
             "name": "i_hand0",
             "uuid": "b2f7efdb-c2c4-439b-a521-8aa901c68324",
             "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
-            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586938677362_image_34.png",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292598_image_35.png",
             "trim": {
               "x": 3,
               "y": 503,
@@ -634,7 +543,7 @@
             "rawHeight": 540,
             "width": 295,
             "height": 546,
-            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
             "x": 0,
             "y": 500,
             "rotated": true,
@@ -642,246 +551,13 @@
             "rotatedHeight": 295
           },
           {
-            "name": "i_card_1",
-            "uuid": "8a957578-2518-4dae-b610-0742a1cb0c5a",
-            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
-            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586938677361_image_24.png",
-            "trim": {
-              "x": 3,
-              "y": 798,
-              "width": 152,
-              "height": 203,
-              "rotatedWidth": 152,
-              "rotatedHeight": 203
-            },
-            "rawWidth": 152,
-            "rawHeight": 203,
-            "width": 158,
-            "height": 209,
-            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
-            "x": 0,
-            "y": 795,
-            "rotatedWidth": 158,
-            "rotatedHeight": 209
-          },
-          {
-            "name": "i_info",
-            "uuid": "e23b68f8-4c16-4faa-8365-579be8f9b0b9",
-            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
-            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586938677362_image_40.png",
-            "trim": {
-              "x": 3,
-              "y": 1007,
-              "width": 10,
-              "height": 11,
-              "rotatedWidth": 10,
-              "rotatedHeight": 11
-            },
-            "rawWidth": 10,
-            "rawHeight": 11,
-            "width": 16,
-            "height": 17,
-            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
-            "x": 0,
-            "y": 1004,
-            "rotatedWidth": 16,
-            "rotatedHeight": 17
-          },
-          {
-            "name": "i_avatar0",
-            "uuid": "6d6b9372-63c8-4eaa-84dc-9ce58365578c",
-            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
-            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586938677360_image_20.png",
-            "trim": {
-              "x": 161,
-              "y": 798,
-              "width": 200,
-              "height": 200,
-              "rotatedWidth": 200,
-              "rotatedHeight": 200
-            },
-            "rawWidth": 200,
-            "rawHeight": 200,
-            "width": 206,
-            "height": 206,
-            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
-            "x": 158,
-            "y": 795,
-            "rotatedWidth": 206,
-            "rotatedHeight": 206
-          },
-          {
-            "name": "i_btn_icon",
-            "uuid": "037b43f1-5978-4f4a-839c-2e7d65f4ccd3",
-            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
-            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586938677357_image_0.png",
-            "trim": {
-              "x": 549,
-              "y": 503,
-              "width": 46,
-              "height": 52,
-              "rotatedWidth": 52,
-              "rotatedHeight": 46
-            },
-            "rawWidth": 46,
-            "rawHeight": 52,
-            "width": 52,
-            "height": 58,
-            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
-            "x": 546,
-            "y": 500,
-            "rotated": true,
-            "rotatedWidth": 58,
-            "rotatedHeight": 52
-          },
-          {
-            "name": "i_avatar_1",
-            "uuid": "104aeacb-2672-47ea-b04d-d1d260e35344",
-            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
-            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586938677358_image_3.png",
-            "trim": {
-              "x": 367,
-              "y": 798,
-              "width": 151,
-              "height": 151,
-              "rotatedWidth": 151,
-              "rotatedHeight": 151
-            },
-            "rawWidth": 151,
-            "rawHeight": 151,
-            "width": 157,
-            "height": 157,
-            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
-            "x": 364,
-            "y": 795,
-            "rotatedWidth": 157,
-            "rotatedHeight": 157
-          },
-          {
-            "name": "i_eff",
-            "uuid": "eb1d4a5d-6bbf-47d4-b379-91df5a2c97a6",
-            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
-            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586938677362_image_42.png",
-            "trim": {
-              "x": 367,
-              "y": 955,
-              "width": 49,
-              "height": 51,
-              "rotatedWidth": 49,
-              "rotatedHeight": 51
-            },
-            "rawWidth": 49,
-            "rawHeight": 51,
-            "width": 55,
-            "height": 57,
-            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
-            "x": 364,
-            "y": 952,
-            "rotatedWidth": 55,
-            "rotatedHeight": 57
-          },
-          {
-            "name": "i_search0",
-            "uuid": "65c5d277-91e6-44bd-b79a-5ee3648accf4",
-            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
-            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586938677360_image_18.png",
-            "trim": {
-              "x": 422,
-              "y": 955,
-              "width": 45,
-              "height": 51,
-              "rotatedWidth": 45,
-              "rotatedHeight": 51
-            },
-            "rawWidth": 45,
-            "rawHeight": 51,
-            "width": 51,
-            "height": 57,
-            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
-            "x": 419,
-            "y": 952,
-            "rotatedWidth": 51,
-            "rotatedHeight": 57
-          },
-          {
-            "name": "i_table_2",
-            "uuid": "9bc6f528-3cf2-4286-b506-f0be7f72115d",
-            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
-            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586938677361_image_30.png",
-            "trim": {
-              "x": 473,
-              "y": 955,
-              "width": 49,
-              "height": 24,
-              "rotatedWidth": 24,
-              "rotatedHeight": 49
-            },
-            "rawWidth": 49,
-            "rawHeight": 24,
-            "width": 55,
-            "height": 30,
-            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
-            "x": 470,
-            "y": 952,
-            "rotated": true,
-            "rotatedWidth": 30,
-            "rotatedHeight": 55
-          },
-          {
-            "name": "i_search",
-            "uuid": "4545cef4-17bd-4136-8e20-39f9b46df1b4",
-            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
-            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586938677359_image_13.png",
-            "trim": {
-              "x": 503,
-              "y": 955,
-              "width": 47,
-              "height": 43,
-              "rotatedWidth": 43,
-              "rotatedHeight": 47
-            },
-            "rawWidth": 47,
-            "rawHeight": 43,
-            "width": 53,
-            "height": 49,
-            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
-            "x": 500,
-            "y": 952,
-            "rotated": true,
-            "rotatedWidth": 49,
-            "rotatedHeight": 53
-          },
-          {
-            "name": "i_avatar2",
-            "uuid": "4bed20e3-be94-4141-a12c-776ffb579198",
-            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
-            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586938677359_image_14.png",
-            "trim": {
-              "x": 524,
-              "y": 798,
-              "width": 150,
-              "height": 150,
-              "rotatedWidth": 150,
-              "rotatedHeight": 150
-            },
-            "rawWidth": 150,
-            "rawHeight": 150,
-            "width": 156,
-            "height": 156,
-            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
-            "x": 521,
-            "y": 795,
-            "rotatedWidth": 156,
-            "rotatedHeight": 156
-          },
-          {
             "name": "i_lose",
             "uuid": "9dcd9431-65d1-4ca5-9da1-992bbd7435ae",
             "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
-            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586938677361_image_31.png",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292597_image_32.png",
             "trim": {
               "x": 549,
-              "y": 555,
+              "y": 503,
               "width": 228,
               "height": 42,
               "rotatedWidth": 42,
@@ -891,92 +567,21 @@
             "rawHeight": 42,
             "width": 234,
             "height": 48,
-            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
             "x": 546,
-            "y": 552,
+            "y": 500,
             "rotated": true,
             "rotatedWidth": 48,
             "rotatedHeight": 234
           },
           {
-            "name": "i_avatar1",
-            "uuid": "f604cb38-be11-4cc9-beab-ba4a0a93519a",
-            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
-            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586938677363_image_43.png",
-            "trim": {
-              "x": 597,
-              "y": 611,
-              "width": 150,
-              "height": 150,
-              "rotatedWidth": 150,
-              "rotatedHeight": 150
-            },
-            "rawWidth": 150,
-            "rawHeight": 150,
-            "width": 156,
-            "height": 156,
-            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
-            "x": 594,
-            "y": 608,
-            "rotatedWidth": 156,
-            "rotatedHeight": 156
-          },
-          {
-            "name": "gold2",
-            "uuid": "7ecaa02b-14c5-4750-aacd-2c1f42c99f46",
-            "textureUuid": "9178ff49-51e8-46e3-864c-020240063979",
-            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586938677360_image_22.png",
-            "trim": {
-              "x": 597,
-              "y": 767,
-              "width": 24,
-              "height": 28,
-              "rotatedWidth": 28,
-              "rotatedHeight": 24
-            },
-            "rawWidth": 24,
-            "rawHeight": 28,
-            "width": 30,
-            "height": 34,
-            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/91/9178ff49-51e8-46e3-864c-020240063979.png",
-            "x": 594,
-            "y": 764,
-            "rotated": true,
-            "rotatedWidth": 34,
-            "rotatedHeight": 30
-          },
-          {
-            "name": "gold6",
-            "uuid": "99c416c2-e7d7-415d-b164-6781387fb92d",
-            "textureUuid": "9178ff49-51e8-46e3-864c-020240063979",
-            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586938677361_image_28.png",
-            "trim": {
-              "x": 631,
-              "y": 767,
-              "width": 24,
-              "height": 28,
-              "rotatedWidth": 28,
-              "rotatedHeight": 24
-            },
-            "rawWidth": 24,
-            "rawHeight": 28,
-            "width": 30,
-            "height": 34,
-            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/91/9178ff49-51e8-46e3-864c-020240063979.png",
-            "x": 628,
-            "y": 764,
-            "rotated": true,
-            "rotatedWidth": 34,
-            "rotatedHeight": 30
-          },
-          {
             "name": "i_card_s_0",
             "uuid": "bb86555b-dcf6-4f03-b0f7-59fdd0f1f63e",
             "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
-            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586938677362_image_37.png",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292599_image_38.png",
             "trim": {
               "x": 597,
-              "y": 555,
+              "y": 503,
               "width": 29,
               "height": 31,
               "rotatedWidth": 29,
@@ -986,114 +591,302 @@
             "rawHeight": 31,
             "width": 35,
             "height": 37,
-            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
             "x": 594,
-            "y": 552,
+            "y": 500,
             "rotatedWidth": 35,
             "rotatedHeight": 37
+          },
+          {
+            "name": "i_card_s_2",
+            "uuid": "0f8c0ad5-b0ce-48a2-a0c9-6c9530d63fec",
+            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292223_image_3.png",
+            "trim": {
+              "x": 597,
+              "y": 540,
+              "width": 30,
+              "height": 28,
+              "rotatedWidth": 28,
+              "rotatedHeight": 30
+            },
+            "rawWidth": 30,
+            "rawHeight": 28,
+            "width": 36,
+            "height": 34,
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 594,
+            "y": 537,
+            "rotated": true,
+            "rotatedWidth": 34,
+            "rotatedHeight": 36
           },
           {
             "name": "i_avatar_0",
             "uuid": "b120e9c2-0d67-4b6e-90d0-bde95c1ffad1",
             "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
-            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586938677362_image_33.png",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292598_image_34.png",
             "trim": {
-              "x": 753,
-              "y": 549,
-              "width": 146,
-              "height": 146,
-              "rotatedWidth": 146,
-              "rotatedHeight": 146
+              "x": 549,
+              "y": 737,
+              "width": 197,
+              "height": 197,
+              "rotatedWidth": 197,
+              "rotatedHeight": 197
             },
-            "rawWidth": 146,
-            "rawHeight": 146,
-            "width": 152,
-            "height": 152,
-            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
-            "x": 750,
-            "y": 546,
-            "rotatedWidth": 152,
-            "rotatedHeight": 152
+            "rawWidth": 197,
+            "rawHeight": 197,
+            "width": 203,
+            "height": 203,
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 546,
+            "y": 734,
+            "rotatedWidth": 203,
+            "rotatedHeight": 203
           },
           {
-            "name": "i_card_b_7",
-            "uuid": "e8c0b7b3-9134-41a4-af4a-9f222a5f3a40",
+            "name": "i_card_1",
+            "uuid": "8a957578-2518-4dae-b610-0742a1cb0c5a",
             "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
-            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586938677362_image_41.png",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292553_image_25.png",
             "trim": {
-              "x": 905,
-              "y": 611,
-              "width": 106,
-              "height": 112,
-              "rotatedWidth": 112,
-              "rotatedHeight": 106
+              "x": 597,
+              "y": 576,
+              "width": 153,
+              "height": 206,
+              "rotatedWidth": 206,
+              "rotatedHeight": 153
             },
-            "rawWidth": 106,
-            "rawHeight": 112,
-            "width": 112,
-            "height": 118,
-            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
-            "x": 902,
-            "y": 608,
+            "rawWidth": 153,
+            "rawHeight": 206,
+            "width": 159,
+            "height": 212,
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 594,
+            "y": 573,
             "rotated": true,
-            "rotatedWidth": 118,
-            "rotatedHeight": 112
+            "rotatedWidth": 212,
+            "rotatedHeight": 159
+          },
+          {
+            "name": "i_card_b_8",
+            "uuid": "3f65b3f6-8aeb-4253-91a6-186788f622dc",
+            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292355_image_13.png",
+            "trim": {
+              "x": 809,
+              "y": 549,
+              "width": 101,
+              "height": 133,
+              "rotatedWidth": 101,
+              "rotatedHeight": 133
+            },
+            "rawWidth": 101,
+            "rawHeight": 133,
+            "width": 107,
+            "height": 139,
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 806,
+            "y": 546,
+            "rotatedWidth": 107,
+            "rotatedHeight": 139
           },
           {
             "name": "i_card_b_10",
             "uuid": "995232ce-34fe-4bdf-b38f-cfaed0067dc3",
             "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
-            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586938677361_image_27.png",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292566_image_28.png",
             "trim": {
-              "x": 753,
-              "y": 701,
+              "x": 916,
+              "y": 610,
               "width": 93,
               "height": 141,
-              "rotatedWidth": 141,
-              "rotatedHeight": 93
+              "rotatedWidth": 93,
+              "rotatedHeight": 141
             },
             "rawWidth": 93,
             "rawHeight": 141,
             "width": 99,
             "height": 147,
-            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
-            "x": 750,
-            "y": 698,
-            "rotated": true,
-            "rotatedWidth": 147,
-            "rotatedHeight": 99
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 913,
+            "y": 607,
+            "rotatedWidth": 99,
+            "rotatedHeight": 147
           },
           {
-            "name": "i_card_b_6",
-            "uuid": "b350444c-471b-49eb-aaa2-718ab105b1a4",
+            "name": "i_card_b_9",
+            "uuid": "28675e58-706d-40ee-ac08-a3e9b860b4b4",
             "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
-            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586938677362_image_35.png",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292354_image_9.png",
             "trim": {
-              "x": 900,
-              "y": 723,
-              "width": 115,
-              "height": 119,
-              "rotatedWidth": 115,
-              "rotatedHeight": 119
+              "x": 809,
+              "y": 688,
+              "width": 91,
+              "height": 127,
+              "rotatedWidth": 91,
+              "rotatedHeight": 127
             },
-            "rawWidth": 115,
-            "rawHeight": 119,
-            "width": 121,
-            "height": 125,
-            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
-            "x": 897,
-            "y": 720,
-            "rotatedWidth": 121,
-            "rotatedHeight": 125
+            "rawWidth": 91,
+            "rawHeight": 127,
+            "width": 97,
+            "height": 133,
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 806,
+            "y": 685,
+            "rotatedWidth": 97,
+            "rotatedHeight": 133
+          },
+          {
+            "name": "i_hand3",
+            "uuid": "fd17dccb-82cb-411d-8ff5-0bee112b2a2d",
+            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292601_image_46.png",
+            "trim": {
+              "x": 752,
+              "y": 735,
+              "width": 69,
+              "height": 43,
+              "rotatedWidth": 43,
+              "rotatedHeight": 69
+            },
+            "rawWidth": 69,
+            "rawHeight": 43,
+            "width": 75,
+            "height": 49,
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 749,
+            "y": 732,
+            "rotated": true,
+            "rotatedWidth": 49,
+            "rotatedHeight": 75
+          },
+          {
+            "name": "i_pass1",
+            "uuid": "816f939f-6afc-4ecb-ac97-6dfc16db726b",
+            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292553_image_24.png",
+            "trim": {
+              "x": 752,
+              "y": 810,
+              "width": 79,
+              "height": 32,
+              "rotatedWidth": 32,
+              "rotatedHeight": 79
+            },
+            "rawWidth": 79,
+            "rawHeight": 32,
+            "width": 85,
+            "height": 38,
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 749,
+            "y": 807,
+            "rotated": true,
+            "rotatedWidth": 38,
+            "rotatedHeight": 85
+          },
+          {
+            "name": "i_avatar_1",
+            "uuid": "104aeacb-2672-47ea-b04d-d1d260e35344",
+            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292224_image_4.png",
+            "trim": {
+              "x": 790,
+              "y": 821,
+              "width": 169,
+              "height": 169,
+              "rotatedWidth": 169,
+              "rotatedHeight": 169
+            },
+            "rawWidth": 169,
+            "rawHeight": 169,
+            "width": 175,
+            "height": 175,
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 787,
+            "y": 818,
+            "rotatedWidth": 175,
+            "rotatedHeight": 175
+          },
+          {
+            "name": "i_card_0",
+            "uuid": "77709bdf-e4a7-4166-8051-814bfb4e69cf",
+            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292491_image_22.png",
+            "trim": {
+              "x": 906,
+              "y": 757,
+              "width": 57,
+              "height": 76,
+              "rotatedWidth": 76,
+              "rotatedHeight": 57
+            },
+            "rawWidth": 57,
+            "rawHeight": 76,
+            "width": 63,
+            "height": 82,
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 903,
+            "y": 754,
+            "rotated": true,
+            "rotatedWidth": 82,
+            "rotatedHeight": 63
+          },
+          {
+            "name": "i_table_1",
+            "uuid": "c372c5c8-806e-4a7a-9b96-ed9b6c44f93f",
+            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292599_image_39.png",
+            "trim": {
+              "x": 752,
+              "y": 895,
+              "width": 39,
+              "height": 31,
+              "rotatedWidth": 31,
+              "rotatedHeight": 39
+            },
+            "rawWidth": 39,
+            "rawHeight": 31,
+            "width": 45,
+            "height": 37,
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 749,
+            "y": 892,
+            "rotated": true,
+            "rotatedWidth": 37,
+            "rotatedHeight": 45
+          },
+          {
+            "name": "i_card_s_3",
+            "uuid": "98b3e22c-e481-4118-81b9-2c66a8185480",
+            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292565_image_27.png",
+            "trim": {
+              "x": 988,
+              "y": 757,
+              "width": 30,
+              "height": 31,
+              "rotatedWidth": 30,
+              "rotatedHeight": 31
+            },
+            "rawWidth": 30,
+            "rawHeight": 31,
+            "width": 36,
+            "height": 37,
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 985,
+            "y": 754,
+            "rotatedWidth": 36,
+            "rotatedHeight": 37
           },
           {
             "name": "i_card_s_1",
             "uuid": "9001fd4c-8611-4e09-9fc1-38f7f5422cf1",
             "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
-            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586938677361_image_25.png",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292564_image_26.png",
             "trim": {
-              "x": 632,
-              "y": 549,
+              "x": 988,
+              "y": 794,
               "width": 30,
               "height": 30,
               "rotatedWidth": 30,
@@ -1103,44 +896,138 @@
             "rawHeight": 30,
             "width": 36,
             "height": 36,
-            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
-            "x": 629,
-            "y": 546,
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 985,
+            "y": 791,
             "rotatedWidth": 36,
             "rotatedHeight": 36
           },
           {
-            "name": "i_card_s_2",
-            "uuid": "0f8c0ad5-b0ce-48a2-a0c9-6c9530d63fec",
+            "name": "i_pass",
+            "uuid": "b648a393-4e90-4a66-851a-9fa0e3415ca4",
             "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
-            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586938677358_image_2.png",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292598_image_37.png",
             "trim": {
-              "x": 668,
-              "y": 549,
-              "width": 30,
-              "height": 28,
-              "rotatedWidth": 28,
-              "rotatedHeight": 30
+              "x": 965,
+              "y": 830,
+              "width": 52,
+              "height": 54,
+              "rotatedWidth": 52,
+              "rotatedHeight": 54
             },
-            "rawWidth": 30,
-            "rawHeight": 28,
-            "width": 36,
-            "height": 34,
-            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
-            "x": 665,
-            "y": 546,
+            "rawWidth": 52,
+            "rawHeight": 54,
+            "width": 58,
+            "height": 60,
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 962,
+            "y": 827,
+            "rotatedWidth": 58,
+            "rotatedHeight": 60
+          },
+          {
+            "name": "i_eff",
+            "uuid": "eb1d4a5d-6bbf-47d4-b379-91df5a2c97a6",
+            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292600_image_43.png",
+            "trim": {
+              "x": 965,
+              "y": 890,
+              "width": 49,
+              "height": 51,
+              "rotatedWidth": 51,
+              "rotatedHeight": 49
+            },
+            "rawWidth": 49,
+            "rawHeight": 51,
+            "width": 55,
+            "height": 57,
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 962,
+            "y": 887,
             "rotated": true,
-            "rotatedWidth": 34,
-            "rotatedHeight": 36
+            "rotatedWidth": 57,
+            "rotatedHeight": 55
+          },
+          {
+            "name": "i_btn_icon",
+            "uuid": "037b43f1-5978-4f4a-839c-2e7d65f4ccd3",
+            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292222_image_0.png",
+            "trim": {
+              "x": 965,
+              "y": 945,
+              "width": 46,
+              "height": 52,
+              "rotatedWidth": 52,
+              "rotatedHeight": 46
+            },
+            "rawWidth": 46,
+            "rawHeight": 52,
+            "width": 52,
+            "height": 58,
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 962,
+            "y": 942,
+            "rotated": true,
+            "rotatedWidth": 58,
+            "rotatedHeight": 52
+          },
+          {
+            "name": "i_search0",
+            "uuid": "65c5d277-91e6-44bd-b79a-5ee3648accf4",
+            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292416_image_19.png",
+            "trim": {
+              "x": 3,
+              "y": 940,
+              "width": 45,
+              "height": 51,
+              "rotatedWidth": 45,
+              "rotatedHeight": 51
+            },
+            "rawWidth": 45,
+            "rawHeight": 51,
+            "width": 51,
+            "height": 57,
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 0,
+            "y": 937,
+            "rotatedWidth": 51,
+            "rotatedHeight": 57
+          },
+          {
+            "name": "i_search",
+            "uuid": "4545cef4-17bd-4136-8e20-39f9b46df1b4",
+            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292355_image_14.png",
+            "trim": {
+              "x": 54,
+              "y": 940,
+              "width": 47,
+              "height": 43,
+              "rotatedWidth": 43,
+              "rotatedHeight": 47
+            },
+            "rawWidth": 47,
+            "rawHeight": 43,
+            "width": 53,
+            "height": 49,
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 51,
+            "y": 937,
+            "rotated": true,
+            "rotatedWidth": 49,
+            "rotatedHeight": 53
           },
           {
             "name": "gold1",
             "uuid": "2c47cc79-2dbc-4c8a-a935-66ff88593d22",
             "textureUuid": "9178ff49-51e8-46e3-864c-020240063979",
-            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586938677359_image_9.png",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292355_image_10.png",
             "trim": {
-              "x": 702,
-              "y": 549,
+              "x": 54,
+              "y": 993,
               "width": 28,
               "height": 28,
               "rotatedWidth": 28,
@@ -1150,9 +1037,9 @@
             "rawHeight": 28,
             "width": 34,
             "height": 34,
-            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/91/9178ff49-51e8-46e3-864c-020240063979.png",
-            "x": 699,
-            "y": 546,
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/91/9178ff49-51e8-46e3-864c-020240063979.png",
+            "x": 51,
+            "y": 990,
             "rotatedWidth": 34,
             "rotatedHeight": 34
           },
@@ -1160,10 +1047,10 @@
             "name": "gold0",
             "uuid": "526b8f8a-1939-4435-9b52-779d56f725af",
             "textureUuid": "9178ff49-51e8-46e3-864c-020240063979",
-            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586938677359_image_15.png",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292415_image_16.png",
             "trim": {
-              "x": 680,
-              "y": 767,
+              "x": 88,
+              "y": 993,
               "width": 28,
               "height": 28,
               "rotatedWidth": 28,
@@ -1173,9 +1060,9 @@
             "rawHeight": 28,
             "width": 34,
             "height": 34,
-            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/91/9178ff49-51e8-46e3-864c-020240063979.png",
-            "x": 677,
-            "y": 764,
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/91/9178ff49-51e8-46e3-864c-020240063979.png",
+            "x": 85,
+            "y": 990,
             "rotatedWidth": 34,
             "rotatedHeight": 34
           },
@@ -1183,10 +1070,10 @@
             "name": "gold7",
             "uuid": "a6970d34-834e-4a93-9bb1-6cc442a34c95",
             "textureUuid": "9178ff49-51e8-46e3-864c-020240063979",
-            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586938677361_image_32.png",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292597_image_33.png",
             "trim": {
-              "x": 714,
-              "y": 767,
+              "x": 103,
+              "y": 940,
               "width": 28,
               "height": 28,
               "rotatedWidth": 28,
@@ -1196,44 +1083,90 @@
             "rawHeight": 28,
             "width": 34,
             "height": 34,
-            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/91/9178ff49-51e8-46e3-864c-020240063979.png",
-            "x": 711,
-            "y": 764,
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/91/9178ff49-51e8-46e3-864c-020240063979.png",
+            "x": 100,
+            "y": 937,
             "rotatedWidth": 34,
             "rotatedHeight": 34
           },
           {
-            "name": "i_card_b_8",
-            "uuid": "3f65b3f6-8aeb-4253-91a6-186788f622dc",
+            "name": "i_card_b_6",
+            "uuid": "b350444c-471b-49eb-aaa2-718ab105b1a4",
             "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
-            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586938677359_image_12.png",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292598_image_36.png",
             "trim": {
-              "x": 748,
-              "y": 800,
-              "width": 101,
-              "height": 133,
-              "rotatedWidth": 133,
-              "rotatedHeight": 101
+              "x": 3,
+              "y": 798,
+              "width": 115,
+              "height": 119,
+              "rotatedWidth": 115,
+              "rotatedHeight": 119
             },
-            "rawWidth": 101,
-            "rawHeight": 133,
-            "width": 107,
-            "height": 139,
-            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
-            "x": 745,
-            "y": 797,
+            "rawWidth": 115,
+            "rawHeight": 119,
+            "width": 121,
+            "height": 125,
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 0,
+            "y": 795,
+            "rotatedWidth": 121,
+            "rotatedHeight": 125
+          },
+          {
+            "name": "i_card_b_7",
+            "uuid": "e8c0b7b3-9134-41a4-af4a-9f222a5f3a40",
+            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292600_image_42.png",
+            "trim": {
+              "x": 124,
+              "y": 798,
+              "width": 106,
+              "height": 112,
+              "rotatedWidth": 106,
+              "rotatedHeight": 112
+            },
+            "rawWidth": 106,
+            "rawHeight": 112,
+            "width": 112,
+            "height": 118,
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 121,
+            "y": 795,
+            "rotatedWidth": 112,
+            "rotatedHeight": 118
+          },
+          {
+            "name": "i_card_b_4",
+            "uuid": "6d0c3778-cc87-41c8-a920-bf5b29041933",
+            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292490_image_20.png",
+            "trim": {
+              "x": 137,
+              "y": 916,
+              "width": 103,
+              "height": 107,
+              "rotatedWidth": 107,
+              "rotatedHeight": 103
+            },
+            "rawWidth": 103,
+            "rawHeight": 107,
+            "width": 109,
+            "height": 113,
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 134,
+            "y": 913,
             "rotated": true,
-            "rotatedWidth": 139,
-            "rotatedHeight": 107
+            "rotatedWidth": 113,
+            "rotatedHeight": 109
           },
           {
             "name": "i_card_b_5",
             "uuid": "18bc7fe3-fbf5-4fff-9298-ec2edd2a85fc",
             "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
-            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586938677358_image_6.png",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292304_image_7.png",
             "trim": {
-              "x": 680,
-              "y": 907,
+              "x": 236,
+              "y": 798,
               "width": 92,
               "height": 111,
               "rotatedWidth": 92,
@@ -1243,81 +1176,43 @@
             "rawHeight": 111,
             "width": 98,
             "height": 117,
-            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
-            "x": 677,
-            "y": 904,
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 233,
+            "y": 795,
             "rotatedWidth": 98,
             "rotatedHeight": 117
-          },
-          {
-            "name": "i_card_b_4",
-            "uuid": "6d0c3778-cc87-41c8-a920-bf5b29041933",
-            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
-            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586938677360_image_19.png",
-            "trim": {
-              "x": 778,
-              "y": 907,
-              "width": 103,
-              "height": 107,
-              "rotatedWidth": 103,
-              "rotatedHeight": 107
-            },
-            "rawWidth": 103,
-            "rawHeight": 107,
-            "width": 109,
-            "height": 113,
-            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
-            "x": 775,
-            "y": 904,
-            "rotatedWidth": 109,
-            "rotatedHeight": 113
           },
           {
             "name": "i_card_b_3",
             "uuid": "f6426792-e59b-4ae8-b17d-f0aacd122447",
             "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
-            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586938677363_image_44.png",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292601_image_45.png",
             "trim": {
-              "x": 887,
-              "y": 848,
+              "x": 250,
+              "y": 915,
               "width": 93,
               "height": 104,
-              "rotatedWidth": 104,
-              "rotatedHeight": 93
+              "rotatedWidth": 93,
+              "rotatedHeight": 104
             },
             "rawWidth": 93,
             "rawHeight": 104,
             "width": 99,
             "height": 110,
-            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
-            "x": 884,
-            "y": 845,
-            "rotated": true,
-            "rotatedWidth": 110,
-            "rotatedHeight": 99
-          }
-        ],
-        "width": 1021,
-        "height": 1021,
-        "name": "autoAtlas-1",
-        "imagePath": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\TexturePacker\\build\\raw-assets\\res\\atlas\\autoAtlas.pac\\autoAtlas-1.png",
-        "compressd": {
-          "suffix": [
-            ".png"
-          ],
-          "imagePathNoExt": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\TexturePacker\\build\\raw-assets\\res\\atlas\\autoAtlas.pac\\compressed\\autoAtlas-1"
-        }
-      },
-      {
-        "files": [
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 247,
+            "y": 912,
+            "rotatedWidth": 99,
+            "rotatedHeight": 110
+          },
           {
             "name": "i_card_b_1",
             "uuid": "168a395a-4422-4039-b29e-25d3af62a219",
             "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
-            "path": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\trimImages\\spritesheet_js_1586938677358_image_5.png",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292301_image_6.png",
             "trim": {
-              "x": 3,
-              "y": 3,
+              "x": 334,
+              "y": 798,
               "width": 95,
               "height": 95,
               "rotatedWidth": 95,
@@ -1327,22 +1222,151 @@
             "rawHeight": 95,
             "width": 101,
             "height": 101,
-            "originalPath": "C:/Users/pc/projects/playable/playableAdsGsn/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
-            "x": 0,
-            "y": 0,
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 331,
+            "y": 795,
             "rotatedWidth": 101,
             "rotatedHeight": 101
+          },
+          {
+            "name": "i_card_b_0",
+            "uuid": "9ac8492a-d0aa-4ce0-90b5-0a5f90e3f5e0",
+            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292567_image_30.png",
+            "trim": {
+              "x": 349,
+              "y": 899,
+              "width": 89,
+              "height": 97,
+              "rotatedWidth": 89,
+              "rotatedHeight": 97
+            },
+            "rawWidth": 89,
+            "rawHeight": 97,
+            "width": 95,
+            "height": 103,
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 346,
+            "y": 896,
+            "rotatedWidth": 95,
+            "rotatedHeight": 103
+          },
+          {
+            "name": "i_card_b_2",
+            "uuid": "5e76f819-71cd-4d7c-82d4-26afe9cfdfcf",
+            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292415_image_18.png",
+            "trim": {
+              "x": 435,
+              "y": 798,
+              "width": 96,
+              "height": 87,
+              "rotatedWidth": 96,
+              "rotatedHeight": 87
+            },
+            "rawWidth": 96,
+            "rawHeight": 87,
+            "width": 102,
+            "height": 93,
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 432,
+            "y": 795,
+            "rotatedWidth": 102,
+            "rotatedHeight": 93
           }
         ],
-        "width": 101,
-        "height": 101,
-        "name": "autoAtlas-2",
-        "imagePath": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\TexturePacker\\build\\raw-assets\\res\\atlas\\autoAtlas.pac\\autoAtlas-2.png",
+        "width": 1021,
+        "height": 1024,
+        "name": "autoAtlas-1",
+        "imagePath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/TexturePacker/build/raw-assets/res/atlas/autoAtlas.pac/autoAtlas-1.png",
         "compressd": {
           "suffix": [
             ".png"
           ],
-          "imagePathNoExt": "C:\\Users\\pc\\projects\\playable\\playableAdsGsn\\temp\\TexturePacker\\build\\raw-assets\\res\\atlas\\autoAtlas.pac\\compressed\\autoAtlas-2"
+          "imagePathNoExt": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/TexturePacker/build/raw-assets/res/atlas/autoAtlas.pac/compressed/autoAtlas-1"
+        }
+      },
+      {
+        "files": [
+          {
+            "name": "i_avatar2",
+            "uuid": "4bed20e3-be94-4141-a12c-776ffb579198",
+            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292413_image_15.png",
+            "trim": {
+              "x": 3,
+              "y": 3,
+              "width": 150,
+              "height": 150,
+              "rotatedWidth": 150,
+              "rotatedHeight": 150
+            },
+            "rawWidth": 150,
+            "rawHeight": 150,
+            "width": 156,
+            "height": 156,
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 0,
+            "y": 0,
+            "rotatedWidth": 156,
+            "rotatedHeight": 156
+          },
+          {
+            "name": "i_avatar0",
+            "uuid": "6d6b9372-63c8-4eaa-84dc-9ce58365578c",
+            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292491_image_21.png",
+            "trim": {
+              "x": 3,
+              "y": 159,
+              "width": 150,
+              "height": 150,
+              "rotatedWidth": 150,
+              "rotatedHeight": 150
+            },
+            "rawWidth": 150,
+            "rawHeight": 150,
+            "width": 156,
+            "height": 156,
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 0,
+            "y": 156,
+            "rotatedWidth": 156,
+            "rotatedHeight": 156
+          },
+          {
+            "name": "i_avatar1",
+            "uuid": "f604cb38-be11-4cc9-beab-ba4a0a93519a",
+            "textureUuid": "3549c34c-49ae-499a-a40b-414a5c27af3f",
+            "path": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/trimImages/spritesheet_js_1587219292601_image_44.png",
+            "trim": {
+              "x": 3,
+              "y": 315,
+              "width": 150,
+              "height": 150,
+              "rotatedWidth": 150,
+              "rotatedHeight": 150
+            },
+            "rawWidth": 150,
+            "rawHeight": 150,
+            "width": 156,
+            "height": 156,
+            "originalPath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/library/imports/35/3549c34c-49ae-499a-a40b-414a5c27af3f.png",
+            "x": 0,
+            "y": 312,
+            "rotatedWidth": 156,
+            "rotatedHeight": 156
+          }
+        ],
+        "width": 156,
+        "height": 468,
+        "name": "autoAtlas-2",
+        "imagePath": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/TexturePacker/build/raw-assets/res/atlas/autoAtlas.pac/autoAtlas-2.png",
+        "compressd": {
+          "suffix": [
+            ".png"
+          ],
+          "imagePathNoExt": "/Users/leemin/cocos/project/playable/playable_ads_facebook_cocos_creator/temp/TexturePacker/build/raw-assets/res/atlas/autoAtlas.pac/compressed/autoAtlas-2"
         }
       }
     ],
