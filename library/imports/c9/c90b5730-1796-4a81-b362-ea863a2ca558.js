@@ -83,6 +83,10 @@ var CPlayer = cc.Class({
       var progressBar = this.progressBar;
       var progress = progressBar.progress;
 
+      if (progress < 0.4) {
+        this.gameController.audio.playCountDown();
+      }
+
       if (progress > 0) {
         progress -= dt * 0.1;
       }
@@ -330,8 +334,13 @@ var CPlayer = cc.Class({
       this.node.stopAllActions();
       this.node.runAction(cc.scaleTo(0.5, 1, 1)); // this.node.scale = 1;
     }
+
+    this.setMyTurn(false);
+    this.gameController.audio.stopCountDown();
   },
   onEnterTurn: function onEnterTurn() {
+    cc.log("onEnterTurn:" + this.player.index);
+
     if (this.player.index === 0) {
       this.node.runAction(cc.scaleTo(0.5, 1.2, 1.2).easing(cc.easeBackOut())); // this.node.scale = 1.17;
       // return;

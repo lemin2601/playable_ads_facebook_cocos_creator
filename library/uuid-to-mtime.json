@@ -30,7 +30,7 @@
     "relativePath": "scenes"
   },
   "4734c20c-0db8-4eb2-92ea-e692f4d70934": {
-    "asset": 1587346548472,
+    "asset": 1587365598087,
     "meta": 1586138882965,
     "relativePath": "scripts"
   },
@@ -135,7 +135,7 @@
     "relativePath": "res\\fonts"
   },
   "94660764-5774-44f9-a715-8c0536a2d885": {
-    "asset": 1585289370702,
+    "asset": 1587363250506,
     "meta": 1586399214372,
     "relativePath": "res\\sfx"
   },
@@ -240,8 +240,8 @@
     "relativePath": "scripts\\CProgressWaterAni.js"
   },
   "78df6015-2961-4862-bbd8-6b8b024e68df": {
-    "asset": 1585293923792,
-    "meta": 1587346579297,
+    "asset": 1587363552518,
+    "meta": 1587363552526,
     "relativePath": "res\\prefabs\\cardPrefab.prefab"
   },
   "d0382b8a-b472-4c4a-8106-2daed0e05cf4": {
@@ -298,46 +298,6 @@
     "asset": 1586484451610,
     "meta": 1587346579902,
     "relativePath": "scripts\\PoolHandler.js"
-  },
-  "61398f82-90f1-4844-88be-b14b479068a5": {
-    "asset": 1586514727852,
-    "meta": 1587346579316,
-    "relativePath": "res\\sfx\\s_g_countdown.mp3"
-  },
-  "5c051796-59a0-427e-ab85-6344b0aaf144": {
-    "asset": 1586514727852,
-    "meta": 1587346579316,
-    "relativePath": "res\\sfx\\s_lb_welcome.mp3"
-  },
-  "d04eed9d-cfe0-424d-934c-d8bae0694222": {
-    "asset": 1586514727852,
-    "meta": 1587346579316,
-    "relativePath": "res\\sfx\\s_danh_bo.mp3"
-  },
-  "984d477c-83b2-44c3-af84-f8711c560ead": {
-    "asset": 1586514727852,
-    "meta": 1587346579316,
-    "relativePath": "res\\sfx\\s_jackpot.mp3"
-  },
-  "78ccece2-2dda-456d-a38d-110eda144760": {
-    "asset": 1586514727852,
-    "meta": 1587346579326,
-    "relativePath": "res\\sfx\\v_g_5_flush2.mp3"
-  },
-  "f67ca735-0692-4575-90f6-15f5c824e9f6": {
-    "asset": 1586514727852,
-    "meta": 1587346579307,
-    "relativePath": "res\\sfx\\s_coin_falling.mp3"
-  },
-  "febeb6f8-7a92-46c8-bda4-abf8a726016d": {
-    "asset": 1586514727852,
-    "meta": 1587346579337,
-    "relativePath": "res\\sfx\\v_g_straight.mp3"
-  },
-  "c5d56176-f76b-44c2-affd-ab00a29ddb64": {
-    "asset": 1586515401190,
-    "meta": 1587346579326,
-    "relativePath": "res\\sfx\\v_g_5_cu_lu2.mp3"
   },
   "adf5b0bd-ee9e-42d3-84fa-cacb2ab870c1": {
     "asset": 1586744650841,
@@ -483,11 +443,6 @@
     "asset": 1586831748636,
     "meta": 1587346579657,
     "relativePath": "scripts\\CCoinFallEffect.js"
-  },
-  "876d0ecd-4926-41bb-877d-e3d16bafb680": {
-    "asset": 1586832259188,
-    "meta": 1587346579797,
-    "relativePath": "scripts\\CTable.js"
   },
   "430eccbf-bf2c-4e6e-8c0c-884bbb487f32": {
     "asset": 1583211972000,
@@ -959,25 +914,10 @@
     "meta": 1587346579247,
     "relativePath": "res\\ani\\pusoydos.png"
   },
-  "1a8a88b3-6465-4761-931f-5cf206d12d39": {
-    "asset": 1586856618343,
-    "meta": 1587346579357,
-    "relativePath": "res\\sfx\\v_g_your_turn.mp3"
-  },
   "995926c7-9506-4741-b63b-a8aa2ef2555d": {
     "asset": 1586859430901,
     "meta": 1587346579421,
     "relativePath": "res\\textures\\img_t_ef_1.png"
-  },
-  "d9a3089a-bbbe-40cf-ac66-cf89cfb725a5": {
-    "asset": 1586917167843,
-    "meta": 1587346579326,
-    "relativePath": "res\\sfx\\v_g_5_tu_quy2.mp3"
-  },
-  "92d0a772-b531-4b68-86eb-39b037151fd4": {
-    "asset": 1586918005563,
-    "meta": 1587346579326,
-    "relativePath": "res\\sfx\\s_pass_turn.mp3"
   },
   "47abfd92-97be-464e-b535-7c9cdc08f0d0": {
     "asset": 1585283981566,
@@ -988,11 +928,6 @@
     "asset": 1585283981567,
     "meta": 1587346579287,
     "relativePath": "res\\fonts\\bm_win.png"
-  },
-  "9bd75145-7f3d-4b7f-819d-513923331192": {
-    "asset": 1585289370700,
-    "meta": 1587346579337,
-    "relativePath": "res\\sfx\\v_g_winner1.mp3"
   },
   "529367c9-1f93-4e39-a591-7c269143e948": {
     "asset": 1585289392167,
@@ -1035,14 +970,9 @@
     "relativePath": "scripts\\CStep1.js"
   },
   "2d2f792f-a40c-49bb-a189-ed176a246e49": {
-    "asset": 1587363203973,
-    "meta": 1587363203987,
+    "asset": 1587365669907,
+    "meta": 1587365669924,
     "relativePath": "scenes\\game.fire"
-  },
-  "1895c76e-2456-43b3-aaf1-237def3cfa61": {
-    "asset": 1587346548472,
-    "meta": 1587346579606,
-    "relativePath": "scripts\\CCHplay.js"
   },
   "9fbfb1fa-8a73-4205-b22f-a4fe59a8251f": {
     "asset": 1587346548472,
@@ -1054,24 +984,119 @@
     "meta": 1587346578937,
     "relativePath": "resources"
   },
-  "c90b5730-1796-4a81-b362-ea863a2ca558": {
-    "asset": 1587355287275,
-    "meta": 1587355379258,
-    "relativePath": "scripts\\CPlayer.js"
-  },
-  "0998c9f9-3368-4268-96cd-570fcc5efa1f": {
-    "asset": 1587355560423,
-    "meta": 1587355560750,
-    "relativePath": "scripts\\GameController.js"
-  },
   "232c0ffb-53fa-462f-9b04-aa8c74697a81": {
-    "asset": 1587358061111,
-    "meta": 1587358061675,
+    "asset": 1587363924560,
+    "meta": 1587364016336,
     "relativePath": "scripts\\CAudio.js"
   },
+  "1895c76e-2456-43b3-aaf1-237def3cfa61": {
+    "asset": 1587364011535,
+    "meta": 1587364016364,
+    "relativePath": "scripts\\CCHplay.js"
+  },
+  "c90b5730-1796-4a81-b362-ea863a2ca558": {
+    "asset": 1587364624470,
+    "meta": 1587364626021,
+    "relativePath": "scripts\\CPlayer.js"
+  },
+  "876d0ecd-4926-41bb-877d-e3d16bafb680": {
+    "asset": 1587365535411,
+    "meta": 1587365552293,
+    "relativePath": "scripts\\CTable.js"
+  },
+  "0998c9f9-3368-4268-96cd-570fcc5efa1f": {
+    "asset": 1587365598081,
+    "meta": 1587365599885,
+    "relativePath": "scripts\\GameController.js"
+  },
   "af153d65-29d3-427a-a028-ad48fe12fca2": {
-    "asset": 1587358524172,
-    "meta": 1587358526040,
+    "asset": 1587365598087,
+    "meta": 1587365599935,
     "relativePath": "scripts\\GameFake.js"
+  },
+  "d04eed9d-cfe0-424d-934c-d8bae0694222": {
+    "asset": 1587398362802,
+    "meta": 1587398466190,
+    "relativePath": "res\\sfx\\s_danh_bo.mp3"
+  },
+  "f67ca735-0692-4575-90f6-15f5c824e9f6": {
+    "asset": 1587398354599,
+    "meta": 1587398466192,
+    "relativePath": "res\\sfx\\s_coin_falling.mp3"
+  },
+  "61398f82-90f1-4844-88be-b14b479068a5": {
+    "asset": 1587398333210,
+    "meta": 1587398466195,
+    "relativePath": "res\\sfx\\s_g_countdown.mp3"
+  },
+  "984d477c-83b2-44c3-af84-f8711c560ead": {
+    "asset": 1587398341059,
+    "meta": 1587398466197,
+    "relativePath": "res\\sfx\\s_jackpot.mp3"
+  },
+  "5c051796-59a0-427e-ab85-6344b0aaf144": {
+    "asset": 1587398347657,
+    "meta": 1587398466200,
+    "relativePath": "res\\sfx\\s_lb_welcome.mp3"
+  },
+  "92d0a772-b531-4b68-86eb-39b037151fd4": {
+    "asset": 1587398243543,
+    "meta": 1587398466203,
+    "relativePath": "res\\sfx\\s_pass_turn.mp3"
+  },
+  "c5d56176-f76b-44c2-affd-ab00a29ddb64": {
+    "asset": 1587398231372,
+    "meta": 1587398466206,
+    "relativePath": "res\\sfx\\v_g_5_cu_lu2.mp3"
+  },
+  "78ccece2-2dda-456d-a38d-110eda144760": {
+    "asset": 1587398404705,
+    "meta": 1587398466208,
+    "relativePath": "res\\sfx\\v_g_5_flush2.mp3"
+  },
+  "2f394b5c-ac5c-482f-831e-f47db2fee7f7": {
+    "asset": 1587398160419,
+    "meta": 1587398466211,
+    "relativePath": "res\\sfx\\v_g_5_la_10.mp3"
+  },
+  "5031c899-8d72-49b5-976c-d9c6eda73b1a": {
+    "asset": 1587398167457,
+    "meta": 1587398466213,
+    "relativePath": "res\\sfx\\v_g_5_la_11.mp3"
+  },
+  "4aa530f3-6572-4f4a-ad92-77dbb8176e81": {
+    "asset": 1587398124983,
+    "meta": 1587398466216,
+    "relativePath": "res\\sfx\\v_g_5_la_13.mp3"
+  },
+  "272b91c6-6f18-4f6a-9d42-f88c5d61e5ca": {
+    "asset": 1587398152092,
+    "meta": 1587398466220,
+    "relativePath": "res\\sfx\\v_g_5_la_14.mp3"
+  },
+  "d9a3089a-bbbe-40cf-ac66-cf89cfb725a5": {
+    "asset": 1587398262608,
+    "meta": 1587398466223,
+    "relativePath": "res\\sfx\\v_g_5_tu_quy2.mp3"
+  },
+  "a44e2074-1faf-4204-8c65-87dc58b83174": {
+    "asset": 1587398252884,
+    "meta": 1587398466226,
+    "relativePath": "res\\sfx\\v_g_dos_out.mp3"
+  },
+  "febeb6f8-7a92-46c8-bda4-abf8a726016d": {
+    "asset": 1587398417653,
+    "meta": 1587398466228,
+    "relativePath": "res\\sfx\\v_g_straight.mp3"
+  },
+  "9bd75145-7f3d-4b7f-819d-513923331192": {
+    "asset": 1587398430285,
+    "meta": 1587398466231,
+    "relativePath": "res\\sfx\\v_g_winner1.mp3"
+  },
+  "1a8a88b3-6465-4761-931f-5cf206d12d39": {
+    "asset": 1587398278153,
+    "meta": 1587398466233,
+    "relativePath": "res\\sfx\\v_g_your_turn.mp3"
   }
 }

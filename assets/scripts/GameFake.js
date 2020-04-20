@@ -13,6 +13,7 @@ var SoundType = {
     PASS:6,
     NONE:7,
     PAIR:8,
+    DOS_OUT:9,
 };
 var CardGroup = {
     NONE:0,
@@ -205,12 +206,12 @@ var actions1 = [
         type:ActionType.DISCARD,
         cards:[
             Card.from("2","♠"),
-            Card.from("2","♥")
+            Card.from("2","♦")
         ],
         group:CardGroup.PAIR,
         emo:4,
         time:3,//delay action (s)
-        sound:SoundType.PAIR,
+        sound:SoundType.DOS_OUT,
         next:2
     },
     {
@@ -219,7 +220,7 @@ var actions1 = [
         group:CardGroup.NONE,
         sound:SoundType.PASS,
         cards:[],
-        time:2,//delay action (s)
+        time:0.7,//delay action (s)
         next:0
     },
     {
@@ -228,8 +229,9 @@ var actions1 = [
         group:CardGroup.NONE,
         sound:SoundType.PASS,
         cards:[],
-        time:2,//delay action (s)
-        next:1
+        time:0.7,//delay action (s)
+        next:1,
+        isNewRound:true
     },
     {
         index:1,//bot 1
@@ -285,7 +287,7 @@ var actions1 = [
         ],
         group:CardGroup.FULL_HOUSE,
         sound:SoundType.FULL_HOUSE,
-        time:1,//delay action (s)
+        time:3,//delay action (s)
         emo:5,
         next:1,
         suggest:true
@@ -306,16 +308,17 @@ var actions1 = [
         sound:SoundType.PASS,
         cards:[],
         time:2,//delay action (s)
-        next:0
+        next:0,
+        isNewRound:true
     },
     {
         index:0,//nguoi choi
         type:ActionType.DISCARD,
         cards:[
-            Card.from("2","♦")
+            Card.from("2","♥")
         ],
         group:CardGroup.NONE,
-        sound:SoundType.NONE,
+        sound:SoundType.DOS_OUT,
         time:1,//delay action (s)
         emo:5,
         isEnded:true
@@ -395,11 +398,10 @@ var gameInfo1 = {
                 Card.from("7","♦"),
                 Card.from("J","♥"),
                 Card.from("J","♦"),
-                Card.from("2","♦"),
                 Card.from("K","♠"),
                 Card.from("K","♥"),
+                Card.from("2","♥"),
             ]
-
         },
         {
             index:1,

@@ -52,10 +52,20 @@ cc.Class({
         soundPass:{
             default:null,
             type:cc.AudioClip
+        },
+        audioDosout:{
+            default:null,
+            type:cc.AudioClip
+        },
+        soundCountDown:{
+            default:null,
+            type:cc.AudioClip
         }
     },
     ctor:function(){
         this.audioPool = [];
+        this._isPlayingCountDown = false;
+        this._idPlayingCountDown = false;
     },
     // LIFE-CYCLE CALLBACKS:
 
@@ -67,12 +77,27 @@ cc.Class({
         var id = cc.audioEngine.play(this.audioWelcome, false, 1);
         this.audioPool.push(id);
     },
+    playCountDown:function(){
+        if(!this._isPlayingCountDown){
+            this._idPlayingCountDown = cc.audioEngine.play(this.soundCountDown, true, 1);
+            this._isPlayingCountDown = true;
+        }
+    },
+    stopCountDown:function(){
+        if(this._isPlayingCountDown){
+            cc.audioEngine.stop(this._idPlayingCountDown);
+        }
+        this._isPlayingCountDown = false;
+    },
     playAudio:function (soundType) {
         switch (soundType) {
             case SoundType.NONE:
-                break;
             case SoundType.PAIR:
                 cc.audioEngine.play(this.soundDiscard, false, 1);
+                break;
+            case SoundType.DOS_OUT:
+                cc.audioEngine.play(this.soundDiscard, false, 1);
+                cc.audioEngine.play(this.audioDosout, false, 1);
                 break;
             case SoundType.FOUR_OF_KIND:
                 cc.audioEngine.play(this.soundFourOfKind, false, 1);

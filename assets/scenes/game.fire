@@ -6137,8 +6137,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        175,
-        0,
+        155.268,
+        -11.275,
         0,
         0,
         0,
@@ -9123,7 +9123,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 517.94,
+      "width": 525.95,
       "height": 100.72
     },
     "_anchorPoint": {
@@ -9174,8 +9174,8 @@
       }
     ],
     "_useOriginalSize": false,
-    "_string": "Download now",
-    "_N$string": "Download now",
+    "_string": "Download Now",
+    "_N$string": "Download Now",
     "_fontSize": 72,
     "_lineHeight": 72,
     "_enableWrapText": false,
@@ -10024,6 +10024,12 @@
     },
     "soundPass": {
       "__uuid__": "92d0a772-b531-4b68-86eb-39b037151fd4"
+    },
+    "audioDosout": {
+      "__uuid__": "a44e2074-1faf-4204-8c65-87dc58b83174"
+    },
+    "soundCountDown": {
+      "__uuid__": "61398f82-90f1-4844-88be-b14b479068a5"
     },
     "_id": "cfY+ve9pBMlabrPp/oBtve"
   },

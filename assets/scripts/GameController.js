@@ -129,6 +129,8 @@ cc.Class({
             cCard.node.angle = (Math.random() - 0.5) * 40;
             cardPrefabs.setPosition(p);
             this.layerCard.addChild(cardPrefabs);
+            cTable.addCards([cardPrefabs]);
+
         }
         // cc.log("onEnable players:" + this.players.length);
 
@@ -224,7 +226,7 @@ cc.Class({
         var type = actionConfig.type;
         switch (type) {
             case ActionType.PASS:
-                this.onPassAt(index);
+                this.onPassAt(index,actionConfig.isNewRound);
                 break;
             case ActionType.DISCARD:
                 this.onDiscardAt(index,actionConfig.cards,actionConfig.group,cardExpect);
@@ -429,10 +431,14 @@ cc.Class({
         this.unschedule(this.autoShowSuggest);
         this.nodeSuggestGesture.active = false;
     },
-    onPassAt:function(index){
+    onPassAt:function(index,isNewRound){
         console.log("onPassAt:" + index);
         var cPlayer = this.players[index].getComponent(CPlayer);
         cPlayer.onPass();
+        if(isNewRound){
+            var cTable = this.table.getComponent(CTable);
+            cTable.onNewRound();
+        }
     },
     onDiscardAt:function(index,cardsOrGroup,groupType,cardExpect){
         function getCards(cardsOrGroup,cardExpect,playerPrefab){
@@ -540,6 +546,7 @@ cc.Class({
             //duoc add khi tao ra
             // this.layerGame.addChild(cardPrefab);
         }
+        cTable.addCards(cardPrefabs);
 
 
         switch (groupType) {

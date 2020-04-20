@@ -50,7 +50,7 @@ cc.Class({
     var len = str.length;
     var s = '';
     var index = 0;
-    var timeMoveButton = 0.8;
+    var timeMoveButton = 1;
     var timeSearch = 0.5;
     var timeIconSearch = 0.3;
     var timeText = 1;

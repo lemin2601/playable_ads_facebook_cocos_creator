@@ -22,6 +22,7 @@ cc.Class({
     /** @type {Table}*/
 
     this.table = null;
+    this.cards = [];
   },
   // LIFE-CYCLE CALLBACKS:
   onLoad: function onLoad() {
@@ -61,6 +62,21 @@ cc.Class({
   },
   setNumCard: function setNumCard(number) {
     this.numCard = number;
+  },
+  onNewRound: function onNewRound() {
+    var l = this.cards.length;
+
+    for (var i = 0; i < l; i++) {
+      var card = this.cards[i];
+      card.runAction(cc.sequence(cc.delayTime(1), cc.fadeOut(0.5)));
+    }
+  },
+  addCards: function addCards(cards) {
+    var l = cards.length;
+
+    for (var i = 0; i < l; i++) {
+      this.cards.push(cards[i]);
+    }
   } // update (dt) {},
 
 });
