@@ -111,9 +111,11 @@ var CPlayer = cc.Class({
 
     if (this.gameController) {
       var cards = this.player.cards;
+      console.log("loadCards: " + this.player.index + "|" + JSON.stringify(cards));
 
       for (var i = 0; i < cards.length; i++) {
         var c = cards[i];
+        cc.log(c.toString());
         var cardPrefab = this.gameController.getNewCard();
         var cCard = cardPrefab.getComponent("CCard");
         cCard.setCard(c);
@@ -235,6 +237,7 @@ var CPlayer = cc.Class({
   },
   getRotationVia: function getRotationVia(index) {
     var num = this.getNumCard();
+    if (num <= 1) return 0;
     var y = 0;
     var startX = -95;
     var endX = 75; // var startX = -60;
@@ -266,6 +269,7 @@ var CPlayer = cc.Class({
     if (offset > maxOffsetX) offset = maxOffsetX; //re-call startX;
 
     startX = startX + (endX - startX - offset * (num - 1)) / 2;
+    if (num <= 1) startX -= 60;
     return this.getCirclePos(new cc.Vec2(startX + offset * index, y));
   },
 
@@ -354,13 +358,19 @@ var CPlayer = cc.Class({
     } // this.headProgressBar.active = b;
 
   },
-  onSuggestCard: function onSuggestCard(cards) {
+  onSuggestCard: function onSuggestCard(groups) {
     var isContain = function isContain(card) {
-      var l = cards.length;
+      var lg = groups.length;
 
-      for (var i = 0; i < l; i++) {
-        if (cards[i].id === card.id) {
-          return true;
+      for (var i = 0; i < lg; i++) {
+        var cards = groups[i];
+        var l = cards.length;
+
+        for (var j = 0; j < l; j++) {
+          if (cards[j].id === card.id) {
+            cc.log(cards[j] + "<>" + card);
+            return true;
+          }
         }
       }
 
@@ -374,6 +384,30 @@ var CPlayer = cc.Class({
       var cCard = cardPrefab.getComponent("CCard");
       cCard.setSuggest(isContain(cCard.card));
     }
+  },
+  isContainAll: function isContainAll(cards) {
+    var myCards = this.player.cards;
+
+    for (var i = 0; i < cards.length; i++) {
+      var card = cards[i];
+      var isContain = false;
+
+      for (var j = 0; j < myCards.length; j++) {
+        cc.log("compare:" + myCards[j] + "|" + card);
+
+        if (myCards[j].id === card.id) {
+          isContain = true;
+        }
+      }
+
+      cc.log("isContainAll:" + card + "|" + isContain);
+
+      if (!isContain) {
+        return false;
+      }
+    }
+
+    return true;
   }
 });
 module.exports = CPlayer;

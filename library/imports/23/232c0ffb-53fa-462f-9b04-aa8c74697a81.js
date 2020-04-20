@@ -74,6 +74,13 @@ cc.Class({
   },
   playAudio: function playAudio(soundType) {
     switch (soundType) {
+      case SoundType.NONE:
+        break;
+
+      case SoundType.PAIR:
+        cc.audioEngine.play(this.soundDiscard, false, 1);
+        break;
+
       case SoundType.FOUR_OF_KIND:
         cc.audioEngine.play(this.soundFourOfKind, false, 1);
         cc.audioEngine.play(this.soundDiscard, false, 1);
