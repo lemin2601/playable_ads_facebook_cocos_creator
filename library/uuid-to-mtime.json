@@ -146,7 +146,7 @@
   },
   "cb5b7e67-bcfd-407c-b666-781feb248847": {
     "asset": 1586413106354,
-    "meta": 1587346579236,
+    "meta": 1587399136526,
     "relativePath": "res\\atlas\\autoAtlas.pac"
   },
   "67e4f6de-6a87-40f0-9c80-0b12da0a0a86": {
@@ -225,8 +225,8 @@
     "relativePath": "scripts\\CCircleAvatar.js"
   },
   "8a7b7ec7-9558-4114-85d7-f4bb28ccf7b5": {
-    "asset": 1587346548472,
-    "meta": 1587346579307,
+    "asset": 1587399796037,
+    "meta": 1587399796049,
     "relativePath": "res\\prefabs\\player.prefab"
   },
   "f71c1ab2-a980-4900-a884-ac1a74596b98": {
@@ -834,16 +834,6 @@
     "meta": 1587346578841,
     "relativePath": "model\\primitives.fbx"
   },
-  "7156bf30-84dc-418e-b943-98dcc1b07385": {
-    "asset": 1586840727812,
-    "meta": 1587346579222,
-    "relativePath": "res\\ani\\pusoydos.atlas"
-  },
-  "28493fd5-9ada-4fde-80a0-184e14ccecfd": {
-    "asset": 1586840727830,
-    "meta": 1587346580197,
-    "relativePath": "res\\ani\\pusoydos.json"
-  },
   "d4d6a8c5-c427-41de-9b04-3c110ecb0e1f": {
     "asset": 1586852356976,
     "meta": 1587346580267,
@@ -909,11 +899,6 @@
     "meta": 1587346579227,
     "relativePath": "res\\ani\\bobai.png"
   },
-  "89dc0cfa-1b50-4672-a451-d4d14eadc464": {
-    "asset": 1586853924103,
-    "meta": 1587346579247,
-    "relativePath": "res\\ani\\pusoydos.png"
-  },
   "995926c7-9506-4741-b63b-a8aa2ef2555d": {
     "asset": 1586859430901,
     "meta": 1587346579421,
@@ -970,8 +955,8 @@
     "relativePath": "scripts\\CStep1.js"
   },
   "2d2f792f-a40c-49bb-a189-ed176a246e49": {
-    "asset": 1587365669907,
-    "meta": 1587365669924,
+    "asset": 1587399948929,
+    "meta": 1587399948944,
     "relativePath": "scenes\\game.fire"
   },
   "9fbfb1fa-8a73-4205-b22f-a4fe59a8251f": {
@@ -984,20 +969,10 @@
     "meta": 1587346578937,
     "relativePath": "resources"
   },
-  "232c0ffb-53fa-462f-9b04-aa8c74697a81": {
-    "asset": 1587363924560,
-    "meta": 1587364016336,
-    "relativePath": "scripts\\CAudio.js"
-  },
   "1895c76e-2456-43b3-aaf1-237def3cfa61": {
     "asset": 1587364011535,
     "meta": 1587364016364,
     "relativePath": "scripts\\CCHplay.js"
-  },
-  "c90b5730-1796-4a81-b362-ea863a2ca558": {
-    "asset": 1587364624470,
-    "meta": 1587364626021,
-    "relativePath": "scripts\\CPlayer.js"
   },
   "876d0ecd-4926-41bb-877d-e3d16bafb680": {
     "asset": 1587365535411,
@@ -1008,11 +983,6 @@
     "asset": 1587365598081,
     "meta": 1587365599885,
     "relativePath": "scripts\\GameController.js"
-  },
-  "af153d65-29d3-427a-a028-ad48fe12fca2": {
-    "asset": 1587365598087,
-    "meta": 1587365599935,
-    "relativePath": "scripts\\GameFake.js"
   },
   "d04eed9d-cfe0-424d-934c-d8bae0694222": {
     "asset": 1587398362802,
@@ -1098,5 +1068,50 @@
     "asset": 1587398278153,
     "meta": 1587398466233,
     "relativePath": "res\\sfx\\v_g_your_turn.mp3"
+  },
+  "232c0ffb-53fa-462f-9b04-aa8c74697a81": {
+    "asset": 1587399011174,
+    "meta": 1587399012985,
+    "relativePath": "scripts\\CAudio.js"
+  },
+  "af153d65-29d3-427a-a028-ad48fe12fca2": {
+    "asset": 1587398876951,
+    "meta": 1587399013050,
+    "relativePath": "scripts\\GameFake.js"
+  },
+  "7156bf30-84dc-418e-b943-98dcc1b07385": {
+    "asset": 1587399415670,
+    "meta": 1587399415719,
+    "relativePath": "res\\ani\\pusoydos.atlas"
+  },
+  "89dc0cfa-1b50-4672-a451-d4d14eadc464": {
+    "asset": 1587399415671,
+    "meta": 1587399415744,
+    "relativePath": "res\\ani\\pusoydos.png"
+  },
+  "28493fd5-9ada-4fde-80a0-184e14ccecfd": {
+    "asset": 1587399415670,
+    "meta": 1587399415751,
+    "relativePath": "res\\ani\\pusoydos.json"
+  },
+  "c3e79625-6701-4add-9ca8-a4072797c058": {
+    "asset": 1587399415673,
+    "meta": 1587399415794,
+    "relativePath": "res\\ani\\skeleton.json"
+  },
+  "f844715b-78fa-4549-a33b-5d34d3f670f5": {
+    "asset": 1587399415687,
+    "meta": 1587399415779,
+    "relativePath": "res\\ani\\skeleton.atlas"
+  },
+  "cc203057-3373-4e31-aff0-5e480e5e02c9": {
+    "asset": 1587399415669,
+    "meta": 1587399415789,
+    "relativePath": "res\\ani\\skeleton.png"
+  },
+  "c90b5730-1796-4a81-b362-ea863a2ca558": {
+    "asset": 1587399821633,
+    "meta": 1587399823333,
+    "relativePath": "scripts\\CPlayer.js"
   }
 }

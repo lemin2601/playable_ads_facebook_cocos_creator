@@ -14,6 +14,10 @@ var SoundType = {
     NONE:7,
     PAIR:8,
     DOS_OUT:9,
+    VOICE_10:10,
+    VOICE_11:11,
+    VOICE_13:13,
+    VOICE_14:14
 };
 var CardGroup = {
     NONE:0,
@@ -127,7 +131,7 @@ var actions1 = [
         group:CardGroup.PAIR,
         emo:0,
         time:6,//delay action (s)
-        sound:SoundType.PAIR,
+        sound:[SoundType.PAIR,SoundType.VOICE_10],
         next:2
     },
     {
@@ -153,7 +157,7 @@ var actions1 = [
         group:CardGroup.PAIR,
         emo:3,
         time:2,//delay action (s)
-        sound:SoundType.PAIR,
+        sound:[SoundType.PAIR,SoundType.VOICE_11],
         next:1,
         suggest:true
     },
@@ -194,7 +198,7 @@ var actions1 = [
 
         ],
         group:CardGroup.PAIR,
-        sound:SoundType.PAIR,
+        sound:[SoundType.PAIR,SoundType.VOICE_14],
         time:1,//delay action (s)
         emo:5,
         suggest:true,
@@ -208,7 +212,7 @@ var actions1 = [
             Card.from("2","♠"),
             Card.from("2","♦")
         ],
-        group:CardGroup.PAIR,
+        group:[CardGroup.PAIR,SoundType.VOICE_13],
         emo:4,
         time:3,//delay action (s)
         sound:SoundType.DOS_OUT,

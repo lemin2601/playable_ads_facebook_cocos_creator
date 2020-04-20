@@ -60,6 +60,22 @@ cc.Class({
         soundCountDown:{
             default:null,
             type:cc.AudioClip
+        },
+        voice10:{
+            default:null,
+            type:cc.AudioClip
+        },
+        voice11:{
+            default:null,
+            type:cc.AudioClip
+        },
+        voice13:{
+            default:null,
+            type:cc.AudioClip
+        },
+        voice14:{
+            default:null,
+            type:cc.AudioClip
         }
     },
     ctor:function(){
@@ -90,6 +106,12 @@ cc.Class({
         this._isPlayingCountDown = false;
     },
     playAudio:function (soundType) {
+        if(soundType instanceof Array){
+            for (var i = 0; i < soundType.length; i++) {
+                this.playAudio(soundType[i]);
+            }
+            return;
+        }
         switch (soundType) {
             case SoundType.NONE:
             case SoundType.PAIR:
@@ -125,6 +147,18 @@ cc.Class({
                 break;
             case SoundType.PASS:
                 cc.audioEngine.play(this.soundPass, false, 1);
+                break;
+            case SoundType.VOICE_10:
+                cc.audioEngine.play(this.voice10, false, 1);
+                break;
+            case SoundType.VOICE_11:
+                cc.audioEngine.play(this.voice11, false, 1);
+                break;
+            case SoundType.VOICE_13:
+                cc.audioEngine.play(this.voice13, false, 1);
+                break;
+            case SoundType.VOICE_14:
+                cc.audioEngine.play(this.voice14, false, 1);
                 break;
         }
     },

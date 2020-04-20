@@ -1295,7 +1295,7 @@
       }
     }
   },
-  "_atlasText": "\npusoydos.png\nsize: 1045,220\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nSymbol 2\n  rotate: false\n  xy: 1, 1\n  size: 354, 218\n  orig: 354, 218\n  offset: 0, 0\n  index: -1\nglow\n  rotate: false\n  xy: 356, 17\n  size: 378, 202\n  orig: 378, 202\n  offset: 0, 0\n  index: -1\np\n  rotate: false\n  xy: 966, 15\n  size: 34, 35\n  orig: 34, 35\n  offset: 0, 0\n  index: -1\npusoydos\n  rotate: false\n  xy: 735, 111\n  size: 307, 108\n  orig: 307, 108\n  offset: 0, 0\n  index: -1\nruybang\n  rotate: false\n  xy: 735, 5\n  size: 230, 105\n  orig: 230, 105\n  offset: 0, 0\n  index: -1\nx6\n  rotate: false\n  xy: 966, 51\n  size: 78, 59\n  orig: 78, 59\n  offset: 0, 0\n  index: -1\n",
+  "_atlasText": "\npusoydos.png\nsize: 1024,256\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\nSymbol 2\n  rotate: false\n  xy: 380, 40\n  size: 323, 199\n  orig: 354, 218\n  offset: 15, 10\n  index: -1\nglow\n  rotate: false\n  xy: 1, 37\n  size: 378, 202\n  orig: 378, 202\n  offset: 0, 0\n  index: -1\np\n  rotate: false\n  xy: 1, 1\n  size: 34, 35\n  orig: 34, 35\n  offset: 0, 0\n  index: -1\npusoydos\n  rotate: false\n  xy: 704, 136\n  size: 302, 103\n  orig: 307, 108\n  offset: 5, 5\n  index: -1\nruybang\n  rotate: false\n  xy: 704, 30\n  size: 230, 105\n  orig: 230, 105\n  offset: 0, 0\n  index: -1\nx6\n  rotate: true\n  xy: 935, 57\n  size: 78, 59\n  orig: 78, 59\n  offset: 0, 0\n  index: -1\n",
   "textures": [
     {
       "__uuid__": "89dc0cfa-1b50-4672-a451-d4d14eadc464"

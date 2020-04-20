@@ -41,6 +41,10 @@ var CPlayer = cc.Class({
     lbNumCard: {
       "default": null,
       type: cc.Label
+    },
+    spineHighLightTurn: {
+      "default": null,
+      type: cc.Node
     }
   },
   ctor: function ctor() {
@@ -76,6 +80,8 @@ var CPlayer = cc.Class({
     if (this.imgPass) {
       this.imgPass.active = false;
     }
+
+    this.spineHighLightTurn.active = false;
   },
   start: function start() {},
   update: function update(dt) {
@@ -348,6 +354,19 @@ var CPlayer = cc.Class({
 
     this.progressBar.progress = 1;
     this.setMyTurn(true);
+
+    function playEmo(emo) {
+      if (emo) {
+        var spine = emo.getComponent('sp.Skeleton');
+        spine.setCompleteListener(function (trackEntry) {
+          emo.active = false;
+        });
+        emo.active = true;
+        spine.setAnimation(0, 'animation', false);
+      }
+    }
+
+    playEmo(this.spineHighLightTurn);
   },
   setMyTurn: function setMyTurn(b) {
     this._isMyTurn = b;
