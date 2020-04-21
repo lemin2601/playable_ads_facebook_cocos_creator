@@ -864,41 +864,6 @@
     "meta": 1587346580187,
     "relativePath": "res\\ani\\bobai.json"
   },
-  "b64ad6b2-acec-4496-9b62-5748e18f111a": {
-    "asset": 1586853923992,
-    "meta": 1587346579137,
-    "relativePath": "res\\ani\\1.png"
-  },
-  "f0da962b-ffc7-4dfe-aa86-7df41a774c7d": {
-    "asset": 1586853923969,
-    "meta": 1587346579152,
-    "relativePath": "res\\ani\\2.png"
-  },
-  "99fea475-80bc-40dd-9ce1-14274d1abad0": {
-    "asset": 1586853923980,
-    "meta": 1587346579157,
-    "relativePath": "res\\ani\\3.png"
-  },
-  "768d226f-367b-451b-9bb7-9729631308f6": {
-    "asset": 1586853924245,
-    "meta": 1587346579177,
-    "relativePath": "res\\ani\\4.png"
-  },
-  "65790978-53f4-4fd8-b047-80196b00c027": {
-    "asset": 1586853924000,
-    "meta": 1587346579187,
-    "relativePath": "res\\ani\\5.png"
-  },
-  "a348f357-489e-4c6c-bc6b-44ed06745dea": {
-    "asset": 1586853924127,
-    "meta": 1587346579197,
-    "relativePath": "res\\ani\\6.png"
-  },
-  "62ac3209-5e79-4025-810f-2f8fb25064c5": {
-    "asset": 1586853924218,
-    "meta": 1587346579227,
-    "relativePath": "res\\ani\\bobai.png"
-  },
   "995926c7-9506-4741-b63b-a8aa2ef2555d": {
     "asset": 1586859430901,
     "meta": 1587346579421,
@@ -923,11 +888,6 @@
     "asset": 1585289392169,
     "meta": 1587346579274,
     "relativePath": "res\\atlas\\game.png"
-  },
-  "63e86deb-8de5-4f57-9bfb-46ffd42e5fe4": {
-    "asset": 1587117712459,
-    "meta": 1587346579217,
-    "relativePath": "res\\ani\\particle_count_down.png"
   },
   "dd416c96-026e-4cd6-9bee-5aecd6e19692": {
     "asset": 1587117712459,
@@ -955,8 +915,8 @@
     "relativePath": "scripts\\CStep1.js"
   },
   "2d2f792f-a40c-49bb-a189-ed176a246e49": {
-    "asset": 1587399948929,
-    "meta": 1587399948944,
+    "asset": 1587434254598,
+    "meta": 1587434254616,
     "relativePath": "scenes\\game.fire"
   },
   "9fbfb1fa-8a73-4205-b22f-a4fe59a8251f": {
@@ -1084,11 +1044,6 @@
     "meta": 1587399415719,
     "relativePath": "res\\ani\\pusoydos.atlas"
   },
-  "89dc0cfa-1b50-4672-a451-d4d14eadc464": {
-    "asset": 1587399415671,
-    "meta": 1587399415744,
-    "relativePath": "res\\ani\\pusoydos.png"
-  },
   "28493fd5-9ada-4fde-80a0-184e14ccecfd": {
     "asset": 1587399415670,
     "meta": 1587399415751,
@@ -1104,14 +1059,59 @@
     "meta": 1587399415779,
     "relativePath": "res\\ani\\skeleton.atlas"
   },
-  "cc203057-3373-4e31-aff0-5e480e5e02c9": {
-    "asset": 1587399415669,
-    "meta": 1587399415789,
-    "relativePath": "res\\ani\\skeleton.png"
-  },
   "c90b5730-1796-4a81-b362-ea863a2ca558": {
-    "asset": 1587399821633,
-    "meta": 1587399823333,
+    "asset": 1587400054670,
+    "meta": 1587400079937,
     "relativePath": "scripts\\CPlayer.js"
+  },
+  "f0da962b-ffc7-4dfe-aa86-7df41a774c7d": {
+    "asset": 1587400119374,
+    "meta": 1587400124397,
+    "relativePath": "res\\ani\\2.png"
+  },
+  "b64ad6b2-acec-4496-9b62-5748e18f111a": {
+    "asset": 1587400119385,
+    "meta": 1587400124399,
+    "relativePath": "res\\ani\\1.png"
+  },
+  "99fea475-80bc-40dd-9ce1-14274d1abad0": {
+    "asset": 1587400119431,
+    "meta": 1587400124409,
+    "relativePath": "res\\ani\\3.png"
+  },
+  "768d226f-367b-451b-9bb7-9729631308f6": {
+    "asset": 1587400119376,
+    "meta": 1587400124411,
+    "relativePath": "res\\ani\\4.png"
+  },
+  "65790978-53f4-4fd8-b047-80196b00c027": {
+    "asset": 1587400119405,
+    "meta": 1587400124423,
+    "relativePath": "res\\ani\\5.png"
+  },
+  "a348f357-489e-4c6c-bc6b-44ed06745dea": {
+    "asset": 1587400119416,
+    "meta": 1587400124425,
+    "relativePath": "res\\ani\\6.png"
+  },
+  "63e86deb-8de5-4f57-9bfb-46ffd42e5fe4": {
+    "asset": 1587400119375,
+    "meta": 1587400124436,
+    "relativePath": "res\\ani\\particle_count_down.png"
+  },
+  "62ac3209-5e79-4025-810f-2f8fb25064c5": {
+    "asset": 1587400119652,
+    "meta": 1587400124449,
+    "relativePath": "res\\ani\\bobai.png"
+  },
+  "89dc0cfa-1b50-4672-a451-d4d14eadc464": {
+    "asset": 1587400119586,
+    "meta": 1587400124452,
+    "relativePath": "res\\ani\\pusoydos.png"
+  },
+  "cc203057-3373-4e31-aff0-5e480e5e02c9": {
+    "asset": 1587400119420,
+    "meta": 1587400124474,
+    "relativePath": "res\\ani\\skeleton.png"
   }
 }

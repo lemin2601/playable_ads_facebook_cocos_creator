@@ -110,7 +110,7 @@ var CPlayer = cc.Class({
     this.player = player;
 
     if (this.player.index !== 0) {
-      this._numCard = 11;
+      this._numCard = 12;
     }
   },
   updateUI: function updateUI() {},

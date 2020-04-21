@@ -9202,7 +9202,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 525.95,
+      "width": 330.1,
       "height": 100.72
     },
     "_anchorPoint": {
@@ -9221,8 +9221,8 @@
         0,
         0,
         1,
-        0.6,
-        0.6,
+        0.8,
+        0.8,
         1
       ]
     },
@@ -9253,8 +9253,8 @@
       }
     ],
     "_useOriginalSize": false,
-    "_string": "Download Now",
-    "_N$string": "Download Now",
+    "_string": "Play Now",
+    "_N$string": "Play Now",
     "_fontSize": 72,
     "_lineHeight": 72,
     "_enableWrapText": false,
@@ -9326,8 +9326,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -177.954,
-        2.087,
+        -155.539,
+        1.19,
         0,
         0,
         0,
