@@ -555,7 +555,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 144,
+      "width": 145,
       "height": 198
     },
     "_anchorPoint": {
@@ -567,7 +567,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        58.9,
+        58.5,
         99,
         0,
         0,
@@ -635,8 +635,8 @@
     "alignMode": 1,
     "_target": null,
     "_alignFlags": 45,
-    "_left": 1.5,
-    "_right": 0.5,
+    "_left": 0.6000000000000014,
+    "_right": 0.3999999999999986,
     "_top": -1,
     "_bottom": 0,
     "_verticalCenter": 0,

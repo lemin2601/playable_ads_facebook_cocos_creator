@@ -50,12 +50,12 @@
   "group-list": [
     "default"
   ],
-  "simulator-orientation": true,
+  "simulator-orientation": false,
   "simulator-resolution": {
-    "height": 1136,
-    "width": 640
+    "height": 1704,
+    "width": 960
   },
-  "use-customize-simulator": false,
+  "use-customize-simulator": true,
   "use-project-simulator-setting": true,
   "last-module-event-record-time": 1587399143253,
   "assets-sort-type": "name",
@@ -68,6 +68,5 @@
     "live": {
       "enable": false
     }
-  },
-  "start-scene": "current"
+  }
 }

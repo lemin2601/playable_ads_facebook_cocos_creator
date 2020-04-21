@@ -110,6 +110,7 @@ cc.Class({
     this._posHands = [];
   },
   onLoad: function onLoad() {
+    // cc.director.setDisplayStats(false);
     for (var i = 0; i < this.imgHands.length; i++) {
       this._posHands.push(this.imgHands[i].node.getPosition());
     }

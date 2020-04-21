@@ -30,7 +30,7 @@
     "relativePath": "scenes"
   },
   "4734c20c-0db8-4eb2-92ea-e692f4d70934": {
-    "asset": 1587365598087,
+    "asset": 1587400054670,
     "meta": 1586138882965,
     "relativePath": "scripts"
   },
@@ -135,7 +135,7 @@
     "relativePath": "res\\fonts"
   },
   "94660764-5774-44f9-a715-8c0536a2d885": {
-    "asset": 1587363250506,
+    "asset": 1587398430252,
     "meta": 1586399214372,
     "relativePath": "res\\sfx"
   },
@@ -240,8 +240,8 @@
     "relativePath": "scripts\\CProgressWaterAni.js"
   },
   "78df6015-2961-4862-bbd8-6b8b024e68df": {
-    "asset": 1587363552518,
-    "meta": 1587363552526,
+    "asset": 1587437679613,
+    "meta": 1587437679621,
     "relativePath": "res\\prefabs\\cardPrefab.prefab"
   },
   "d0382b8a-b472-4c4a-8106-2daed0e05cf4": {
@@ -250,7 +250,7 @@
     "relativePath": "scripts\\CardUtils.js"
   },
   "d9a35f24-62bf-4b4b-b52c-c5dcc7cde807": {
-    "asset": 1587118556601,
+    "asset": 1587400119405,
     "meta": 1586487650789,
     "relativePath": "res\\ani"
   },
@@ -915,8 +915,8 @@
     "relativePath": "scripts\\CStep1.js"
   },
   "2d2f792f-a40c-49bb-a189-ed176a246e49": {
-    "asset": 1587434254598,
-    "meta": 1587434254616,
+    "asset": 1587437326688,
+    "meta": 1587437326706,
     "relativePath": "scenes\\game.fire"
   },
   "9fbfb1fa-8a73-4205-b22f-a4fe59a8251f": {
@@ -938,11 +938,6 @@
     "asset": 1587365535411,
     "meta": 1587365552293,
     "relativePath": "scripts\\CTable.js"
-  },
-  "0998c9f9-3368-4268-96cd-570fcc5efa1f": {
-    "asset": 1587365598081,
-    "meta": 1587365599885,
-    "relativePath": "scripts\\GameController.js"
   },
   "d04eed9d-cfe0-424d-934c-d8bae0694222": {
     "asset": 1587398362802,
@@ -1113,5 +1108,10 @@
     "asset": 1587400119420,
     "meta": 1587400124474,
     "relativePath": "res\\ani\\skeleton.png"
+  },
+  "0998c9f9-3368-4268-96cd-570fcc5efa1f": {
+    "asset": 1587435329889,
+    "meta": 1587435330503,
+    "relativePath": "scripts\\GameController.js"
   }
 }
